@@ -108,7 +108,7 @@ depends-member:
 - !private ["So8NSObjectC", "string"]
 - !private ["So8NSObjectC", "stringForObjectValue"]
 - !private ["So8NSObjectC", "stringFromDate"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "dateFormat"]
 - !private ["So8NSObjectP", "dateFormatFromTemplate"]
 - !private ["So8NSObjectP", "init"]
@@ -166,7 +166,7 @@ depends-nominal:
 - !private "So21NSItemProviderWritingP"
 - !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
-- "So8NSObjectP"
+- !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "10Foundation20ReferenceConvertibleP"

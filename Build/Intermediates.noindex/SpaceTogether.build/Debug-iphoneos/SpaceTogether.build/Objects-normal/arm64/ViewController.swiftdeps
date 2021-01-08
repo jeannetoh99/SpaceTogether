@@ -41,7 +41,7 @@ depends-top-level:
 depends-member:
 - !private ["13SpaceTogether11AppDelegateC", "persistentContainer"]
 - !private ["Sa", "count"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["SK", "count"]
 - !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "checkAuthorization"]
 - !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "shared"]
@@ -76,9 +76,9 @@ depends-member:
 - !private ["s7CVarArgP", "userInfo"]
 - !private ["s7CVarArgP", "viewContext"]
 - !private ["s7CVarArgP", "viewDidLoad"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["Sl", "count"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "BlueTraceLocalNotifications"]
 - !private ["s28CustomDebugStringConvertibleP", "BluetraceManager"]
@@ -173,12 +173,12 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "dictionaryResultType"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SH", "BlueTraceLocalNotifications"]
 - !private ["SH", "BluetraceManager"]
 - !private ["SH", "NSFetchRequest"]
@@ -205,7 +205,7 @@ depends-member:
 - !private ["SH", "userInfo"]
 - !private ["SH", "viewContext"]
 - !private ["SH", "viewDidLoad"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
@@ -234,6 +234,8 @@ depends-member:
 - ["So8NSCodingP", "shieldMeNowButtonPressed"]
 - !private ["So8NSCodingP", "userInfo"]
 - ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "fetchRequestWithEntityName"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "propertiesToFetch"]
 - !private ["So9NSCopyingP", "resultType"]
@@ -279,8 +281,10 @@ depends-member:
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "checkAuthorization"]
 - !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "executeFetchRequest"]
 - !private ["So8NSObjectC", "fetch"]
 - ["So8NSObjectC", "fetchDevicesEncounteredCount"]
+- !private ["So8NSObjectC", "fetchRequestWithEntityName"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "performSegue"]
 - !private ["So8NSObjectC", "performSegueWithIdentifier"]
@@ -310,8 +314,10 @@ depends-member:
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "checkAuthorization"]
 - !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "executeFetchRequest"]
 - !private ["So8NSObjectP", "fetch"]
 - ["So8NSObjectP", "fetchDevicesEncounteredCount"]
+- !private ["So8NSObjectP", "fetchRequestWithEntityName"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "performSegue"]
 - !private ["So8NSObjectP", "performSegueWithIdentifier"]
@@ -331,6 +337,7 @@ depends-member:
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["So21NSPersistentContainerC", "viewContext"]
 - ["So24NSPersistentStoreRequestC", ""]
+- !private ["So24NSPersistentStoreRequestC", "fetchRequestWithEntityName"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
 - !private ["So24NSPersistentStoreRequestC", "propertiesToFetch"]
 - !private ["So24NSPersistentStoreRequestC", "resultType"]
@@ -343,17 +350,17 @@ depends-member:
 - !private ["Sm", "count"]
 - !private ["SY", ""]
 - !private ["SY", "dictionaryResultType"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "count"]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "dictionaryResultType"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["So21UIAppearanceContainerP", "AppDelegate"]
 - !private ["So21UIAppearanceContainerP", "BlueTraceLocalNotifications"]
 - !private ["So21UIAppearanceContainerP", "BluetraceManager"]
@@ -599,10 +606,10 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BlueTraceLocalNotifications"]
@@ -659,13 +666,13 @@ depends-member:
 depends-nominal:
 - !private "13SpaceTogether11AppDelegateC"
 - !private "Sa"
-- !private "SK"
+- "SK"
 - !private "13SpaceTogether27BlueTraceLocalNotificationsC"
 - !private "13SpaceTogether16BluetraceManagerC"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
+- "Sl"
+- "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -677,12 +684,12 @@ depends-nominal:
 - "SQ"
 - !private "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
@@ -702,11 +709,11 @@ depends-nominal:
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
-- !private "ST"
+- "ST"
 - !private "s10SetAlgebraP"
 - !private "s27StringInterpolationProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "So21UIAppearanceContainerP"
 - !private "So13UIApplicationC"
 - !private "So21UIApplicationDelegateP"
@@ -724,10 +731,10 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
