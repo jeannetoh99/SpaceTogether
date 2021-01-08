@@ -21,7 +21,6 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
     var didChange = PassthroughSubject<Void, Never>()
     var centralManager : CBCentralManager?
     var peripheral: CBPeripheral?
-    let serviceUUID = CBUUID(string:"8d9G")
     
     override init(){
         super.init()
@@ -29,12 +28,11 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
     }
     
     func centralManager(_ central: CBCentralManager, didUpdateANCSAuthorizationFor peripheral: CBPeripheral) {
-        <#code#>
     }
     
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if (central.state == .poweredOn) {
-            self.centralManager?.scanForPeripherals(withServices: [serviceUUID], options: [CBCentralManagerScanOptionAllowDuplicatesKey:true])
+            self.centralManager?.scanForPeripherals(withServices: nil, options: [CBCentralManagerScanOptionAllowDuplicatesKey:true])
         }else{
             self.centralManager? = CBCentralManager.init(delegate:self, queue: nil)
 

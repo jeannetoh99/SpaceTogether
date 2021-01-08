@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D80592C25A89C0A00BA43FF /* BluetoothDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */; };
 		64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */; };
 		64B1DABB25A83FC2002CBD4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */; };
 		64B1DABD25A83FC2002CBD4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DABC25A83FC2002CBD4C /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDetector.swift; sourceTree = "<group>"; };
 		64B1DAB525A83FC2002CBD4C /* SpaceTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		64B1DAB725A83FC2002CBD4C /* SpaceTogether */ = {
 			isa = PBXGroup;
 			children = (
+				2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */,
 				64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */,
 				64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */,
 				64B1DABC25A83FC2002CBD4C /* ViewController.swift */,
@@ -277,12 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B1DABD25A83FC2002CBD4C /* ViewController.swift in Sources */,
-				2D41D77B25A8676000EECB29 /* BluetoothDetector.swift in Sources */,
 				64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */,
 				64B1DAF425A86F16002CBD4C /* SafeViewController.swift in Sources */,
 				64B1DAF925A86F35002CBD4C /* AlarmViewController.swift in Sources */,
 				64B1DAFE25A87C88002CBD4C /* RecordingViewController.swift in Sources */,
 				64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */,
+				2D80592C25A89C0A00BA43FF /* BluetoothDetector.swift in Sources */,
 				64B1DABB25A83FC2002CBD4C /* SceneDelegate.swift in Sources */,
 				64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */,
 				64B1DAEF25A86D46002CBD4C /* RecordViewController.swift in Sources */,
