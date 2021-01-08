@@ -19,11 +19,11 @@ class BluetraceUtils {
         case .unauthorized:
             return "unauthorized"
         case .unknown:
-            return "unknown"
+            return "poweredOn"
         case .unsupported:
             return "unsupported"
         default:
-            return "unknown"
+            return "poweredOff"
         }
     }
 
@@ -38,7 +38,7 @@ class BluetraceUtils {
         case .disconnecting:
             return "disconnecting"
         default:
-            return "unknown"
+            return "disconnected"
         }
     }
 

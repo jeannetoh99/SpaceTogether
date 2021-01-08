@@ -221,7 +221,7 @@ SWIFT_CLASS("_TtC13SpaceTogether19AlarmViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified devicesEncountered;
 - (void)viewDidLoad;
 - (IBAction)shutupButtonPressed:(UIButton * _Nonnull)sender;
-- (void)fetchDevicesEncounteredCount;
+- (NSInteger)fetchDevicesEncounteredCount SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -354,6 +354,7 @@ SWIFT_CLASS("_TtC13SpaceTogether23RecordingViewController")
 SWIFT_CLASS("_TtC13SpaceTogether18SafeViewController")
 @interface SafeViewController : UIViewController
 - (void)viewDidLoad;
+- (NSInteger)fetchDevicesEncounteredCount SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)okThanksButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -391,6 +392,7 @@ SWIFT_CLASS("_TtC13SpaceTogether14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
 - (IBAction)shieldMeNowButtonPressed:(UIButton * _Nonnull)sender;
+- (void)fetchDevicesEncounteredCount;
 - (IBAction)setMyOwnAlarmButtonPressed:(UIButton * _Nonnull)sender;
 - (IBAction)selectAlarmButtonPressed:(UIButton * _Nonnull)sender;
 - (IBAction)saveRecordingAndUnwindActionWithUnwindSegue:(UIStoryboardSegue * _Nonnull)unwindSegue;

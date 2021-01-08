@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RecordedViewController"
+provides-nominal:
+- "13SpaceTogether22RecordedViewControllerC"
+provides-member:
+- ["13SpaceTogether22RecordedViewControllerC", ""]
+provides-dynamic-lookup:
+- "saveButtonPressed"
+- "tryAgainButtonPressed"
+- "viewDidLoad"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "RecordedViewController"
+- !private "StringLiteralType"
+- "UIButton"
+- "UIViewController"
+- !private "print"
+depends-member:
+- ["SK", ""]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "saveButtonPressed"]
+- !private ["s7CVarArgP", "tryAgainButtonPressed"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "saveButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "tryAgainButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "saveButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "tryAgainButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["SQ", ""]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "print"]
+- !private ["SQ", "saveButtonPressed"]
+- !private ["SQ", "tryAgainButtonPressed"]
+- !private ["SQ", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", ""]
+- !private ["SH", "dismiss"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "print"]
+- !private ["SH", "saveButtonPressed"]
+- !private ["SH", "tryAgainButtonPressed"]
+- !private ["SH", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "saveButtonPressed"]
+- ["So8NSCodingP", "tryAgainButtonPressed"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "saveButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "tryAgainButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "dismissViewControllerAnimated"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "performSegueWithIdentifier"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "saveButtonPressed"]
+- ["So8NSObjectC", "tryAgainButtonPressed"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "dismissViewControllerAnimated"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "performSegueWithIdentifier"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "saveButtonPressed"]
+- ["So8NSObjectP", "tryAgainButtonPressed"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["13SpaceTogether22RecordedViewControllerC", "UIButton"]
+- ["13SpaceTogether22RecordedViewControllerC", ""]
+- ["13SpaceTogether22RecordedViewControllerC", "deinit"]
+- !private ["13SpaceTogether22RecordedViewControllerC", "dismiss"]
+- ["13SpaceTogether22RecordedViewControllerC", "init"]
+- !private ["13SpaceTogether22RecordedViewControllerC", "performSegue"]
+- !private ["13SpaceTogether22RecordedViewControllerC", "print"]
+- ["13SpaceTogether22RecordedViewControllerC", "saveButtonPressed"]
+- ["13SpaceTogether22RecordedViewControllerC", "tryAgainButtonPressed"]
+- ["13SpaceTogether22RecordedViewControllerC", "viewDidLoad"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "saveButtonPressed"]
+- ["So21UIAppearanceContainerP", "tryAgainButtonPressed"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "saveButtonPressed"]
+- ["So18UIContentContainerP", "tryAgainButtonPressed"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "saveButtonPressed"]
+- ["So18UIFocusEnvironmentP", "tryAgainButtonPressed"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissViewControllerAnimated"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegueWithIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "saveButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "tryAgainButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "dismissViewControllerAnimated"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "performSegueWithIdentifier"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "saveButtonPressed"]
+- ["So11UIResponderC", "tryAgainButtonPressed"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissViewControllerAnimated"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegueWithIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "saveButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "tryAgainButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "saveButtonPressed"]
+- ["So16UIStateRestoringP", "tryAgainButtonPressed"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "saveButtonPressed"]
+- ["So18UITraitEnvironmentP", "tryAgainButtonPressed"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "dismissViewControllerAnimated"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "performSegueWithIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "saveButtonPressed"]
+- ["So23UIUserActivityRestoringP", "tryAgainButtonPressed"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "saveButtonPressed"]
+- ["So16UIViewControllerC", "tryAgainButtonPressed"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tryAgainButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performSegue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tryAgainButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "13SpaceTogether22RecordedViewControllerC"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "feb982e0dd14265fd326fb582eb3a9db"

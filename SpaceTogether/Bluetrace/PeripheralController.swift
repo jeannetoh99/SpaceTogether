@@ -105,12 +105,12 @@ extension PeripheralController: CBPeripheralManagerDelegate {
         Logger.DLog("\(debugLogs)")
         for request in requests {
             if let receivedCharacteristicValue = request.value {
+                Logger.DLog("\(request)")
                 let bluetraceImplementation = Bluetrace.getImplementation(request.characteristic.uuid.uuidString)
 
                 guard let encounter = bluetraceImplementation.peripheral.processWriteRequestDataReceived(dataWritten: receivedCharacteristicValue) else { return }
 
-                encounter.saveToCoreData()
-
+                encounter.saveToReadData()
             }
         }
         peripheral.respond(to: requests[0], withResult: .success)

@@ -573,7 +573,6 @@ depends-member:
 - !private ["ST", "append"]
 - !private ["ST", "init"]
 - !private ["ST", "isEmpty"]
-- !private ["ST", "makeIterator"]
 - !private ["ST", "subscript"]
 - !private ["SZ", "init"]
 - !private ["s13SignedNumericP", ""]

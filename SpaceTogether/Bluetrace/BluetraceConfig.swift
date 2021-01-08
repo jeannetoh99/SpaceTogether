@@ -19,8 +19,8 @@ struct BluetraceConfig {
     static let OrgID = "OT_HA"
     static let ProtocolVersion = 2
 
-    static let CentralScanInterval = 10 // in seconds
-    static let CentralScanDuration = 3 // in seconds
+    static let CentralScanInterval = 1 // in seconds
+    static let CentralScanDuration = 1 // in seconds
 
     static let TTLDays = -21
 }

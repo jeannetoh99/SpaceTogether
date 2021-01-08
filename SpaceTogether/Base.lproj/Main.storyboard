@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -118,13 +119,6 @@
                                     <constraint firstAttribute="width" secondItem="omE-Zo-LdG" secondAttribute="height" multiplier="13:29" id="AQz-7P-gvk"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74t-uO-smS">
-                                <rect key="frame" x="290" y="402" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lg0-HJ-xIq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,7 +133,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="R96-TY-XdO"/>
                     <connections>
-                        <outlet property="devicesEncountered" destination="74t-uO-smS" id="E7a-kM-pKR"/>
+                        <segue destination="SGU-P3-rNc" kind="show" identifier="AlarmToSafeSegue" id="4lV-Am-ab6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afm-hC-uwq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -192,6 +186,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="BJO-jE-q6v"/>
+                    <connections>
+                        <segue destination="xON-b2-DlP" kind="show" identifier="SafeToAlarmSegue" id="3IB-me-Gg8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPF-dG-ejS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,6 +408,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="fUd-hl-sAy"/>
+        <segue reference="4lV-Am-ab6"/>
+        <segue reference="3IB-me-Gg8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alarmicon" width="821" height="1788"/>

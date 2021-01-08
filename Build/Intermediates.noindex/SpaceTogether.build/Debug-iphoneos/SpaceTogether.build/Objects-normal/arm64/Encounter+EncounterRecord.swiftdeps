@@ -4,9 +4,11 @@ provides-nominal:
 provides-member:
 - ["13SpaceTogether15EncounterRecordV", ""]
 - ["13SpaceTogether15EncounterRecordV", "saveToCoreData"]
+- ["13SpaceTogether15EncounterRecordV", "saveToReadData"]
 provides-dynamic-lookup:
 depends-top-level:
 - "AppDelegate"
+- !private "AssignmentPrecedence"
 - !private "CastingPrecedence"
 - !private "DispatchQueue"
 - "Encounter"
@@ -29,6 +31,7 @@ depends-member:
 - !private ["s7CVarArgP", "save"]
 - !private ["s7CVarArgP", "set"]
 - !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "v"]
 - !private ["s7CVarArgP", "viewContext"]
 - !private ["Sl", ""]
 - !private ["SL", ""]
@@ -41,6 +44,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "save"]
 - !private ["s28CustomDebugStringConvertibleP", "set"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "v"]
 - !private ["s28CustomDebugStringConvertibleP", "viewContext"]
 - !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
@@ -54,6 +58,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "save"]
 - !private ["s23CustomStringConvertibleP", "set"]
 - !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "v"]
 - !private ["s23CustomStringConvertibleP", "viewContext"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
@@ -71,8 +76,10 @@ depends-member:
 - !private ["SE", "init"]
 - !private ["SE", "print"]
 - !private ["SE", "set"]
+- !private ["SE", "v"]
 - !private ["13SpaceTogether9EncounterC", "init"]
 - !private ["13SpaceTogether9EncounterC", "set"]
+- !private ["13SpaceTogether9EncounterC", "v"]
 - !private ["13SpaceTogether15EncounterRecordV", "AppDelegate"]
 - !private ["13SpaceTogether15EncounterRecordV", "DispatchQueue"]
 - !private ["13SpaceTogether15EncounterRecordV", "Encounter"]
@@ -81,6 +88,7 @@ depends-member:
 - ["13SpaceTogether15EncounterRecordV", ""]
 - !private ["13SpaceTogether15EncounterRecordV", "print"]
 - ["13SpaceTogether15EncounterRecordV", "saveToCoreData"]
+- ["13SpaceTogether15EncounterRecordV", "saveToReadData"]
 - !private ["SQ", ""]
 - !private ["SQ", "async"]
 - !private ["SQ", "delegate"]
@@ -91,8 +99,11 @@ depends-member:
 - !private ["SQ", "save"]
 - !private ["SQ", "set"]
 - !private ["SQ", "shared"]
+- !private ["SQ", "v"]
 - !private ["SQ", "viewContext"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
@@ -108,6 +119,7 @@ depends-member:
 - !private ["SH", "save"]
 - !private ["SH", "set"]
 - !private ["SH", "shared"]
+- !private ["SH", "v"]
 - !private ["SH", "viewContext"]
 - !private ["s25LosslessStringConvertibleP", ""]
 - !private ["So8NSCodingP", ""]
@@ -118,10 +130,12 @@ depends-member:
 - !private ["So17NSFastEnumerationP", "entity"]
 - !private ["So20NSFetchRequestResultP", "init"]
 - !private ["So20NSFetchRequestResultP", "set"]
+- !private ["So20NSFetchRequestResultP", "v"]
 - !private ["So9NSLockingP", "save"]
 - ["So15NSManagedObjectC", ""]
 - !private ["So15NSManagedObjectC", "init"]
 - !private ["So15NSManagedObjectC", "set"]
+- !private ["So15NSManagedObjectC", "v"]
 - !private ["So22NSManagedObjectContextC", "save"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "activate"]
@@ -139,6 +153,7 @@ depends-member:
 - !private ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "suspend"]
 - !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "v"]
 - !private ["So8NSObjectC", "viewContext"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activate"]
@@ -156,6 +171,7 @@ depends-member:
 - !private ["So8NSObjectP", "shared"]
 - !private ["So8NSObjectP", "suspend"]
 - !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "v"]
 - !private ["So8NSObjectP", "viewContext"]
 - !private ["So21NSPersistentContainerC", "viewContext"]
 - ["So9OS_objectC", ""]
@@ -169,6 +185,7 @@ depends-member:
 - !private ["So9OS_objectC", "sync"]
 - !private ["7Combine16ObservableObjectP", "init"]
 - !private ["7Combine16ObservableObjectP", "set"]
+- !private ["7Combine16ObservableObjectP", "v"]
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "main"]
 - !private ["ST", ""]
@@ -211,6 +228,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "v"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
@@ -221,6 +239,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "v"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
 depends-nominal:
 - !private "13SpaceTogether11AppDelegateC"
@@ -238,6 +257,7 @@ depends-nominal:
 - "13SpaceTogether15EncounterRecordV"
 - !private "SQ"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
@@ -310,4 +330,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "afcb018f569ef68594c7e2ec1ce233ad"
+interface-hash: "75333924a38dd6bbd4919635a3120685"

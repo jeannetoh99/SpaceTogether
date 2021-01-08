@@ -55,7 +55,6 @@ depends-top-level:
 - !private "queue"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
-- !private ["SK", ""]
 - ["13SpaceTogether16BluetraceManagerC", "BluetraceManager"]
 - !private ["13SpaceTogether16BluetraceManagerC", "BluetraceUtils"]
 - ["13SpaceTogether16BluetraceManagerC", "Bool"]
@@ -148,7 +147,6 @@ depends-member:
 - !private ["13SpaceTogether17CentralControllerC", "init"]
 - !private ["13SpaceTogether17CentralControllerC", "turnOff"]
 - !private ["13SpaceTogether17CentralControllerC", "turnOn"]
-- !private ["Sl", ""]
 - !private ["SL", ""]
 - !private ["s28CustomDebugStringConvertibleP", "addAction"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
@@ -181,7 +179,6 @@ depends-member:
 - ["s17CustomReflectableP", "unauthorized"]
 - ["s17CustomReflectableP", "unknown"]
 - ["s17CustomReflectableP", "unsupported"]
-- !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "addAction"]
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "authorization"]
@@ -213,7 +210,6 @@ depends-member:
 - !private ["So18OS_dispatch_objectC", "async"]
 - !private ["So18OS_dispatch_objectC", "init"]
 - !private ["So18OS_dispatch_objectC", "main"]
-- !private ["So18OS_dispatch_objectC", "sync"]
 - !private ["So17OS_dispatch_queueC", "async"]
 - !private ["So17OS_dispatch_queueC", "init"]
 - !private ["So17OS_dispatch_queueC", "main"]
@@ -256,7 +252,6 @@ depends-member:
 - ["SQ", "unauthorized"]
 - ["SQ", "unknown"]
 - ["SQ", "unsupported"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "centralDidUpdateStateCallback"]
@@ -269,9 +264,6 @@ depends-member:
 - ["s23ExpressibleByNilLiteralP", "unauthorized"]
 - ["s23ExpressibleByNilLiteralP", "unknown"]
 - ["s23ExpressibleByNilLiteralP", "unsupported"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - !private ["SH", "=="]
 - !private ["SH", "RawValue"]
@@ -303,7 +295,6 @@ depends-member:
 - ["SH", "unauthorized"]
 - ["SH", "unknown"]
 - ["SH", "unsupported"]
-- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "alertControllerWithTitle"]
@@ -319,7 +310,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "presentedViewController"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "actionWithTitle"]
-- !private ["So8NSObjectC", "activate"]
 - !private ["So8NSObjectC", "addAction"]
 - !private ["So8NSObjectC", "alertControllerWithTitle"]
 - !private ["So8NSObjectC", "async"]
@@ -334,18 +324,13 @@ depends-member:
 - !private ["So8NSObjectC", "present"]
 - !private ["So8NSObjectC", "presentViewController"]
 - !private ["So8NSObjectC", "presentedViewController"]
-- !private ["So8NSObjectC", "resume"]
 - !private ["So8NSObjectC", "rootViewController"]
-- !private ["So8NSObjectC", "setTarget"]
 - !private ["So8NSObjectC", "shared"]
-- !private ["So8NSObjectC", "suspend"]
-- !private ["So8NSObjectC", "sync"]
 - !private ["So8NSObjectC", "systemVersion"]
 - !private ["So8NSObjectC", "turnOff"]
 - !private ["So8NSObjectC", "turnOn"]
 - !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "actionWithTitle"]
-- !private ["So8NSObjectP", "activate"]
 - !private ["So8NSObjectP", "addAction"]
 - !private ["So8NSObjectP", "alertControllerWithTitle"]
 - !private ["So8NSObjectP", "async"]
@@ -360,25 +345,16 @@ depends-member:
 - !private ["So8NSObjectP", "present"]
 - !private ["So8NSObjectP", "presentViewController"]
 - !private ["So8NSObjectP", "presentedViewController"]
-- !private ["So8NSObjectP", "resume"]
 - !private ["So8NSObjectP", "rootViewController"]
-- !private ["So8NSObjectP", "setTarget"]
 - !private ["So8NSObjectP", "shared"]
-- !private ["So8NSObjectP", "suspend"]
-- !private ["So8NSObjectP", "sync"]
 - !private ["So8NSObjectP", "systemVersion"]
 - !private ["So8NSObjectP", "turnOff"]
 - !private ["So8NSObjectP", "turnOn"]
 - !private ["Sj", ""]
 - ["So9OS_objectC", ""]
-- !private ["So9OS_objectC", "activate"]
 - !private ["So9OS_objectC", "async"]
 - !private ["So9OS_objectC", "init"]
 - !private ["So9OS_objectC", "main"]
-- !private ["So9OS_objectC", "resume"]
-- !private ["So9OS_objectC", "setTarget"]
-- !private ["So9OS_objectC", "suspend"]
-- !private ["So9OS_objectC", "sync"]
 - !private ["Sq", "centralDidUpdateStateCallback"]
 - !private ["Sq", "getState"]
 - ["Sq", "poweredOff"]
@@ -407,13 +383,10 @@ depends-member:
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "init"]
 - !private ["7Combine9SchedulerP", "main"]
-- !private ["ST", ""]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
 - !private ["So22UIAlertControllerStyleV", "alert"]
 - !private ["So18UIAlertActionStyleV", "default"]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
@@ -455,7 +428,6 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "rootViewController"]
 - !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
-- !private ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
@@ -475,7 +447,6 @@ depends-member:
 - !private ["So11UIResponderC", "presentedViewController"]
 - !private ["So11UIResponderC", "rootViewController"]
 - !private ["So11UIResponderC", "shared"]
-- !private ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -499,7 +470,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "present"]
 - !private ["So18UITraitEnvironmentP", "presentedViewController"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
-- !private ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "addAction"]
 - !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
 - !private ["So23UIUserActivityRestoringP", "init"]
@@ -519,10 +489,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "presentedViewController"]
 - !private ["So8UIWindowC", "rootViewController"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "authorization"]
@@ -569,7 +536,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- !private "SK"
 - "13SpaceTogether16BluetraceManagerC"
 - !private "13SpaceTogether14BluetraceUtilsC"
 - !private "So15CALayerDelegateP"
@@ -583,7 +549,6 @@ depends-nominal:
 - !private "So27CBPeripheralManagerDelegateP"
 - !private "s7CVarArgP"
 - !private "13SpaceTogether17CentralControllerC"
-- !private "Sl"
 - !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
@@ -594,16 +559,11 @@ depends-nominal:
 - !private "So17OS_dispatch_queueC"
 - "SE"
 - "SQ"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "SH"
-- !private "s25LosslessStringConvertibleP"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So26NSExtensionRequestHandlingP"
@@ -615,13 +575,10 @@ depends-nominal:
 - !private "13SpaceTogether20PeripheralControllerC"
 - "SY"
 - !private "7Combine9SchedulerP"
-- !private "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "So22UIAlertControllerStyleV"
 - !private "So18UIAlertActionStyleV"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So13UIAlertActionC"
 - !private "So17UIAlertControllerC"
@@ -647,10 +604,7 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "So8UIWindowC"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
