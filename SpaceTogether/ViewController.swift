@@ -10,6 +10,7 @@ import CoreData
 import CoreBluetooth
 
 class ViewController: UIViewController {
+    var bluetoothDetector : BluetoothDetector!
     
     let keyWindow = UIApplication.shared.connectedScenes
             .filter({$0.activationState == .foregroundActive})
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        BluetoothDetector.init()
+        bluetoothDetector = BluetoothDetector()
 
         // Do any additional setup after loading the view.
         print("View has loaded :)")
@@ -40,42 +41,6 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToSelectSegue", sender: self)
     }
     
-    func presentBluetoothAlert(_ bluetoothStateString: String) {
-                #if DEBUG
-                let alert = UIAlertController(title: "Bluetooth Issue: "+bluetoothStateString+" on iOS: "+UIDevice.current.systemVersion, message: "Please screenshot this message and send to support!", preferredStyle: .alert)
-
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-
-                DispatchQueue.main.async {
-                    var topController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController
-                    while topController?.presentedViewController != nil {
-                        topController = topController?.presentedViewController
-                    }
-
-                    topController?.present(alert, animated: true)
-                }
-                #endif
-
-                #if RELEASE
-                let alert = UIAlertController(title: "App restart required for Bluetooth to restart!", message: "Press Ok to exit the app!", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (_) in
-                    exit(0)
-                }))
-                DispatchQueue.main.async {
-                    var topController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController
-                    while topController?.presentedViewController != nil {
-                        topController = topController?.presentedViewController
-                    }
-
-                    if topController!.isKind(of: UIAlertController.self) {
-                        print("Alert has already popped up!")
-                    } else {
-                        topController?.present(alert, animated: true)
-                    }
-
-                }
-                #endif
-            }
     
 }
 

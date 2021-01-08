@@ -8,6 +8,7 @@
 import Foundation
 import CoreBluetooth
 import Combine
+import UIKit
 
 public struct PeripheralCharacteristicsDataV2: Codable {
     var mp: String // phone model of peripheral
@@ -19,7 +20,7 @@ public struct PeripheralCharacteristicsDataV2: Codable {
 class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegate {
     
     var didChange = PassthroughSubject<Void, Never>()
-    var centralManager : CBCentralManager?
+    var centralManager : CBCentralManager!
     var peripheral: CBPeripheral?
     
     override init(){
@@ -27,23 +28,68 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
         centralManager = CBCentralManager(delegate: self, queue: nil)
     }
     
-    func centralManager(_ central: CBCentralManager, didUpdateANCSAuthorizationFor peripheral: CBPeripheral) {
-    }
-    
-    func centralManagerDidUpdateState(_ central: CBCentralManager) {
-        if (central.state == .poweredOn) {
-            self.centralManager?.scanForPeripherals(withServices: nil, options: [CBCentralManagerScanOptionAllowDuplicatesKey:true])
-        }else{
-            self.centralManager? = CBCentralManager.init(delegate:self, queue: nil)
+    func presentBluetoothAlert() {
+               
+        let settingsAction = UIAlertAction(title: "Settings", style: .default) { (_) -> Void in
+                let settingsUrl = NSURL(string: UIApplication.openSettingsURLString)
+                if let url = settingsUrl {
+                    UIApplication.shared.open(url as URL)
+                }
+            }
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        
+        let alert = UIAlertController(title: "SpaceTogether needs bluetooth to work", message: "Go to settings > bluetooth to turn on", preferredStyle: .alert)
+        
+        alert.addAction(settingsAction)
+        alert.addAction(okAction)
+        
+        DispatchQueue.main.async {
+            var topController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController
+            while topController?.presentedViewController != nil {
+                topController = topController?.presentedViewController
+            }
+
+            if topController!.isKind(of: UIAlertController.self) {
+                print("Alert has already popped up!")
+            } else {
+                topController?.present(alert, animated: true)
+            }
 
         }
     }
     
+    
+    func centralManagerDidUpdateState(_ central: CBCentralManager) {
+        
+        var consoleLog = ""
+        
+        switch central.state {
+          case .poweredOff:
+            consoleLog = "BLE is Off"
+            presentBluetoothAlert()
+            
+          case .poweredOn:
+            consoleLog = "BLE is On"
+            self.centralManager?.scanForPeripherals(withServices: nil , options: nil)
+            
+          case .resetting:
+              consoleLog = "BLE is resetting"
+            
+          case .unauthorized:
+              consoleLog = "BLE is unauthorized"
+              presentBluetoothAlert()
+            
+          case .unknown:
+              consoleLog = "BLE is unknown"
+          case .unsupported:
+              consoleLog = "BLE is unsupported"
+          default:
+                  consoleLog = "default"
+            }
+       print(consoleLog)
+    }
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        self.peripheral = peripheral
-        self.peripheral?.delegate = self
-
-        centralManager?.connect(peripheral, options: nil)
+        print("found peripheral")
      }
         
     func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
@@ -67,5 +113,9 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             peripheral.respond(to: requests[0], withResult: .success)
 
         }
-}
+    
+    
 
+    
+
+}
