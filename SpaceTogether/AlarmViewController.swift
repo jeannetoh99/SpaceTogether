@@ -18,6 +18,7 @@ class AlarmViewController: UIViewController {
         print("View has loaded :)")
         
         do {
+            
             var path:URL!
             if let chosenPath:URL = UserDefaults.standard.url(forKey: "chosenAudioPath") {
                 path = chosenPath
@@ -31,6 +32,15 @@ class AlarmViewController: UIViewController {
         } catch {
             
         }
+        
+        // Load GIF using Name
+        let goAwayGif = UIImage.gifImageWithName("goaway")
+        let imageView = UIImageView(image: goAwayGif)
+        imageView.frame = CGRect(x:0, y:0, width: 250, height: 325)
+        imageView.center.x = view.center.x
+        imageView.center.y = view.center.y - 20
+        view.addSubview(imageView)
+        
     }
     
     @IBAction func shutupButtonPressed(_ sender: UIButton) {

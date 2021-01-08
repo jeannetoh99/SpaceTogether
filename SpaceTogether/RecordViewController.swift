@@ -14,7 +14,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate, UITableVi
     var audioRecorder:AVAudioRecorder!
     var audioPlayer:AVAudioPlayer!
     var numberOfRecords = 0
-    var chosenAudio = 0
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var myTableView: UITableView!
@@ -34,10 +33,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate, UITableVi
         
         if let number:Int = UserDefaults.standard.object(forKey: "myNumber") as? Int {
             numberOfRecords = number
-        }
-        
-        if let chosenNumber:Int = UserDefaults.standard.object(forKey: "chosenAudioFile") as? Int {
-            chosenAudio = chosenNumber
         }
         
     }
@@ -121,7 +116,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate, UITableVi
             audioPlayer = try AVAudioPlayer(contentsOf: path)
             audioPlayer.play()
             UserDefaults.standard.set(path, forKey: "chosenAudioPath")
-            UserDefaults.standard.set(indexPath.row, forKey: "chosenAudioFile")
             
         } catch {
             
