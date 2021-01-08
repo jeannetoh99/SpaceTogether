@@ -22,6 +22,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("View has loaded :)")
+    }
+    
+    @IBAction func shieldMeNowButtonPressed(_ sender: UIButton) {
+        print("shield me now!")
+        self.performSegue(withIdentifier: "HomeToSafeSegue", sender: self)
+    }
+    
+    @IBAction func setMyOwnAlarmButtonPressed(_ sender: UIButton) {
+        print("set my own alarm!")
+        self.performSegue(withIdentifier: "HomeToRecordSegue", sender: self)
+    }
+
+    @IBAction func selectAlarmButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToSelectSegue", sender: self)
+    }
         BluetoothDetector.init()
     }
 
@@ -51,6 +67,20 @@ class ViewController: UIViewController {
                 while topController?.presentedViewController != nil {
                     topController = topController?.presentedViewController
                 }
+
+                if topController!.isKind(of: UIAlertController.self) {
+                    print("Alert has already popped up!")
+                } else {
+                    topController?.present(alert, animated: true)
+                }
+
+            }
+            #endif
+        }
+
+                while topController?.presentedViewController != nil {
+
+
 
                 if topController!.isKind(of: UIAlertController.self) {
                     print("Alert has already popped up!")
