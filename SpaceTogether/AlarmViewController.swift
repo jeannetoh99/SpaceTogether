@@ -46,7 +46,7 @@ class AlarmViewController: UIViewController {
         
     
 
-        Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
+        Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { timer in
             guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
                 return
             }
@@ -65,6 +65,7 @@ class AlarmViewController: UIViewController {
             var deviceNo = self.fetchDevicesEncounteredCount()
             if deviceNo < 1 {
                 timer.invalidate()
+                self.audioPlayer?.stop()
                 self.performSegue(withIdentifier: "AlarmToSafeSegue", sender: self)
             }
         }

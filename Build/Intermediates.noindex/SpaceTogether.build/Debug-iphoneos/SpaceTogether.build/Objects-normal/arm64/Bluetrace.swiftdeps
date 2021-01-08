@@ -58,6 +58,7 @@ depends-member:
 - ["So9NSCopyingP", "uuidString"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "uuidString"]
+- ["So8NSObjectP", ""]
 - ["So8NSObjectP", "uuidString"]
 - !private ["ST", ""]
 - !private ["ST", "subscript"]

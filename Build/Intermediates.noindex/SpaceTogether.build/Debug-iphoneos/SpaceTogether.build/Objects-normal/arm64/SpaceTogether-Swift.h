@@ -400,7 +400,6 @@ SWIFT_CLASS("_TtC13SpaceTogether14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
 - (IBAction)shieldMeNowButtonPressed:(UIButton * _Nonnull)sender;
-- (void)fetchDevicesEncounteredCount;
 - (IBAction)setMyOwnAlarmButtonPressed:(UIButton * _Nonnull)sender;
 - (IBAction)unwind:(UIStoryboardSegue * _Nonnull)seg;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

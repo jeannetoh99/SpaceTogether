@@ -38,31 +38,7 @@ class ViewController: UIViewController {
     
     @IBAction func shieldMeNowButtonPressed(_ sender: UIButton) {
         print("shield me now!")
-        fetchDevicesEncounteredCount()
-    }
-    
-    @objc
-    func fetchDevicesEncounteredCount() {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return
-        }
-        let managedContext = appDelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSDictionary>(entityName: "Encounter")
-        fetchRequest.resultType = .dictionaryResultType
-        fetchRequest.propertiesToFetch = ["v"]
-        fetchRequest.returnsDistinctResults = true
-        do {
-            let devicesEncountered = try managedContext.fetch(fetchRequest)
-            print(devicesEncountered)
-            var numberOfDevices = devicesEncountered.count
-            if numberOfDevices < 2 {
-                self.performSegue(withIdentifier: "HomeToSafeSegue", sender: self)
-            } else {
-                self.performSegue(withIdentifier: "HomeToAlarmSegue", sender: self)
-            }
-        } catch let error as NSError {
-            print("Could not fetch. \(error), \(error.userInfo)")
-        }
+        self.performSegue(withIdentifier: "HomeToSafeSegue", sender: self)
     }
     
     @IBAction func setMyOwnAlarmButtonPressed(_ sender: UIButton) {

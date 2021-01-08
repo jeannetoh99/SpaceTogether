@@ -15,7 +15,7 @@ class SafeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("View has loaded :)")
-        Timer.scheduledTimer(withTimeInterval: 3, repeats: true) { timer in
+        Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { timer in
             var deviceNo = self.fetchDevicesEncounteredCount()
             if deviceNo > 1 {
                 timer.invalidate()
