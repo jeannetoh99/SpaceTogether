@@ -1,0 +1,438 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "13SpaceTogether14ViewControllerC"
+provides-member:
+- ["13SpaceTogether14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "registerForPushNotifications"
+- "saveRecordingAndUnwindAction"
+- "selectAlarmButtonPressed"
+- "setMyOwnAlarmButtonPressed"
+- "shieldMeNowButtonPressed"
+- "viewDidLoad"
+depends-top-level:
+- "&&"
+- !private "BlueTraceLocalNotifications"
+- !private "BluetraceManager"
+- !private "StringLiteralType"
+- "UIButton"
+- "UIStoryboardSegue"
+- "UIViewController"
+- "ViewController"
+- "print"
+- !private "registerForPushNotifications"
+depends-member:
+- ["SK", ""]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "checkAuthorization"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "shared"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothAuthorized"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothOn"]
+- !private ["13SpaceTogether16BluetraceManagerC", "shared"]
+- !private ["13SpaceTogether16BluetraceManagerC", "turnOn"]
+- !private ["s7CVarArgP", "BlueTraceLocalNotifications"]
+- !private ["s7CVarArgP", "BluetraceManager"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "checkAuthorization"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "registerForPushNotifications"]
+- !private ["s7CVarArgP", "saveRecordingAndUnwindAction"]
+- !private ["s7CVarArgP", "selectAlarmButtonPressed"]
+- !private ["s7CVarArgP", "setMyOwnAlarmButtonPressed"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "shieldMeNowButtonPressed"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "BluetraceManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "checkAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForPushNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "saveRecordingAndUnwindAction"]
+- !private ["s28CustomDebugStringConvertibleP", "selectAlarmButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "setMyOwnAlarmButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "shieldMeNowButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s23CustomStringConvertibleP", "BluetraceManager"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "checkAuthorization"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "registerForPushNotifications"]
+- !private ["s23CustomStringConvertibleP", "saveRecordingAndUnwindAction"]
+- !private ["s23CustomStringConvertibleP", "selectAlarmButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "setMyOwnAlarmButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "shieldMeNowButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SQ", "BlueTraceLocalNotifications"]
+- !private ["SQ", "BluetraceManager"]
+- ["SQ", ""]
+- !private ["SQ", "checkAuthorization"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "print"]
+- !private ["SQ", "registerForPushNotifications"]
+- !private ["SQ", "saveRecordingAndUnwindAction"]
+- !private ["SQ", "selectAlarmButtonPressed"]
+- !private ["SQ", "setMyOwnAlarmButtonPressed"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "shieldMeNowButtonPressed"]
+- !private ["SQ", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "BlueTraceLocalNotifications"]
+- !private ["SH", "BluetraceManager"]
+- ["SH", ""]
+- !private ["SH", "checkAuthorization"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "print"]
+- !private ["SH", "registerForPushNotifications"]
+- !private ["SH", "saveRecordingAndUnwindAction"]
+- !private ["SH", "selectAlarmButtonPressed"]
+- !private ["SH", "setMyOwnAlarmButtonPressed"]
+- !private ["SH", "shared"]
+- !private ["SH", "shieldMeNowButtonPressed"]
+- !private ["SH", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "BlueTraceLocalNotifications"]
+- !private ["So8NSCodingP", "BluetraceManager"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIStoryboardSegue"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "registerForPushNotifications"]
+- ["So8NSCodingP", "saveRecordingAndUnwindAction"]
+- ["So8NSCodingP", "selectAlarmButtonPressed"]
+- ["So8NSCodingP", "setMyOwnAlarmButtonPressed"]
+- ["So8NSCodingP", "shieldMeNowButtonPressed"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "BlueTraceLocalNotifications"]
+- !private ["So26NSExtensionRequestHandlingP", "BluetraceManager"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", "UIStoryboardSegue"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "registerForPushNotifications"]
+- ["So26NSExtensionRequestHandlingP", "saveRecordingAndUnwindAction"]
+- ["So26NSExtensionRequestHandlingP", "selectAlarmButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "setMyOwnAlarmButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "shieldMeNowButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectC", "BluetraceManager"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "checkAuthorization"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "performSegueWithIdentifier"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "registerForPushNotifications"]
+- ["So8NSObjectC", "saveRecordingAndUnwindAction"]
+- ["So8NSObjectC", "selectAlarmButtonPressed"]
+- ["So8NSObjectC", "setMyOwnAlarmButtonPressed"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "shieldMeNowButtonPressed"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectP", "BluetraceManager"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIStoryboardSegue"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "checkAuthorization"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "performSegueWithIdentifier"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "registerForPushNotifications"]
+- ["So8NSObjectP", "saveRecordingAndUnwindAction"]
+- ["So8NSObjectP", "selectAlarmButtonPressed"]
+- ["So8NSObjectP", "setMyOwnAlarmButtonPressed"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "shieldMeNowButtonPressed"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So21UIAppearanceContainerP", "BlueTraceLocalNotifications"]
+- !private ["So21UIAppearanceContainerP", "BluetraceManager"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIStoryboardSegue"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "registerForPushNotifications"]
+- ["So21UIAppearanceContainerP", "saveRecordingAndUnwindAction"]
+- ["So21UIAppearanceContainerP", "selectAlarmButtonPressed"]
+- ["So21UIAppearanceContainerP", "setMyOwnAlarmButtonPressed"]
+- ["So21UIAppearanceContainerP", "shieldMeNowButtonPressed"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "BlueTraceLocalNotifications"]
+- !private ["So18UIContentContainerP", "BluetraceManager"]
+- ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", "UIStoryboardSegue"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "registerForPushNotifications"]
+- ["So18UIContentContainerP", "saveRecordingAndUnwindAction"]
+- ["So18UIContentContainerP", "selectAlarmButtonPressed"]
+- ["So18UIContentContainerP", "setMyOwnAlarmButtonPressed"]
+- ["So18UIContentContainerP", "shieldMeNowButtonPressed"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "BlueTraceLocalNotifications"]
+- !private ["So18UIFocusEnvironmentP", "BluetraceManager"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIStoryboardSegue"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "registerForPushNotifications"]
+- ["So18UIFocusEnvironmentP", "saveRecordingAndUnwindAction"]
+- ["So18UIFocusEnvironmentP", "selectAlarmButtonPressed"]
+- ["So18UIFocusEnvironmentP", "setMyOwnAlarmButtonPressed"]
+- ["So18UIFocusEnvironmentP", "shieldMeNowButtonPressed"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "BlueTraceLocalNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "BluetraceManager"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIStoryboardSegue"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegueWithIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "registerForPushNotifications"]
+- ["So30UIPasteConfigurationSupportingP", "saveRecordingAndUnwindAction"]
+- ["So30UIPasteConfigurationSupportingP", "selectAlarmButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "setMyOwnAlarmButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "shieldMeNowButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "BlueTraceLocalNotifications"]
+- !private ["So11UIResponderC", "BluetraceManager"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "performSegueWithIdentifier"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "registerForPushNotifications"]
+- ["So11UIResponderC", "saveRecordingAndUnwindAction"]
+- ["So11UIResponderC", "selectAlarmButtonPressed"]
+- ["So11UIResponderC", "setMyOwnAlarmButtonPressed"]
+- ["So11UIResponderC", "shieldMeNowButtonPressed"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "BlueTraceLocalNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "BluetraceManager"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIStoryboardSegue"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegueWithIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "registerForPushNotifications"]
+- ["So30UIResponderStandardEditActionsP", "saveRecordingAndUnwindAction"]
+- ["So30UIResponderStandardEditActionsP", "selectAlarmButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "setMyOwnAlarmButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "shieldMeNowButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "BlueTraceLocalNotifications"]
+- !private ["So16UIStateRestoringP", "BluetraceManager"]
+- ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", "UIStoryboardSegue"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "registerForPushNotifications"]
+- ["So16UIStateRestoringP", "saveRecordingAndUnwindAction"]
+- ["So16UIStateRestoringP", "selectAlarmButtonPressed"]
+- ["So16UIStateRestoringP", "setMyOwnAlarmButtonPressed"]
+- ["So16UIStateRestoringP", "shieldMeNowButtonPressed"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "BlueTraceLocalNotifications"]
+- !private ["So18UITraitEnvironmentP", "BluetraceManager"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIStoryboardSegue"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "registerForPushNotifications"]
+- ["So18UITraitEnvironmentP", "saveRecordingAndUnwindAction"]
+- ["So18UITraitEnvironmentP", "selectAlarmButtonPressed"]
+- ["So18UITraitEnvironmentP", "setMyOwnAlarmButtonPressed"]
+- ["So18UITraitEnvironmentP", "shieldMeNowButtonPressed"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "BlueTraceLocalNotifications"]
+- !private ["So23UIUserActivityRestoringP", "BluetraceManager"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIStoryboardSegue"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "performSegueWithIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "registerForPushNotifications"]
+- ["So23UIUserActivityRestoringP", "saveRecordingAndUnwindAction"]
+- ["So23UIUserActivityRestoringP", "selectAlarmButtonPressed"]
+- ["So23UIUserActivityRestoringP", "setMyOwnAlarmButtonPressed"]
+- ["So23UIUserActivityRestoringP", "shieldMeNowButtonPressed"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "BlueTraceLocalNotifications"]
+- !private ["So16UIViewControllerC", "BluetraceManager"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "registerForPushNotifications"]
+- ["So16UIViewControllerC", "saveRecordingAndUnwindAction"]
+- ["So16UIViewControllerC", "selectAlarmButtonPressed"]
+- ["So16UIViewControllerC", "setMyOwnAlarmButtonPressed"]
+- ["So16UIViewControllerC", "shieldMeNowButtonPressed"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So32UNUserNotificationCenterDelegateP", "checkAuthorization"]
+- !private ["So32UNUserNotificationCenterDelegateP", "shared"]
+- !private ["13SpaceTogether14ViewControllerC", "BlueTraceLocalNotifications"]
+- !private ["13SpaceTogether14ViewControllerC", "BluetraceManager"]
+- ["13SpaceTogether14ViewControllerC", "UIButton"]
+- ["13SpaceTogether14ViewControllerC", "UIStoryboardSegue"]
+- ["13SpaceTogether14ViewControllerC", ""]
+- ["13SpaceTogether14ViewControllerC", "deinit"]
+- ["13SpaceTogether14ViewControllerC", "init"]
+- !private ["13SpaceTogether14ViewControllerC", "performSegue"]
+- !private ["13SpaceTogether14ViewControllerC", "print"]
+- ["13SpaceTogether14ViewControllerC", "registerForPushNotifications"]
+- ["13SpaceTogether14ViewControllerC", "saveRecordingAndUnwindAction"]
+- ["13SpaceTogether14ViewControllerC", "selectAlarmButtonPressed"]
+- ["13SpaceTogether14ViewControllerC", "setMyOwnAlarmButtonPressed"]
+- ["13SpaceTogether14ViewControllerC", "shieldMeNowButtonPressed"]
+- ["13SpaceTogether14ViewControllerC", "viewDidLoad"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BluetraceManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForPushNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveRecordingAndUnwindAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectAlarmButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setMyOwnAlarmButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shieldMeNowButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetraceManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performSegue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerForPushNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveRecordingAndUnwindAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectAlarmButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setMyOwnAlarmButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shieldMeNowButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+depends-nominal:
+- "SK"
+- !private "13SpaceTogether27BlueTraceLocalNotificationsC"
+- !private "13SpaceTogether16BluetraceManagerC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "So32UNUserNotificationCenterDelegateP"
+- "13SpaceTogether14ViewControllerC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4ca95cad5e1778b806f4b9eff89f3b2d"
