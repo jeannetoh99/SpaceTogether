@@ -22,6 +22,8 @@
 		64B1DAFE25A87C88002CBD4C /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DAFD25A87C88002CBD4C /* RecordingViewController.swift */; };
 		64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */; };
 		64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */; };
+		64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0C25A89552002CBD4C /* SwiftGif.swift */; };
+		64B1DB1F25A8A61F002CBD4C /* recording_gap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		64B1DAFD25A87C88002CBD4C /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
 		64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedViewController.swift; sourceTree = "<group>"; };
 		64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlarmViewController.swift; sourceTree = "<group>"; };
+		64B1DB0C25A89552002CBD4C /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = recording_gap.gif; path = ../../../Downloads/recording_gap.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +122,12 @@
 				64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */,
 				64B1DABC25A83FC2002CBD4C /* ViewController.swift */,
 				64B1DAF325A86F16002CBD4C /* SafeViewController.swift */,
+				64B1DB0C25A89552002CBD4C /* SwiftGif.swift */,
 				64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */,
 				64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */,
 				64B1DAF825A86F35002CBD4C /* AlarmViewController.swift */,
 				64B1DAEE25A86D46002CBD4C /* RecordViewController.swift */,
+				64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */,
 				64B1DAFD25A87C88002CBD4C /* RecordingViewController.swift */,
 				64B1DABE25A83FC2002CBD4C /* Main.storyboard */,
 				64B1DAC125A83FC8002CBD4C /* Assets.xcassets */,
@@ -255,6 +261,7 @@
 				64B1DAC525A83FC8002CBD4C /* LaunchScreen.storyboard in Resources */,
 				64B1DAC225A83FC8002CBD4C /* Assets.xcassets in Resources */,
 				64B1DAC025A83FC2002CBD4C /* Main.storyboard in Resources */,
+				64B1DB1F25A8A61F002CBD4C /* recording_gap.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 				64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */,
 				64B1DAF425A86F16002CBD4C /* SafeViewController.swift in Sources */,
 				64B1DAF925A86F35002CBD4C /* AlarmViewController.swift in Sources */,
+				64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */,
 				64B1DAFE25A87C88002CBD4C /* RecordingViewController.swift in Sources */,
 				64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */,
 				2D80592C25A89C0A00BA43FF /* BluetoothDetector.swift in Sources */,

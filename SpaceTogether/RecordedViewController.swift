@@ -16,13 +16,4 @@ class RecordedViewController: UIViewController {
         
         // TODO: auto play recording in loop
     }
-    
-    @IBAction func tryAgainButtonPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "RecordedToRecordingSegue", sender: self)
-    }
-    
-    @IBAction func saveButtonPressed(_ sender: UIButton) {
-        //TODO: save and choose recorded voice
-        self.dismiss(animated: true, completion: nil)
-    }
 }
