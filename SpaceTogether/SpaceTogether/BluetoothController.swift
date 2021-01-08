@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import CoreBluetooth
+
+class BluetoothController : NSObject {
+    var centralManager: CBCentralManager?
+    var peripheral: CBPeripheral?
+
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        centralManager = CBCentralManager(delegate: self, queue: nil)
+    }
+}
+
