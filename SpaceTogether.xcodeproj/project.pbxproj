@@ -42,8 +42,8 @@
 		D157841E25A8B005003513E8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157841D25A8B005003513E8 /* Logger.swift */; };
 		D157842325A8B070003513E8 /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157842225A8B070003513E8 /* PlistHelper.swift */; };
 		D157842825A8B16B003513E8 /* PushNotificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157842725A8B16B003513E8 /* PushNotificationConstants.swift */; };
-		D1C65B7F25A90CA2008E200F /* goaway.gif in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B7E25A90CA2008E200F /* goaway.gif */; };
-		D1C65B8425A90CCE008E200F /* defaultAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B8325A90CCE008E200F /* defaultAudio.mp3 */; };
+		D1C65B8D25A913FD008E200F /* goaway.gif in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B8B25A913FC008E200F /* goaway.gif */; };
+		D1C65B8E25A913FD008E200F /* defaultAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,8 +105,8 @@
 		D157841D25A8B005003513E8 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D157842225A8B070003513E8 /* PlistHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistHelper.swift; sourceTree = "<group>"; };
 		D157842725A8B16B003513E8 /* PushNotificationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationConstants.swift; sourceTree = "<group>"; };
-		D1C65B7E25A90CA2008E200F /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = goaway.gif; sourceTree = "<group>"; };
-		D1C65B8325A90CCE008E200F /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = defaultAudio.mp3; sourceTree = "<group>"; };
+		D1C65B8B25A913FC008E200F /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goaway.gif; path = ../../Downloads/goaway.gif; sourceTree = "<group>"; };
+		D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defaultAudio.mp3; path = ../../Downloads/defaultAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,11 +164,11 @@
 				64B1DABC25A83FC2002CBD4C /* ViewController.swift */,
 				D157841D25A8B005003513E8 /* Logger.swift */,
 				64B1DAF325A86F16002CBD4C /* SafeViewController.swift */,
-				D1C65B8325A90CCE008E200F /* defaultAudio.mp3 */,
+				D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */,
+				D1C65B8B25A913FC008E200F /* goaway.gif */,
 				64B1DB0C25A89552002CBD4C /* SwiftGif.swift */,
 				64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */,
 				64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */,
-				D1C65B7E25A90CA2008E200F /* goaway.gif */,
 				D157842225A8B070003513E8 /* PlistHelper.swift */,
 				64B1DAF825A86F35002CBD4C /* AlarmViewController.swift */,
 				64B1DAEE25A86D46002CBD4C /* RecordViewController.swift */,
@@ -358,11 +358,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C65B8425A90CCE008E200F /* defaultAudio.mp3 in Resources */,
+				D1C65B8E25A913FD008E200F /* defaultAudio.mp3 in Resources */,
 				64B1DAC525A83FC8002CBD4C /* LaunchScreen.storyboard in Resources */,
 				64B1DAC225A83FC8002CBD4C /* Assets.xcassets in Resources */,
+				D1C65B8D25A913FD008E200F /* goaway.gif in Resources */,
 				64B1DAC025A83FC2002CBD4C /* Main.storyboard in Resources */,
-				D1C65B7F25A90CA2008E200F /* goaway.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
