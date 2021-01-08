@@ -13,6 +13,8 @@ class SafeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("View has loaded :)")
+        
+        //TODO: Start bluetooth detector
     }
     
     @IBAction func okThanksButtonPressed(_ sender: UIButton) {

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("View has loaded :)")
+        
+        //TODO: off bluetooth detector
     }
     
     @IBAction func shieldMeNowButtonPressed(_ sender: UIButton) {
@@ -24,13 +26,9 @@ class ViewController: UIViewController {
         print("set my own alarm!")
         self.performSegue(withIdentifier: "HomeToRecordSegue", sender: self)
     }
-
-    @IBAction func selectAlarmButtonPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "HomeToSelectSegue", sender: self)
-    }
     
-    @IBAction func saveRecordingAndUnwindAction(unwindSegue: UIStoryboardSegue) {
-        // TODO: Save recording before unwinding
+    @IBAction func testAlarm(_ sender: UIButton) {
+        print("test alarm")
+        self.performSegue(withIdentifier: "HomeToAlarmSegue", sender: self)
     }
-    
 }
