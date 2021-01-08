@@ -14,5 +14,9 @@ class SelectAlarmViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("View has loaded :)")
     }
-
+    
+    @IBAction func doneButtonPressed(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }

@@ -28,4 +28,9 @@ class ViewController: UIViewController {
     @IBAction func selectAlarmButtonPressed(_ sender: UIButton) {
         self.performSegue(withIdentifier: "HomeToSelectSegue", sender: self)
     }
+    
+    @IBAction func saveRecordingAndUnwindAction(unwindSegue: UIStoryboardSegue) {
+        // TODO: Save recording before unwinding
+    }
+    
 }

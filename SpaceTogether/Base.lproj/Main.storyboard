@@ -256,12 +256,25 @@
                                     <constraint firstAttribute="width" secondItem="b9l-lQ-vIp" secondAttribute="height" multiplier="1981:244" id="rSP-bn-IZu"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8O-bY-oUp">
+                                <rect key="frame" x="99.333333333333329" y="539" width="215.33333333333337" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="24n-Ot-dU1"/>
+                                    <constraint firstAttribute="width" secondItem="v8O-bY-oUp" secondAttribute="height" multiplier="1597:430" id="diM-bH-9zi"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="done"/>
+                                <connections>
+                                    <action selector="doneButtonPressed:" destination="Fwf-gS-IMW" eventType="touchUpInside" id="Tg7-Uc-Qvb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X87-Y0-koP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="v8O-bY-oUp" firstAttribute="centerY" secondItem="Blf-H0-sMy" secondAttribute="centerY" constant="210" id="8Hk-0t-cdC"/>
                             <constraint firstItem="b9l-lQ-vIp" firstAttribute="centerX" secondItem="Blf-H0-sMy" secondAttribute="centerX" id="UIc-SG-XQo"/>
                             <constraint firstItem="b9l-lQ-vIp" firstAttribute="centerY" secondItem="Blf-H0-sMy" secondAttribute="centerY" constant="-200" id="buk-RW-zmy"/>
+                            <constraint firstItem="v8O-bY-oUp" firstAttribute="centerX" secondItem="Blf-H0-sMy" secondAttribute="centerX" id="gMZ-WI-Fvw"/>
                             <constraint firstItem="b9l-lQ-vIp" firstAttribute="width" secondItem="b9l-lQ-vIp" secondAttribute="height" multiplier="1981:244" id="xca-e6-IKa"/>
                         </constraints>
                     </view>
@@ -286,13 +299,6 @@
                                     <constraint firstAttribute="width" secondItem="j7a-UG-aHu" secondAttribute="height" multiplier="1981:244" id="lOI-Vg-dC3"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="recording" translatesAutoresizingMaskIntoConstraints="NO" id="TIE-RI-s1e">
-                                <rect key="frame" x="82" y="233" width="250" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="VV9-ua-nCy"/>
-                                    <constraint firstAttribute="width" secondItem="TIE-RI-s1e" secondAttribute="height" multiplier="1917:1918" id="xb7-wg-3Gb"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4a-9I-9gC">
                                 <rect key="frame" x="99.333333333333329" y="539" width="215.33333333333337" height="58"/>
                                 <constraints>
@@ -308,10 +314,8 @@
                         <viewLayoutGuide key="safeArea" id="aw1-TY-ArL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TIE-RI-s1e" firstAttribute="centerY" secondItem="6Cb-3t-i4P" secondAttribute="centerY" id="1Az-ov-CMh"/>
                             <constraint firstItem="R4a-9I-9gC" firstAttribute="centerY" secondItem="6Cb-3t-i4P" secondAttribute="centerY" constant="210" id="ELb-c3-ViE"/>
                             <constraint firstItem="R4a-9I-9gC" firstAttribute="centerX" secondItem="6Cb-3t-i4P" secondAttribute="centerX" id="Ykl-I2-eyL"/>
-                            <constraint firstItem="TIE-RI-s1e" firstAttribute="centerX" secondItem="6Cb-3t-i4P" secondAttribute="centerX" id="aO8-O8-v0o"/>
                             <constraint firstItem="j7a-UG-aHu" firstAttribute="centerY" secondItem="6Cb-3t-i4P" secondAttribute="centerY" constant="-200" id="bxT-vg-JWx"/>
                             <constraint firstItem="j7a-UG-aHu" firstAttribute="centerX" secondItem="6Cb-3t-i4P" secondAttribute="centerX" id="eec-Sx-3X3"/>
                         </constraints>
@@ -323,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JjS-GC-SkX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164" y="858"/>
+            <point key="canvasLocation" x="1163.768115942029" y="857.60869565217399"/>
         </scene>
         <!--Recorded-->
         <scene sceneID="7jv-JY-QzR">
@@ -341,7 +345,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLk-7W-OSL">
-                                <rect key="frame" x="99.333333333333329" y="499" width="215.33333333333337" height="58"/>
+                                <rect key="frame" x="99.333333333333329" y="489" width="215.33333333333337" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="763-dt-KDd"/>
                                     <constraint firstAttribute="width" secondItem="ZLk-7W-OSL" secondAttribute="height" multiplier="1597:430" id="EbX-Op-FPH"/>
@@ -352,35 +356,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQe-y1-lV0">
-                                <rect key="frame" x="99.333333333333329" y="579" width="215.33333333333337" height="58"/>
+                                <rect key="frame" x="99.333333333333329" y="569" width="215.33333333333337" height="58"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VQe-y1-lV0" secondAttribute="height" multiplier="1597:430" id="fOk-be-TEl"/>
                                     <constraint firstAttribute="height" constant="58" id="pvM-RM-npi"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="save"/>
                                 <connections>
-                                    <action selector="saveButtonPressed:" destination="MNg-cE-Jak" eventType="touchUpInside" id="omu-9L-2ux"/>
+                                    <segue destination="RRx-YT-uL9" kind="unwind" unwindAction="saveRecordingAndUnwindActionWithUnwindSegue:" id="859-PZ-DuX"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="recording" translatesAutoresizingMaskIntoConstraints="NO" id="Qyn-JE-xwI">
-                                <rect key="frame" x="82" y="205" width="250" height="250"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="record" translatesAutoresizingMaskIntoConstraints="NO" id="Qyn-JE-xwI">
+                                <rect key="frame" x="167" y="318" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Qyn-JE-xwI" secondAttribute="height" multiplier="1917:1918" id="3r9-gV-aLI"/>
-                                    <constraint firstAttribute="height" constant="250" id="A7y-nm-G7C"/>
+                                    <constraint firstAttribute="height" constant="80" id="cex-MT-SIR"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BQh-as-2qM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ZLk-7W-OSL" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" constant="160" id="0jl-mj-AK8"/>
                             <constraint firstItem="ZLk-7W-OSL" firstAttribute="centerX" secondItem="h7W-Hf-9jV" secondAttribute="centerX" id="3kE-bE-BIN"/>
                             <constraint firstItem="VQe-y1-lV0" firstAttribute="width" secondItem="VQe-y1-lV0" secondAttribute="height" multiplier="1597:430" id="7Ku-tf-CSq"/>
+                            <constraint firstItem="VQe-y1-lV0" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" constant="240" id="NWC-mu-cjF"/>
                             <constraint firstItem="Qyn-JE-xwI" firstAttribute="centerX" secondItem="h7W-Hf-9jV" secondAttribute="centerX" id="Rg8-Ri-Xzx"/>
                             <constraint firstItem="Qyn-JE-xwI" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" id="Riz-XS-dYT"/>
-                            <constraint firstItem="ZLk-7W-OSL" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" constant="170" id="dgf-T9-2ae"/>
                             <constraint firstItem="bzQ-2f-LFK" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" constant="-200" id="gYQ-cE-UuD"/>
                             <constraint firstItem="bzQ-2f-LFK" firstAttribute="centerX" secondItem="h7W-Hf-9jV" secondAttribute="centerX" id="uFE-JH-Ggv"/>
-                            <constraint firstItem="VQe-y1-lV0" firstAttribute="centerY" secondItem="h7W-Hf-9jV" secondAttribute="centerY" constant="250" id="x18-QQ-Xzz"/>
                             <constraint firstItem="VQe-y1-lV0" firstAttribute="centerX" secondItem="h7W-Hf-9jV" secondAttribute="centerX" id="zee-r1-E5k"/>
                         </constraints>
                     </view>
@@ -390,20 +394,21 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83i-qN-8Tp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="RRx-YT-uL9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1164" y="1582"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jy9-cT-civ"/>
+        <segue reference="fUd-hl-sAy"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="alarmicon" width="821" height="1788"/>
+        <image name="done" width="1543" height="430"/>
         <image name="getawayfromme" width="1845" height="244"/>
         <image name="logo" width="1616" height="1512"/>
         <image name="okthanks" width="1543" height="430"/>
         <image name="record" width="591" height="590"/>
-        <image name="recording" width="1917" height="1918"/>
         <image name="recordingtext" width="1147" height="244"/>
         <image name="review" width="1637" height="244"/>
         <image name="safeicon" width="1517" height="1614"/>
