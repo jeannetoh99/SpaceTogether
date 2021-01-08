@@ -22,7 +22,9 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
     var didChange = PassthroughSubject<Void, Never>()
     var centralManager : CBCentralManager!
     var peripheral: CBPeripheral?
-    
+    var queue: DispatchQueue!
+    var timerForScanning: Timer?
+
     override init(){
         super.init()
         centralManager = CBCentralManager(delegate: self, queue: nil)
@@ -88,9 +90,29 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             }
        print(consoleLog)
     }
+    
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        print("found peripheral")
+        print("found peripheral: ")
+        self.peripheral = peripheral
+        self.peripheral?.delegate = self
+        
+        if(peripheral.name != nil) {
+            print(peripheral.name!)
+        }else{
+            print("<no_name>")
+        }
+        
+        self.centralManager?.connect(peripheral)
      }
+    
+    func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
+        print("connected!")
+        self.peripheral = peripheral
+        if(peripheral.name != nil) {
+            print(peripheral.name!)
+        }
+        self.centralManager?.cancelPeripheralConnection(peripheral)
+    }
         
     func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
            
@@ -113,9 +135,5 @@ class BluetoothDetector: NSObject, CBCentralManagerDelegate, CBPeripheralDelegat
             peripheral.respond(to: requests[0], withResult: .success)
 
         }
-    
-    
-
-    
 
 }
