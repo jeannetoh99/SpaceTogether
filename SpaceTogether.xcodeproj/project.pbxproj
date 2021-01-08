@@ -22,6 +22,7 @@
 		64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */; };
 		64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */; };
 		64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0C25A89552002CBD4C /* SwiftGif.swift */; };
+		D1286E2325A92638002F5F09 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1286E2225A92637002F5F09 /* Package.swift */; };
 		D157840625A8AD89003513E8 /* BluetraceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F025A8AD89003513E8 /* BluetraceUtils.swift */; };
 		D157840725A8AD89003513E8 /* BluetraceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F125A8AD89003513E8 /* BluetraceConfig.swift */; };
 		D157840825A8AD89003513E8 /* PeripheralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F225A8AD89003513E8 /* PeripheralController.swift */; };
@@ -85,6 +86,7 @@
 		64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedViewController.swift; sourceTree = "<group>"; };
 		64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlarmViewController.swift; sourceTree = "<group>"; };
 		64B1DB0C25A89552002CBD4C /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		D1286E2225A92637002F5F09 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		D15783F025A8AD89003513E8 /* BluetraceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceUtils.swift; sourceTree = "<group>"; };
 		D15783F125A8AD89003513E8 /* BluetraceConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceConfig.swift; sourceTree = "<group>"; };
 		D15783F225A8AD89003513E8 /* PeripheralController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		64B1DAB725A83FC2002CBD4C /* SpaceTogether */ = {
 			isa = PBXGroup;
 			children = (
+				D1286E2225A92637002F5F09 /* Package.swift */,
 				D15783EF25A8AD89003513E8 /* Bluetrace */,
 				64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */,
 				D157842725A8B16B003513E8 /* PushNotificationConstants.swift */,
@@ -410,6 +413,7 @@
 				D157840C25A8AD89003513E8 /* tracer.xcdatamodeld in Sources */,
 				D157841625A8AD89003513E8 /* BlueTraceLocalNotifications.swift in Sources */,
 				64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */,
+				D1286E2325A92638002F5F09 /* Package.swift in Sources */,
 				D157840D25A8AD89003513E8 /* Bluetrace.swift in Sources */,
 				64B1DABB25A83FC2002CBD4C /* SceneDelegate.swift in Sources */,
 				64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */,
