@@ -6,11 +6,23 @@
 //
 
 import UIKit
+import CoreData
+import CoreBluetooth
 
 class ViewController: UIViewController {
+    var bluetoothDetector : BluetoothDetector!
+    
+    let keyWindow = UIApplication.shared.connectedScenes
+            .filter({$0.activationState == .foregroundActive})
+            .map({$0 as? UIWindowScene})
+            .compactMap({$0})
+            .first?.windows
+            .filter({$0.isKeyWindow}).first
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        bluetoothDetector = BluetoothDetector()
+
         // Do any additional setup after loading the view.
         print("View has loaded :)")
         
