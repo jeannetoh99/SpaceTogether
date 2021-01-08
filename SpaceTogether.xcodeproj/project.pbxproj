@@ -23,7 +23,6 @@
 		64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */; };
 		64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */; };
 		64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0C25A89552002CBD4C /* SwiftGif.swift */; };
-		64B1DB1F25A8A61F002CBD4C /* recording_gap.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +65,6 @@
 		64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedViewController.swift; sourceTree = "<group>"; };
 		64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlarmViewController.swift; sourceTree = "<group>"; };
 		64B1DB0C25A89552002CBD4C /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
-		64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = recording_gap.gif; path = ../../../Downloads/recording_gap.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +125,6 @@
 				64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */,
 				64B1DAF825A86F35002CBD4C /* AlarmViewController.swift */,
 				64B1DAEE25A86D46002CBD4C /* RecordViewController.swift */,
-				64B1DB1E25A8A61F002CBD4C /* recording_gap.gif */,
 				64B1DAFD25A87C88002CBD4C /* RecordingViewController.swift */,
 				64B1DABE25A83FC2002CBD4C /* Main.storyboard */,
 				64B1DAC125A83FC8002CBD4C /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 				64B1DAC525A83FC8002CBD4C /* LaunchScreen.storyboard in Resources */,
 				64B1DAC225A83FC8002CBD4C /* Assets.xcassets in Resources */,
 				64B1DAC025A83FC2002CBD4C /* Main.storyboard in Resources */,
-				64B1DB1F25A8A61F002CBD4C /* recording_gap.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
