@@ -7,11 +7,22 @@
 
 import UIKit
 import CoreData
+import CoreBluetooth
 
 class ViewController: UIViewController {
+    //var bluetoothDetector : BluetoothDetector!
+    
+    let keyWindow = UIApplication.shared.connectedScenes
+            .filter({$0.activationState == .foregroundActive})
+            .map({$0 as? UIWindowScene})
+            .compactMap({$0})
+            .first?.windows
+            .filter({$0.isKeyWindow}).first
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //bluetoothDetector = BluetoothDetector()
+
         // Do any additional setup after loading the view.
         print("View has loaded :)")
         BluetraceManager.shared.turnOn()
@@ -58,13 +69,9 @@ class ViewController: UIViewController {
         print("set my own alarm!")
         self.performSegue(withIdentifier: "HomeToRecordSegue", sender: self)
     }
-
-    @IBAction func selectAlarmButtonPressed(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "HomeToSelectSegue", sender: self)
-    }
     
-    @IBAction func saveRecordingAndUnwindAction(unwindSegue: UIStoryboardSegue) {
-        // TODO: Save recording before unwinding
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+        print("unwind to home page")
     }
     
     func registerForPushNotifications() {

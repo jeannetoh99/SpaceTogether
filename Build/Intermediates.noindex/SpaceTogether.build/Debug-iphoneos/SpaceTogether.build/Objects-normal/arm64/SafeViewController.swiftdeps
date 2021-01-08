@@ -8,6 +8,7 @@ provides-member:
 provides-dynamic-lookup:
 - "fetchDevicesEncounteredCount"
 - "okThanksButtonPressed"
+- "tempButtonPressed"
 - "viewDidLoad"
 depends-top-level:
 - ">"
@@ -56,6 +57,7 @@ depends-member:
 - !private ["s7CVarArgP", "returnsDistinctResults"]
 - !private ["s7CVarArgP", "scheduledTimer"]
 - !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "tempButtonPressed"]
 - !private ["s7CVarArgP", "userInfo"]
 - !private ["s7CVarArgP", "viewContext"]
 - !private ["s7CVarArgP", "viewDidLoad"]
@@ -83,6 +85,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "returnsDistinctResults"]
 - !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "tempButtonPressed"]
 - !private ["s28CustomDebugStringConvertibleP", "userInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "viewContext"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
@@ -109,6 +112,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "returnsDistinctResults"]
 - !private ["s23CustomStringConvertibleP", "scheduledTimer"]
 - !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "tempButtonPressed"]
 - !private ["s23CustomStringConvertibleP", "userInfo"]
 - !private ["s23CustomStringConvertibleP", "viewContext"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
@@ -139,6 +143,7 @@ depends-member:
 - !private ["SQ", "returnsDistinctResults"]
 - !private ["SQ", "scheduledTimer"]
 - !private ["SQ", "shared"]
+- !private ["SQ", "tempButtonPressed"]
 - !private ["SQ", "userInfo"]
 - !private ["SQ", "viewContext"]
 - !private ["SQ", "viewDidLoad"]
@@ -173,6 +178,7 @@ depends-member:
 - !private ["SH", "returnsDistinctResults"]
 - !private ["SH", "scheduledTimer"]
 - !private ["SH", "shared"]
+- !private ["SH", "tempButtonPressed"]
 - !private ["SH", "userInfo"]
 - !private ["SH", "viewContext"]
 - !private ["SH", "viewDidLoad"]
@@ -199,6 +205,7 @@ depends-member:
 - !private ["So8NSCodingP", "propertiesToFetch"]
 - !private ["So8NSCodingP", "resultType"]
 - !private ["So8NSCodingP", "returnsDistinctResults"]
+- ["So8NSCodingP", "tempButtonPressed"]
 - !private ["So8NSCodingP", "userInfo"]
 - ["So8NSCodingP", "viewDidLoad"]
 - !private ["So9NSCopyingP", ""]
@@ -224,6 +231,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "okThanksButtonPressed"]
 - !private ["So26NSExtensionRequestHandlingP", "performSegue"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "tempButtonPressed"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So14NSFetchRequestC", "init"]
 - !private ["So14NSFetchRequestC", "propertiesToFetch"]
@@ -261,6 +269,7 @@ depends-member:
 - !private ["So8NSObjectC", "scheduledTimer"]
 - !private ["So8NSObjectC", "scheduledTimerWithTimeInterval"]
 - !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "tempButtonPressed"]
 - !private ["So8NSObjectC", "userInfo"]
 - !private ["So8NSObjectC", "viewContext"]
 - ["So8NSObjectC", "viewDidLoad"]
@@ -293,6 +302,7 @@ depends-member:
 - !private ["So8NSObjectP", "scheduledTimer"]
 - !private ["So8NSObjectP", "scheduledTimerWithTimeInterval"]
 - !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "tempButtonPressed"]
 - !private ["So8NSObjectP", "userInfo"]
 - !private ["So8NSObjectP", "viewContext"]
 - ["So8NSObjectP", "viewDidLoad"]
@@ -327,6 +337,7 @@ depends-member:
 - ["13SpaceTogether18SafeViewControllerC", "okThanksButtonPressed"]
 - !private ["13SpaceTogether18SafeViewControllerC", "performSegue"]
 - !private ["13SpaceTogether18SafeViewControllerC", "print"]
+- ["13SpaceTogether18SafeViewControllerC", "tempButtonPressed"]
 - ["13SpaceTogether18SafeViewControllerC", "viewDidLoad"]
 - ["ST", ""]
 - !private ["ST", "count"]
@@ -356,6 +367,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "okThanksButtonPressed"]
 - !private ["So21UIAppearanceContainerP", "performSegue"]
 - !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "tempButtonPressed"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So13UIApplicationC", "delegate"]
 - !private ["So13UIApplicationC", "shared"]
@@ -375,6 +387,7 @@ depends-member:
 - ["So18UIContentContainerP", "okThanksButtonPressed"]
 - !private ["So18UIContentContainerP", "performSegue"]
 - !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "tempButtonPressed"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So18UIFocusEnvironmentP", "AppDelegate"]
 - ["So18UIFocusEnvironmentP", "Int"]
@@ -391,6 +404,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "okThanksButtonPressed"]
 - !private ["So18UIFocusEnvironmentP", "performSegue"]
 - !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "tempButtonPressed"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - !private ["So30UIPasteConfigurationSupportingP", "AppDelegate"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
@@ -412,6 +426,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "tempButtonPressed"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "AppDelegate"]
 - ["So11UIResponderC", "Int"]
@@ -433,6 +448,7 @@ depends-member:
 - !private ["So11UIResponderC", "persistentContainer"]
 - !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "tempButtonPressed"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "AppDelegate"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
@@ -454,6 +470,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "tempButtonPressed"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So16UIStateRestoringP", "AppDelegate"]
 - ["So16UIStateRestoringP", "Int"]
@@ -470,6 +487,7 @@ depends-member:
 - ["So16UIStateRestoringP", "okThanksButtonPressed"]
 - !private ["So16UIStateRestoringP", "performSegue"]
 - !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "tempButtonPressed"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So18UITraitEnvironmentP", "AppDelegate"]
 - ["So18UITraitEnvironmentP", "Int"]
@@ -486,6 +504,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "okThanksButtonPressed"]
 - !private ["So18UITraitEnvironmentP", "performSegue"]
 - !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "tempButtonPressed"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "AppDelegate"]
 - ["So23UIUserActivityRestoringP", "Int"]
@@ -507,6 +526,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "persistentContainer"]
 - !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "shared"]
+- ["So23UIUserActivityRestoringP", "tempButtonPressed"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - !private ["So16UIViewControllerC", "AppDelegate"]
 - ["So16UIViewControllerC", "Int"]
@@ -523,6 +543,7 @@ depends-member:
 - ["So16UIViewControllerC", "okThanksButtonPressed"]
 - !private ["So16UIViewControllerC", "performSegue"]
 - !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "tempButtonPressed"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -552,6 +573,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "returnsDistinctResults"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tempButtonPressed"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
@@ -574,6 +596,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "returnsDistinctResults"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tempButtonPressed"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
@@ -656,7 +679,10 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -665,8 +691,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -675,6 +704,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
@@ -684,10 +714,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bed1d9f3db00efce4ef527ef6ab971bd"
+interface-hash: "520b65ac84043d43bace7edae2b681be"

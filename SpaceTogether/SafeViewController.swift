@@ -49,4 +49,8 @@ class SafeViewController: UIViewController {
     @IBAction func okThanksButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func tempButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "SafeToAlarmSegue", sender: self)
+    }
 }

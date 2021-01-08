@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVFoundation;
 @import CoreBluetooth;
 @import CoreData;
 @import Foundation;
@@ -323,11 +324,18 @@ SWIFT_CLASS("_TtC13SpaceTogether20PeripheralController")
 - (void)peripheralManager:(CBPeripheralManager * _Nonnull)peripheral didReceiveWriteRequests:(NSArray<CBATTRequest *> * _Nonnull)requests;
 @end
 
+@class UITableView;
+@class UITableViewCell;
 
 SWIFT_CLASS("_TtC13SpaceTogether20RecordViewController")
-@interface RecordViewController : UIViewController
+@interface RecordViewController : UIViewController <AVAudioRecorderDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified myTableView;
 - (void)viewDidLoad;
-- (IBAction)startButtonPressed:(UIButton * _Nonnull)sender;
+- (IBAction)record:(UIButton * _Nonnull)sender;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -336,16 +344,14 @@ SWIFT_CLASS("_TtC13SpaceTogether20RecordViewController")
 SWIFT_CLASS("_TtC13SpaceTogether22RecordedViewController")
 @interface RecordedViewController : UIViewController
 - (void)viewDidLoad;
-- (IBAction)tryAgainButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 SWIFT_CLASS("_TtC13SpaceTogether23RecordingViewController")
-@interface RecordingViewController : UIViewController
+@interface RecordingViewController : UIViewController <AVAudioRecorderDelegate>
 - (void)viewDidLoad;
-- (IBAction)stopButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -356,6 +362,7 @@ SWIFT_CLASS("_TtC13SpaceTogether18SafeViewController")
 - (void)viewDidLoad;
 - (NSInteger)fetchDevicesEncounteredCount SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)okThanksButtonPressed:(UIButton * _Nonnull)sender;
+- (IBAction)tempButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -377,8 +384,9 @@ SWIFT_CLASS("_TtC13SpaceTogether13SceneDelegate")
 
 
 SWIFT_CLASS("_TtC13SpaceTogether25SelectAlarmViewController")
-@interface SelectAlarmViewController : UIViewController
+@interface SelectAlarmViewController : UIViewController <AVAudioRecorderDelegate>
 - (void)viewDidLoad;
+- (void)buttonActionWithSender:(UIButton * _Null_unspecified)sender;
 - (IBAction)doneButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -394,8 +402,7 @@ SWIFT_CLASS("_TtC13SpaceTogether14ViewController")
 - (IBAction)shieldMeNowButtonPressed:(UIButton * _Nonnull)sender;
 - (void)fetchDevicesEncounteredCount;
 - (IBAction)setMyOwnAlarmButtonPressed:(UIButton * _Nonnull)sender;
-- (IBAction)selectAlarmButtonPressed:(UIButton * _Nonnull)sender;
-- (IBAction)saveRecordingAndUnwindActionWithUnwindSegue:(UIStoryboardSegue * _Nonnull)unwindSegue;
+- (IBAction)unwind:(UIStoryboardSegue * _Nonnull)seg;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

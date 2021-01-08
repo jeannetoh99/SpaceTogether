@@ -6,28 +6,23 @@
 //
 
 import UIKit
+import AVFoundation
 
-class RecordingViewController: UIViewController {
+class RecordingViewController: UIViewController, AVAudioRecorderDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("View has loaded :)")
-        
+
         // Load GIF using Name
-        
-        let recordingGif = UIImage.gifImageWithName("gifrecord")
+        let recordingGif = UIImage.gifImageWithName("recording_gap")
         let imageView = UIImageView(image: recordingGif)
-        imageView.frame = CGRect(x:0, y:0, width: 250, height: 250)
+        imageView.frame = CGRect(x:0, y:0, width: 250, height: 325)
         imageView.center = view.center
         view.addSubview(imageView)
         
         //TODO: start recording automatically
     }
-    
-    @IBAction func stopButtonPressed(_ sender: UIButton) {
-        
-        // TODO: stop and save recording
-        self.performSegue(withIdentifier: "RecordingToRecordedSegue", sender: self)
-    }
+
 }

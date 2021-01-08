@@ -7,8 +7,11 @@
 
 import UIKit
 import CoreData
+import AVFoundation
 
 class AlarmViewController: UIViewController {
+    
+    var audioPlayer:AVAudioPlayer!
 
     @IBOutlet weak var devicesEncountered: UILabel!
     
@@ -16,6 +19,33 @@ class AlarmViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("View has loaded :)")
+
+        do {
+            
+            var path:URL!
+            if let chosenPath:URL = UserDefaults.standard.url(forKey: "chosenAudioPath") {
+                path = chosenPath
+            } else {
+                let urlString = Bundle.main.path(forResource: "defaultAudio", ofType: "mp3")
+                path = NSURL(fileURLWithPath: urlString!) as URL
+            }
+            audioPlayer = try AVAudioPlayer(contentsOf: path)
+            audioPlayer.numberOfLoops = -1
+            audioPlayer.play()
+        } catch {
+            
+        }
+        
+        // Load GIF using Name
+        let goAwayGif = UIImage.gifImageWithName("goaway")
+        let imageView = UIImageView(image: goAwayGif)
+        imageView.frame = CGRect(x:0, y:0, width: 250, height: 325)
+        imageView.center.x = view.center.x
+        imageView.center.y = view.center.y - 20
+        view.addSubview(imageView)
+        
+    
+
         Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { timer in
             guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
                 return
@@ -41,6 +71,7 @@ class AlarmViewController: UIViewController {
     }
     
     @IBAction func shutupButtonPressed(_ sender: UIButton) {
+        audioPlayer?.stop()
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
             return
         }

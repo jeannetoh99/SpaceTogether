@@ -254,17 +254,13 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s17FixedWidthIntegerP", "init"]
 - !private ["SF", ""]
 - !private ["SF", "init"]
@@ -340,7 +336,6 @@ depends-member:
 - ["So8NSCodingP", "gcdForArray"]
 - ["So8NSCodingP", "gcdForPair"]
 - ["So8NSCodingP", "gifImageWithData"]
-- ["So8NSCodingP", "gifImageWithName"]
 - ["So8NSCodingP", "gifImageWithURL"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "kCGImagePropertyGIFDelayTime"]
@@ -375,7 +370,6 @@ depends-member:
 - ["So21NSItemProviderReadingP", "gcdForArray"]
 - ["So21NSItemProviderReadingP", "gcdForPair"]
 - ["So21NSItemProviderReadingP", "gifImageWithData"]
-- ["So21NSItemProviderReadingP", "gifImageWithName"]
 - ["So21NSItemProviderReadingP", "gifImageWithURL"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "kCGImagePropertyGIFDelayTime"]
@@ -408,7 +402,6 @@ depends-member:
 - ["So21NSItemProviderWritingP", "gcdForArray"]
 - ["So21NSItemProviderWritingP", "gcdForPair"]
 - ["So21NSItemProviderWritingP", "gifImageWithData"]
-- ["So21NSItemProviderWritingP", "gifImageWithName"]
 - ["So21NSItemProviderWritingP", "gifImageWithURL"]
 - !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "kCGImagePropertyGIFDelayTime"]
@@ -454,12 +447,10 @@ depends-member:
 - !private ["So8NSObjectC", "imageWithContentsOfFile"]
 - !private ["So8NSObjectC", "imageWithData"]
 - !private ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "jpegData"]
 - !private ["So8NSObjectC", "kCGImagePropertyGIFDelayTime"]
 - !private ["So8NSObjectC", "kCGImagePropertyGIFDictionary"]
 - !private ["So8NSObjectC", "kCGImagePropertyGIFUnclampedDelayTime"]
 - !private ["So8NSObjectC", "main"]
-- ["So8NSObjectC", "pngData"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "systemImageNamed"]
 - !private ["So8NSObjectC", "unsafeBitCast"]
@@ -478,13 +469,14 @@ depends-member:
 - !private ["So8NSObjectP", "CGImageSourceGetCount"]
 - ["So8NSObjectP", "Data"]
 - ["So8NSObjectP", "Double"]
-- ["So8NSObjectP", "Int"]
-- ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "URL"]
 - !private ["So8NSObjectP", "URLForAuxiliaryExecutable"]
 - !private ["So8NSObjectP", "URLForResource"]
 - !private ["So8NSObjectP", "Unmanaged"]
-- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "animatedImage"]
 - !private ["So8NSObjectP", "animatedImageWithImages"]
 - ["So8NSObjectP", "animatedImageWithSource"]
@@ -492,7 +484,6 @@ depends-member:
 - ["So8NSObjectP", "gcdForArray"]
 - ["So8NSObjectP", "gcdForPair"]
 - ["So8NSObjectP", "gifImageWithData"]
-- ["So8NSObjectP", "gifImageWithName"]
 - ["So8NSObjectP", "gifImageWithURL"]
 - !private ["So8NSObjectP", "imageNamed"]
 - !private ["So8NSObjectP", "imageWithCGImage"]
@@ -500,12 +491,10 @@ depends-member:
 - !private ["So8NSObjectP", "imageWithContentsOfFile"]
 - !private ["So8NSObjectP", "imageWithData"]
 - !private ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "jpegData"]
 - !private ["So8NSObjectP", "kCGImagePropertyGIFDelayTime"]
 - !private ["So8NSObjectP", "kCGImagePropertyGIFDictionary"]
 - !private ["So8NSObjectP", "kCGImagePropertyGIFUnclampedDelayTime"]
 - !private ["So8NSObjectP", "main"]
-- ["So8NSObjectP", "pngData"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "systemImageNamed"]
 - !private ["So8NSObjectP", "unsafeBitCast"]
@@ -536,7 +525,6 @@ depends-member:
 - ["So14NSSecureCodingP", "gcdForArray"]
 - ["So14NSSecureCodingP", "gcdForPair"]
 - ["So14NSSecureCodingP", "gifImageWithData"]
-- ["So14NSSecureCodingP", "gifImageWithName"]
 - ["So14NSSecureCodingP", "gifImageWithURL"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "kCGImagePropertyGIFDelayTime"]
@@ -582,10 +570,8 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "AnyObject"]
 - ["So29UIAccessibilityIdentificationP", "Array"]
@@ -612,7 +598,6 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "gcdForArray"]
 - ["So29UIAccessibilityIdentificationP", "gcdForPair"]
 - ["So29UIAccessibilityIdentificationP", "gifImageWithData"]
-- ["So29UIAccessibilityIdentificationP", "gifImageWithName"]
 - ["So29UIAccessibilityIdentificationP", "gifImageWithURL"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "kCGImagePropertyGIFDelayTime"]
@@ -679,7 +664,6 @@ depends-member:
 - ["So39UIItemProviderPresentationSizeProvidingP", "gcdForArray"]
 - ["So39UIItemProviderPresentationSizeProvidingP", "gcdForPair"]
 - ["So39UIItemProviderPresentationSizeProvidingP", "gifImageWithData"]
-- ["So39UIItemProviderPresentationSizeProvidingP", "gifImageWithName"]
 - ["So39UIItemProviderPresentationSizeProvidingP", "gifImageWithURL"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "kCGImagePropertyGIFDelayTime"]
@@ -702,11 +686,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "isEmpty"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "AnyObject"]
 - !private ["s26_ExpressibleByImageLiteralP", "Bundle"]
@@ -803,10 +785,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
-- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
-- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
@@ -835,13 +813,10 @@ depends-nominal:
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "s17FixedWidthIntegerP"
 - !private "SF"
 - !private "SH"
@@ -883,11 +858,9 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s19_HasContiguousBytesP"
@@ -900,7 +873,10 @@ depends-dynamic-lookup:
 - !private "doubleValue"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -909,8 +885,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -919,6 +898,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
@@ -928,10 +908,15 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "fc67a298e1fb1fa802f9b133a3df61b4"
