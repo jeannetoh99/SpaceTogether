@@ -18,12 +18,16 @@ class AlarmViewController: UIViewController {
         print("View has loaded :)")
         
         do {
-            if let path:URL = UserDefaults.standard.url(forKey: "chosenAudioPath") as? URL {
-                print(path)
-                audioPlayer = try AVAudioPlayer(contentsOf: path)
-                audioPlayer.numberOfLoops = -1
-                audioPlayer.play()
+            var path:URL!
+            if let chosenPath:URL = UserDefaults.standard.url(forKey: "chosenAudioPath") {
+                path = chosenPath
+            } else {
+                let urlString = Bundle.main.path(forResource: "defaultAudio", ofType: "mp3")
+                path = NSURL(fileURLWithPath: urlString!) as URL
             }
+            audioPlayer = try AVAudioPlayer(contentsOf: path)
+            audioPlayer.numberOfLoops = -1
+            audioPlayer.play()
         } catch {
             
         }

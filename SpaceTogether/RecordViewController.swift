@@ -93,22 +93,33 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate, UITableVi
     
     // Sets up table view
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return numberOfRecords
+        return numberOfRecords + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = String("Recording \(indexPath.row + 1)")
+        if (indexPath.row == 0) {
+            cell.textLabel?.text = "Default Noise"
+        } else {
+            cell.textLabel?.text = String("Recording \(indexPath.row)")
+        }
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let path = getDirectory().appendingPathComponent("\(indexPath.row + 1).m4a")
-        
+
         do {
+            var path:URL!
+            
+            if (indexPath.row == 0) {
+                let urlString = Bundle.main.path(forResource: "defaultAudio", ofType: "mp3")
+                path = NSURL(fileURLWithPath: urlString!) as URL
+            } else {
+                path = getDirectory().appendingPathComponent("\(indexPath.row).m4a")
+            }
+            
             audioPlayer = try AVAudioPlayer(contentsOf: path)
             audioPlayer.play()
-            print(path)
             UserDefaults.standard.set(path, forKey: "chosenAudioPath")
             UserDefaults.standard.set(indexPath.row, forKey: "chosenAudioFile")
             

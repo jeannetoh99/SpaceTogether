@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToRecordSegue", sender: self)
     }
     
-    @IBAction func testAlarm(_ sender: UIButton) {
-        print("test alarm")
-        self.performSegue(withIdentifier: "HomeToAlarmSegue", sender: self)
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+        print("unwind to home page")
     }
+
 }
