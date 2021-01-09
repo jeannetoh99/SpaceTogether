@@ -33,6 +33,6 @@ Potential features could include:
 
 SpaceTogether was brought to you by 4 bored college kids: 
 
-Dev - @kerwinlim97 @jeannetoh @elsakoh
+Dev - @kerwin97 @jeannetoh99 @elsakoh
 
 Design - Andrea Low
