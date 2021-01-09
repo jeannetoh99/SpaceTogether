@@ -362,7 +362,6 @@ SWIFT_CLASS("_TtC13SpaceTogether18SafeViewController")
 - (void)viewDidLoad;
 - (NSInteger)fetchDevicesEncounteredCount SWIFT_WARN_UNUSED_RESULT;
 - (IBAction)okThanksButtonPressed:(UIButton * _Nonnull)sender;
-- (IBAction)tempButtonPressed:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
