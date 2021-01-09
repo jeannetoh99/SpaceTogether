@@ -521,7 +521,6 @@ depends-member:
 - !private ["SM", ""]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
-- ["So8NSCodingP", ""]
 - !private ["So9NSCopyingP", "uuidString"]
 - ["So8NSObjectC", "$__lazy_storage_$_readableCharacteristicV2"]
 - !private ["So8NSObjectC", "AnyObject"]
@@ -593,7 +592,6 @@ depends-member:
 - !private ["So8NSObjectP", "Logger"]
 - ["So8NSObjectP", "PeripheralCharacteristicsDataV2"]
 - !private ["So8NSObjectP", "String"]
-- ["So8NSObjectP", "Void"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_readableCharacteristicV2"]
 - !private ["So8NSObjectP", "add"]
@@ -725,7 +723,6 @@ depends-member:
 - !private ["ST", "Iterator"]
 - !private ["ST", ""]
 - !private ["ST", "init"]
-- !private ["ST", "makeIterator"]
 - !private ["ST", "subscript"]
 - ["s10SetAlgebraP", "ArrayLiteralElement"]
 - ["s10SetAlgebraP", "Element"]
@@ -901,7 +898,6 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
-- "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"

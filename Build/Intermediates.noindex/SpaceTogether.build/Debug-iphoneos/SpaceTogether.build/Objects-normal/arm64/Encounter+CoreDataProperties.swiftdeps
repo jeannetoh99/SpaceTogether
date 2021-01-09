@@ -390,7 +390,6 @@ depends-member:
 - !private ["So8NSCodingP", "sortDescriptors"]
 - !private ["So9NSCopyingP", ""]
 - !private ["So9NSCopyingP", "doubleValue"]
-- !private ["So9NSCopyingP", "fetchRequestWithEntityName"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "intValue"]
 - !private ["So9NSCopyingP", "predicate"]
@@ -481,7 +480,6 @@ depends-member:
 - ["So8NSObjectC", "fetchRequest"]
 - ["So8NSObjectC", "fetchRequestForEvents"]
 - ["So8NSObjectC", "fetchRequestForRecords"]
-- !private ["So8NSObjectC", "fetchRequestWithEntityName"]
 - !private ["So8NSObjectC", "findStringSwitchCase"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "intValue"]
@@ -490,10 +488,6 @@ depends-member:
 - ["So8NSObjectC", "msg"]
 - ["So8NSObjectC", "org"]
 - !private ["So8NSObjectC", "predicate"]
-- !private ["So8NSObjectC", "predicateFromMetadataQueryString"]
-- !private ["So8NSObjectC", "predicateWithBlock"]
-- !private ["So8NSObjectC", "predicateWithFormat"]
-- !private ["So8NSObjectC", "predicateWithValue"]
 - ["So8NSObjectC", "rssi"]
 - ["So8NSObjectC", "set"]
 - !private ["So8NSObjectC", "setValue"]
@@ -522,7 +516,6 @@ depends-member:
 - ["So8NSObjectP", "fetchRequest"]
 - ["So8NSObjectP", "fetchRequestForEvents"]
 - ["So8NSObjectP", "fetchRequestForRecords"]
-- !private ["So8NSObjectP", "fetchRequestWithEntityName"]
 - !private ["So8NSObjectP", "findStringSwitchCase"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "intValue"]
@@ -531,10 +524,6 @@ depends-member:
 - ["So8NSObjectP", "msg"]
 - ["So8NSObjectP", "org"]
 - !private ["So8NSObjectP", "predicate"]
-- !private ["So8NSObjectP", "predicateFromMetadataQueryString"]
-- !private ["So8NSObjectP", "predicateWithBlock"]
-- !private ["So8NSObjectP", "predicateWithFormat"]
-- !private ["So8NSObjectP", "predicateWithValue"]
 - ["So8NSObjectP", "rssi"]
 - ["So8NSObjectP", "set"]
 - !private ["So8NSObjectP", "setValue"]
@@ -544,7 +533,6 @@ depends-member:
 - ["So8NSObjectP", "txPower"]
 - ["So8NSObjectP", "v"]
 - ["So24NSPersistentStoreRequestC", ""]
-- !private ["So24NSPersistentStoreRequestC", "fetchRequestWithEntityName"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
 - !private ["So24NSPersistentStoreRequestC", "predicate"]
 - !private ["So24NSPersistentStoreRequestC", "sortDescriptors"]
@@ -610,7 +598,6 @@ depends-member:
 - !private ["s13SignedNumericP", "init"]
 - !private ["Sx", ""]
 - !private ["Sx", "init"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
@@ -721,7 +708,6 @@ depends-nominal:
 - !private "SZ"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- "So18UIFocusEnvironmentP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

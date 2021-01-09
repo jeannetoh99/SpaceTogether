@@ -481,7 +481,6 @@ depends-member:
 - !private ["So8NSObjectP", "DispatchQueue"]
 - !private ["So8NSObjectP", "Int"]
 - !private ["So8NSObjectP", "PushNotificationConstants"]
-- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "UIApplication"]
 - !private ["So8NSObjectP", "UNCalendarNotificationTrigger"]
 - !private ["So8NSObjectP", "UNMutableNotificationContent"]
@@ -591,7 +590,6 @@ depends-member:
 - !private ["So13UIApplicationC", "open"]
 - !private ["So13UIApplicationC", "openSettingsURLString"]
 - !private ["So13UIApplicationC", "shared"]
-- !private ["So18UIFocusEnvironmentP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "open"]
 - !private ["So30UIPasteConfigurationSupportingP", "openSettingsURLString"]
 - !private ["So30UIPasteConfigurationSupportingP", "openURL"]
@@ -678,7 +676,7 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
@@ -836,7 +834,6 @@ depends-nominal:
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "So13UIApplicationC"
-- !private "So18UIFocusEnvironmentP"
 - !private "So30UIPasteConfigurationSupportingP"
 - !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
@@ -859,7 +856,7 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"

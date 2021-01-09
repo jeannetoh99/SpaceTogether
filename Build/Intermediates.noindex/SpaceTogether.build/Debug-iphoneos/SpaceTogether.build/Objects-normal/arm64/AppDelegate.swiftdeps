@@ -10,15 +10,19 @@ provides-dynamic-lookup:
 - "$main"
 - "application"
 - "persistentContainer"
+- "resolvePort"
 depends-top-level:
+- !private "??"
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - "FloatLiteralType"
+- "Int"
 - "IntegerLiteralType"
 - "NSError"
 - "NSPersistentContainer"
+- !private "ProcessInfo"
 - "Set"
 - "StringLiteralType"
 - "UIApplication"
@@ -29,10 +33,14 @@ depends-top-level:
 - "UISceneSession"
 - "fatalError"
 depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
 - !private ["13SpaceTogether11AppDelegateC", "$__lazy_storage_$_persistentContainer"]
 - ["13SpaceTogether11AppDelegateC", "Bool"]
+- ["13SpaceTogether11AppDelegateC", "Int"]
 - ["13SpaceTogether11AppDelegateC", "NSError"]
 - ["13SpaceTogether11AppDelegateC", "NSPersistentContainer"]
+- !private ["13SpaceTogether11AppDelegateC", "ProcessInfo"]
 - ["13SpaceTogether11AppDelegateC", "Set"]
 - ["13SpaceTogether11AppDelegateC", "UIApplication"]
 - ["13SpaceTogether11AppDelegateC", "UIScene"]
@@ -56,12 +64,18 @@ depends-member:
 - ["13SpaceTogether11AppDelegateC", "init"]
 - ["13SpaceTogether11AppDelegateC", "main"]
 - ["13SpaceTogether11AppDelegateC", "persistentContainer"]
+- ["13SpaceTogether11AppDelegateC", "resolvePort"]
 - ["13SpaceTogether11AppDelegateC", "window"]
 - !private ["SK", ""]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
 - !private ["s7CVarArgP", "$main"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "Int"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - ["s7CVarArgP", "NSPersistentContainer"]
+- !private ["s7CVarArgP", "ProcessInfo"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
@@ -76,19 +90,26 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "environment"]
 - ["s7CVarArgP", "fatalError"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "loadPersistentStores"]
 - ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "processInfo"]
 - !private ["s7CVarArgP", "role"]
+- !private ["s7CVarArgP", "subscript"]
 - ["s7CVarArgP", "userInfo"]
 - ["s7CVarArgP", "window"]
 - !private ["Sl", ""]
+- !private ["Sl", "subscript"]
 - !private ["SL", ""]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "$main"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - ["s28CustomDebugStringConvertibleP", "NSPersistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "ProcessInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
@@ -103,17 +124,24 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "environment"]
 - ["s28CustomDebugStringConvertibleP", "fatalError"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
 - ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", "userInfo"]
 - ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "$main"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "Int"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - ["s23CustomStringConvertibleP", "NSPersistentContainer"]
+- !private ["s23CustomStringConvertibleP", "ProcessInfo"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "appendInterpolation"]
@@ -130,19 +158,29 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "environment"]
 - ["s23CustomStringConvertibleP", "fatalError"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "loadPersistentStores"]
 - ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
 - !private ["s23CustomStringConvertibleP", "role"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
 - ["s23CustomStringConvertibleP", "userInfo"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
 - ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
 - !private ["SQ", "$main"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "Int"]
 - ["SQ", "LaunchOptionsKey"]
 - ["SQ", "NSPersistentContainer"]
+- !private ["SQ", "ProcessInfo"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
 - ["SQ", "application"]
@@ -157,24 +195,33 @@ depends-member:
 - ["SQ", "applicationWillEnterForeground"]
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
+- !private ["SQ", "environment"]
 - ["SQ", "fatalError"]
 - ["SQ", "init"]
 - ["SQ", "loadPersistentStores"]
 - ["SQ", "main"]
+- !private ["SQ", "processInfo"]
 - !private ["SQ", "role"]
+- !private ["SQ", "subscript"]
 - ["SQ", "userInfo"]
 - ["SQ", "window"]
 - ["s5ErrorP", "userInfo"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", ""]
 - ["s32ExpressibleByStringInterpolationP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
 - !private ["SH", "$main"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "Int"]
 - ["SH", "LaunchOptionsKey"]
 - ["SH", "NSPersistentContainer"]
+- !private ["SH", "ProcessInfo"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
 - ["SH", "application"]
@@ -189,14 +236,20 @@ depends-member:
 - ["SH", "applicationWillEnterForeground"]
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
+- !private ["SH", "environment"]
 - ["SH", "fatalError"]
 - ["SH", "init"]
 - ["SH", "loadPersistentStores"]
 - ["SH", "main"]
+- !private ["SH", "processInfo"]
 - !private ["SH", "role"]
+- !private ["SH", "subscript"]
 - ["SH", "userInfo"]
 - ["SH", "window"]
+- !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "role"]
@@ -207,9 +260,11 @@ depends-member:
 - ["So8NSObjectC", "$__lazy_storage_$_persistentContainer"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "NSError"]
 - ["So8NSObjectC", "NSPersistentContainer"]
+- !private ["So8NSObjectC", "ProcessInfo"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIScene"]
@@ -230,6 +285,7 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - !private ["So8NSObjectC", "configurationWithName"]
+- !private ["So8NSObjectC", "environment"]
 - ["So8NSObjectC", "fatalError"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "loadPersistentStores"]
@@ -237,15 +293,19 @@ depends-member:
 - ["So8NSObjectC", "main"]
 - ["So8NSObjectC", "persistentContainer"]
 - ["So8NSObjectC", "persistentContainerWithName"]
+- !private ["So8NSObjectC", "processInfo"]
+- ["So8NSObjectC", "resolvePort"]
 - !private ["So8NSObjectC", "role"]
 - ["So8NSObjectC", "userInfo"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "$__lazy_storage_$_persistentContainer"]
 - ["So8NSObjectP", "$main"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - ["So8NSObjectP", "NSError"]
 - ["So8NSObjectP", "NSPersistentContainer"]
+- !private ["So8NSObjectP", "ProcessInfo"]
 - ["So8NSObjectP", "Set"]
 - ["So8NSObjectP", "UIScene"]
 - ["So8NSObjectP", "UISceneConfiguration"]
@@ -266,6 +326,7 @@ depends-member:
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "configurationWithName"]
 - ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "environment"]
 - ["So8NSObjectP", "fatalError"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "loadPersistentStores"]
@@ -273,6 +334,8 @@ depends-member:
 - ["So8NSObjectP", "main"]
 - ["So8NSObjectP", "persistentContainer"]
 - ["So8NSObjectP", "persistentContainerWithName"]
+- !private ["So8NSObjectP", "processInfo"]
+- ["So8NSObjectP", "resolvePort"]
 - !private ["So8NSObjectP", "role"]
 - ["So8NSObjectP", "userInfo"]
 - ["So8NSObjectP", "window"]
@@ -281,7 +344,18 @@ depends-member:
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "role"]
 - ["So14NSSecureCodingP", "userInfo"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["So13NSProcessInfoC", "environment"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["s10SIMDScalarP", "init"]
 - !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
 - ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - ["s27StringInterpolationProtocolP", "appendLiteral"]
 - ["s27StringInterpolationProtocolP", "init"]
@@ -292,7 +366,9 @@ depends-member:
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So21UIApplicationDelegateP", "$__lazy_storage_$_persistentContainer"]
 - ["So21UIApplicationDelegateP", "$main"]
+- !private ["So21UIApplicationDelegateP", "Int"]
 - ["So21UIApplicationDelegateP", "NSPersistentContainer"]
+- !private ["So21UIApplicationDelegateP", "ProcessInfo"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -312,14 +388,17 @@ depends-member:
 - ["So21UIApplicationDelegateP", "init"]
 - ["So21UIApplicationDelegateP", "main"]
 - ["So21UIApplicationDelegateP", "persistentContainer"]
+- ["So21UIApplicationDelegateP", "resolvePort"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "$__lazy_storage_$_persistentContainer"]
 - ["So30UIPasteConfigurationSupportingP", "$main"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - ["So30UIPasteConfigurationSupportingP", "NSError"]
 - ["So30UIPasteConfigurationSupportingP", "NSPersistentContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "ProcessInfo"]
 - ["So30UIPasteConfigurationSupportingP", "Set"]
 - ["So30UIPasteConfigurationSupportingP", "UIApplication"]
 - ["So30UIPasteConfigurationSupportingP", "UIScene"]
@@ -344,13 +423,16 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "main"]
 - ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
+- ["So30UIPasteConfigurationSupportingP", "resolvePort"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "$__lazy_storage_$_persistentContainer"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- ["So11UIResponderC", "Int"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "NSError"]
 - ["So11UIResponderC", "NSPersistentContainer"]
+- !private ["So11UIResponderC", "ProcessInfo"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIScene"]
@@ -374,14 +456,17 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "main"]
 - ["So11UIResponderC", "persistentContainer"]
+- ["So11UIResponderC", "resolvePort"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_persistentContainer"]
 - ["So30UIResponderStandardEditActionsP", "$main"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", "NSError"]
 - ["So30UIResponderStandardEditActionsP", "NSPersistentContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "ProcessInfo"]
 - ["So30UIResponderStandardEditActionsP", "Set"]
 - ["So30UIResponderStandardEditActionsP", "UIApplication"]
 - ["So30UIResponderStandardEditActionsP", "UIScene"]
@@ -406,6 +491,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "main"]
 - ["So30UIResponderStandardEditActionsP", "persistentContainer"]
+- ["So30UIResponderStandardEditActionsP", "resolvePort"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So7UISceneC", "ConnectionOptions"]
 - !private ["So20UISceneConfigurationC", "init"]
@@ -414,9 +500,11 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "$main"]
 - ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - ["So23UIUserActivityRestoringP", "NSError"]
 - ["So23UIUserActivityRestoringP", "NSPersistentContainer"]
+- !private ["So23UIUserActivityRestoringP", "ProcessInfo"]
 - ["So23UIUserActivityRestoringP", "Set"]
 - ["So23UIUserActivityRestoringP", "UIApplication"]
 - ["So23UIUserActivityRestoringP", "UIScene"]
@@ -441,16 +529,22 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "main"]
 - ["So23UIUserActivityRestoringP", "persistentContainer"]
+- ["So23UIUserActivityRestoringP", "resolvePort"]
 - ["So23UIUserActivityRestoringP", "window"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "$main"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProcessInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
@@ -465,17 +559,21 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "$main"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPersistentContainer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ProcessInfo"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
@@ -490,30 +588,46 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillEnterForeground"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "environment"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadPersistentStores"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - "13SpaceTogether11AppDelegateC"
 - !private "SK"
+- !private "Sz"
+- !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
 - "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
 - "SQ"
 - "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
 - "SH"
+- !private "Si"
 - !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - "So7NSErrorC"
@@ -521,7 +635,13 @@ depends-nominal:
 - "So8NSObjectP"
 - "So21NSPersistentContainerC"
 - "So14NSSecureCodingP"
+- !private "Sj"
+- !private "So13NSProcessInfoC"
+- !private "s10SIMDScalarP"
 - !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
 - "s27StringInterpolationProtocolP"
 - "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
@@ -534,13 +654,16 @@ depends-nominal:
 - !private "So20UISceneConfigurationC"
 - !private "So14UISceneSessionC"
 - "So23UIUserActivityRestoringP"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -590,4 +713,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e0c71426d59de6f8ef1a7648c1fe7689"
+interface-hash: "0c82f2ba45cfb614e690b270d2096ffb"

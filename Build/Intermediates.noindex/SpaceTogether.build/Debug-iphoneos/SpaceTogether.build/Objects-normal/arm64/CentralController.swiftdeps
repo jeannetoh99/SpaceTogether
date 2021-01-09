@@ -1298,7 +1298,6 @@ depends-member:
 - !private ["So13UIApplicationC", "delegate"]
 - !private ["So13UIApplicationC", "shared"]
 - !private ["So21UIApplicationDelegateP", "persistentContainer"]
-- ["So18UIFocusEnvironmentP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
@@ -1607,7 +1606,6 @@ depends-nominal:
 - !private "So7NSTimerC"
 - !private "So13UIApplicationC"
 - !private "So21UIApplicationDelegateP"
-- "So18UIFocusEnvironmentP"
 - !private "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"

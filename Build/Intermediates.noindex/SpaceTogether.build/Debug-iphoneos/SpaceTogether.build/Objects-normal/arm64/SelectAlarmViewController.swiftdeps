@@ -68,7 +68,7 @@ depends-member:
 - ["So23AVAudioRecorderDelegateP", "viewDidLoad"]
 - !private ["Sa", "append"]
 - !private ["Sa", "init"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "append"]
 - !private ["SK", "init"]
 - !private ["So12UIButtonTypeV", "system"]
@@ -133,10 +133,9 @@ depends-member:
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "white"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "append"]
 - !private ["Sl", "init"]
-- ["SL", ""]
 - !private ["10Foundation15ContiguousBytesP", "append"]
 - !private ["10Foundation15ContiguousBytesP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "ButtonType"]
@@ -289,7 +288,6 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "normal"]
 - !private ["s25ExpressibleByArrayLiteralP", "touchUpInside"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
@@ -297,10 +295,7 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "addSubview"]
 - !private ["s23ExpressibleByNilLiteralP", "center"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SH", "ButtonType"]
 - !private ["SH", "CGColor"]
 - !private ["SH", "CGRect"]
@@ -338,7 +333,6 @@ depends-member:
 - !private ["SH", "view"]
 - !private ["SH", "viewDidLoad"]
 - !private ["SH", "white"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "append"]
 - !private ["SM", "init"]
@@ -353,7 +347,7 @@ depends-member:
 - !private ["So8NSCodingP", "Event"]
 - ["So8NSCodingP", "NSObject"]
 - ["So8NSCodingP", "String"]
-- ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "UIButton"]
 - !private ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIControl"]
 - ["So8NSCodingP", ""]
@@ -396,7 +390,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "CGRect"]
 - ["So26NSExtensionRequestHandlingP", "NSObject"]
 - ["So26NSExtensionRequestHandlingP", "String"]
-- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- !private ["So26NSExtensionRequestHandlingP", "UIButton"]
 - !private ["So26NSExtensionRequestHandlingP", "UIColor"]
 - !private ["So26NSExtensionRequestHandlingP", "UIControl"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -482,7 +476,7 @@ depends-member:
 - !private ["So8NSObjectP", "CGRect"]
 - !private ["So8NSObjectP", "Event"]
 - ["So8NSObjectP", "NSObject"]
-- ["So8NSObjectP", "UIButton"]
+- !private ["So8NSObjectP", "UIButton"]
 - !private ["So8NSObjectP", "UIColor"]
 - !private ["So8NSObjectP", "UIControl"]
 - ["So8NSObjectP", ""]
@@ -582,10 +576,9 @@ depends-member:
 - ["13SpaceTogether25SelectAlarmViewControllerC", "viewDidLoad"]
 - !private ["ST", "Element"]
 - !private ["ST", "Iterator"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "append"]
 - !private ["ST", "init"]
-- !private ["ST", "makeIterator"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
 - !private ["s10SetAlgebraP", ""]
@@ -602,10 +595,8 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "ButtonType"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "addTarget"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
@@ -650,7 +641,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "Event"]
 - ["So21UIAppearanceContainerP", "NSObject"]
 - ["So21UIAppearanceContainerP", "String"]
-- ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
 - !private ["So21UIAppearanceContainerP", "UIColor"]
 - !private ["So21UIAppearanceContainerP", "UIControl"]
 - ["So21UIAppearanceContainerP", ""]
@@ -698,7 +689,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "CGRect"]
 - ["So18UIContentContainerP", "NSObject"]
 - ["So18UIContentContainerP", "String"]
-- ["So18UIContentContainerP", "UIButton"]
+- !private ["So18UIContentContainerP", "UIButton"]
 - !private ["So18UIContentContainerP", "UIColor"]
 - !private ["So18UIContentContainerP", "UIControl"]
 - ["So18UIContentContainerP", ""]
@@ -778,7 +769,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "Event"]
 - ["So18UIFocusEnvironmentP", "NSObject"]
 - ["So18UIFocusEnvironmentP", "String"]
-- ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
 - !private ["So18UIFocusEnvironmentP", "UIColor"]
 - !private ["So18UIFocusEnvironmentP", "UIControl"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -856,7 +847,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "Event"]
 - ["So30UIPasteConfigurationSupportingP", "NSObject"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
-- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIControl"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -937,7 +928,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "Event"]
 - ["So30UIResponderStandardEditActionsP", "NSObject"]
 - ["So30UIResponderStandardEditActionsP", "String"]
-- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
 - !private ["So30UIResponderStandardEditActionsP", "UIColor"]
 - !private ["So30UIResponderStandardEditActionsP", "UIControl"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -985,7 +976,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "CGRect"]
 - ["So16UIStateRestoringP", "NSObject"]
 - ["So16UIStateRestoringP", "String"]
-- ["So16UIStateRestoringP", "UIButton"]
+- !private ["So16UIStateRestoringP", "UIButton"]
 - !private ["So16UIStateRestoringP", "UIColor"]
 - !private ["So16UIStateRestoringP", "UIControl"]
 - ["So16UIStateRestoringP", ""]
@@ -1014,7 +1005,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "Event"]
 - ["So18UITraitEnvironmentP", "NSObject"]
 - ["So18UITraitEnvironmentP", "String"]
-- ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
 - !private ["So18UITraitEnvironmentP", "UIColor"]
 - !private ["So18UITraitEnvironmentP", "UIControl"]
 - ["So18UITraitEnvironmentP", ""]
@@ -1053,7 +1044,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "Event"]
 - ["So23UIUserActivityRestoringP", "NSObject"]
 - ["So23UIUserActivityRestoringP", "String"]
-- ["So23UIUserActivityRestoringP", "UIButton"]
+- !private ["So23UIUserActivityRestoringP", "UIButton"]
 - !private ["So23UIUserActivityRestoringP", "UIColor"]
 - !private ["So23UIUserActivityRestoringP", "UIControl"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -1135,11 +1126,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s19_HasContiguousBytesP", "append"]
@@ -1241,7 +1230,7 @@ depends-member:
 depends-nominal:
 - "So23AVAudioRecorderDelegateP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "So12UIButtonTypeV"
 - !private "So7CALayerC"
 - !private "So15CALayerDelegateP"
@@ -1251,8 +1240,7 @@ depends-nominal:
 - !private "So6CGRectV"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -1264,15 +1252,11 @@ depends-nominal:
 - "SQ"
 - !private "So15UIControlEventsV"
 - !private "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
 - "SH"
-- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
@@ -1289,13 +1273,12 @@ depends-nominal:
 - !private "Sm"
 - !private "SY"
 - "13SpaceTogether25SelectAlarmViewControllerC"
-- "ST"
+- !private "ST"
 - !private "s10SetAlgebraP"
 - !private "So14UIControlStateV"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -1326,11 +1309,9 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
