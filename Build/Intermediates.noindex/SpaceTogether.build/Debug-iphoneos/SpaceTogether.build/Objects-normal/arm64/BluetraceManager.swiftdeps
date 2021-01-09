@@ -1,0 +1,661 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BluetraceManager"
+provides-nominal:
+- "13SpaceTogether16BluetraceManagerC"
+provides-member:
+- ["13SpaceTogether16BluetraceManagerC", ""]
+provides-dynamic-lookup:
+- "bluetoothDidUpdateStateCallback"
+- "centralController"
+- "centralDidUpdateStateCallback"
+- "getCentralStateText"
+- "getPeripheralStateText"
+- "initialConfiguration"
+- "isBluetoothAuthorized"
+- "isBluetoothOn"
+- "peripheralController"
+- "presentBluetoothAlert"
+- "queue"
+- "shared"
+- "toggleAdvertisement"
+- "toggleScanning"
+- "turnOff"
+- "turnOn"
+depends-top-level:
+- "!="
+- !private "+"
+- !private "=="
+- "AssignmentPrecedence"
+- "BluetraceManager"
+- !private "BluetraceUtils"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CBManager"
+- "CBManagerState"
+- !private "CBPeripheralManager"
+- "CentralController"
+- !private "DeviceInfo"
+- "DispatchQueue"
+- "PeripheralController"
+- "String"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
+- !private "UIAlertController"
+- "UIApplication"
+- !private "UIDevice"
+- "UIViewController"
+- "Void"
+- !private "bluetoothDidUpdateStateCallback"
+- !private "centralController"
+- !private "centralDidUpdateStateCallback"
+- !private "peripheralController"
+- !private "presentBluetoothAlert"
+- !private "print"
+- !private "queue"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["13SpaceTogether16BluetraceManagerC", "BluetraceManager"]
+- !private ["13SpaceTogether16BluetraceManagerC", "BluetraceUtils"]
+- ["13SpaceTogether16BluetraceManagerC", "Bool"]
+- !private ["13SpaceTogether16BluetraceManagerC", "CBManager"]
+- ["13SpaceTogether16BluetraceManagerC", "CBManagerState"]
+- !private ["13SpaceTogether16BluetraceManagerC", "CBPeripheralManager"]
+- ["13SpaceTogether16BluetraceManagerC", "CentralController"]
+- !private ["13SpaceTogether16BluetraceManagerC", "DeviceInfo"]
+- ["13SpaceTogether16BluetraceManagerC", "DispatchQueue"]
+- ["13SpaceTogether16BluetraceManagerC", "PeripheralController"]
+- ["13SpaceTogether16BluetraceManagerC", "String"]
+- !private ["13SpaceTogether16BluetraceManagerC", "UIAlertAction"]
+- !private ["13SpaceTogether16BluetraceManagerC", "UIAlertController"]
+- !private ["13SpaceTogether16BluetraceManagerC", "UIApplication"]
+- !private ["13SpaceTogether16BluetraceManagerC", "UIDevice"]
+- !private ["13SpaceTogether16BluetraceManagerC", "UIViewController"]
+- ["13SpaceTogether16BluetraceManagerC", "Void"]
+- ["13SpaceTogether16BluetraceManagerC", "bluetoothDidUpdateStateCallback"]
+- !private ["13SpaceTogether16BluetraceManagerC", "centralController"]
+- ["13SpaceTogether16BluetraceManagerC", "centralDidUpdateStateCallback"]
+- ["13SpaceTogether16BluetraceManagerC", "deinit"]
+- ["13SpaceTogether16BluetraceManagerC", "getCentralStateText"]
+- ["13SpaceTogether16BluetraceManagerC", "getPeripheralStateText"]
+- ["13SpaceTogether16BluetraceManagerC", "init"]
+- ["13SpaceTogether16BluetraceManagerC", "initialConfiguration"]
+- ["13SpaceTogether16BluetraceManagerC", "isBluetoothAuthorized"]
+- ["13SpaceTogether16BluetraceManagerC", "isBluetoothOn"]
+- !private ["13SpaceTogether16BluetraceManagerC", "peripheralController"]
+- ["13SpaceTogether16BluetraceManagerC", "presentBluetoothAlert"]
+- !private ["13SpaceTogether16BluetraceManagerC", "print"]
+- ["13SpaceTogether16BluetraceManagerC", "queue"]
+- ["13SpaceTogether16BluetraceManagerC", "shared"]
+- ["13SpaceTogether16BluetraceManagerC", "toggleAdvertisement"]
+- ["13SpaceTogether16BluetraceManagerC", "toggleScanning"]
+- ["13SpaceTogether16BluetraceManagerC", "turnOff"]
+- ["13SpaceTogether16BluetraceManagerC", "turnOn"]
+- !private ["13SpaceTogether14BluetraceUtilsC", "managerStateToString"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So24CBCentralManagerDelegateP", "centralDidUpdateStateCallback"]
+- !private ["So24CBCentralManagerDelegateP", "getState"]
+- !private ["So24CBCentralManagerDelegateP", "init"]
+- !private ["So24CBCentralManagerDelegateP", "turnOff"]
+- !private ["So24CBCentralManagerDelegateP", "turnOn"]
+- ["So9CBManagerC", ""]
+- !private ["So9CBManagerC", "authorization"]
+- !private ["So9CBManagerC", "authorizationStatus"]
+- !private ["So22CBManagerAuthorizationV", "=="]
+- !private ["So22CBManagerAuthorizationV", "RawValue"]
+- !private ["So22CBManagerAuthorizationV", "allowedAlways"]
+- ["So14CBManagerStateV", "poweredOff"]
+- !private ["So14CBManagerStateV", "poweredOn"]
+- ["So14CBManagerStateV", "resetting"]
+- ["So14CBManagerStateV", "unauthorized"]
+- ["So14CBManagerStateV", "unknown"]
+- ["So14CBManagerStateV", "unsupported"]
+- !private ["So20CBPeripheralDelegateP", "centralDidUpdateStateCallback"]
+- !private ["So20CBPeripheralDelegateP", "getState"]
+- !private ["So20CBPeripheralDelegateP", "init"]
+- !private ["So20CBPeripheralDelegateP", "turnOff"]
+- !private ["So20CBPeripheralDelegateP", "turnOn"]
+- !private ["So19CBPeripheralManagerC", "authorizationStatus"]
+- !private ["So38CBPeripheralManagerAuthorizationStatusV", "=="]
+- !private ["So38CBPeripheralManagerAuthorizationStatusV", "RawValue"]
+- !private ["So38CBPeripheralManagerAuthorizationStatusV", "authorized"]
+- !private ["So27CBPeripheralManagerDelegateP", "getState"]
+- !private ["So27CBPeripheralManagerDelegateP", "init"]
+- !private ["So27CBPeripheralManagerDelegateP", "turnOff"]
+- !private ["So27CBPeripheralManagerDelegateP", "turnOn"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAction"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "authorization"]
+- !private ["s7CVarArgP", "authorizationStatus"]
+- !private ["s7CVarArgP", "centralDidUpdateStateCallback"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "getState"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentedViewController"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "systemVersion"]
+- !private ["s7CVarArgP", "turnOff"]
+- !private ["s7CVarArgP", "turnOn"]
+- !private ["13SpaceTogether17CentralControllerC", "centralDidUpdateStateCallback"]
+- !private ["13SpaceTogether17CentralControllerC", "getState"]
+- !private ["13SpaceTogether17CentralControllerC", "init"]
+- !private ["13SpaceTogether17CentralControllerC", "turnOff"]
+- !private ["13SpaceTogether17CentralControllerC", "turnOn"]
+- !private ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAction"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "authorization"]
+- !private ["s28CustomDebugStringConvertibleP", "authorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "centralDidUpdateStateCallback"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "getState"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "poweredOff"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentedViewController"]
+- ["s28CustomDebugStringConvertibleP", "resetting"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "systemVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "turnOff"]
+- !private ["s28CustomDebugStringConvertibleP", "turnOn"]
+- ["s28CustomDebugStringConvertibleP", "unauthorized"]
+- ["s28CustomDebugStringConvertibleP", "unknown"]
+- ["s28CustomDebugStringConvertibleP", "unsupported"]
+- !private ["s17CustomReflectableP", "centralDidUpdateStateCallback"]
+- !private ["s17CustomReflectableP", "getState"]
+- ["s17CustomReflectableP", "poweredOff"]
+- ["s17CustomReflectableP", "resetting"]
+- !private ["s17CustomReflectableP", "turnOff"]
+- !private ["s17CustomReflectableP", "turnOn"]
+- ["s17CustomReflectableP", "unauthorized"]
+- ["s17CustomReflectableP", "unknown"]
+- ["s17CustomReflectableP", "unsupported"]
+- !private ["s23CustomStringConvertibleP", "addAction"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "authorization"]
+- !private ["s23CustomStringConvertibleP", "authorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "centralDidUpdateStateCallback"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "getState"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentedViewController"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "systemVersion"]
+- !private ["s23CustomStringConvertibleP", "turnOff"]
+- !private ["s23CustomStringConvertibleP", "turnOn"]
+- !private ["Se", "centralDidUpdateStateCallback"]
+- !private ["Se", "getState"]
+- ["Se", "poweredOff"]
+- ["Se", "resetting"]
+- !private ["Se", "turnOff"]
+- !private ["Se", "turnOn"]
+- ["Se", "unauthorized"]
+- ["Se", "unknown"]
+- ["Se", "unsupported"]
+- !private ["13SpaceTogether10DeviceInfoV", "getModel"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "centralDidUpdateStateCallback"]
+- !private ["SE", "getState"]
+- ["SE", "poweredOff"]
+- ["SE", "resetting"]
+- !private ["SE", "turnOff"]
+- !private ["SE", "turnOn"]
+- ["SE", "unauthorized"]
+- ["SE", "unknown"]
+- ["SE", "unsupported"]
+- !private ["SQ", "=="]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "addAction"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "allowedAlways"]
+- !private ["SQ", "async"]
+- !private ["SQ", "authorization"]
+- !private ["SQ", "authorizationStatus"]
+- !private ["SQ", "authorized"]
+- !private ["SQ", "centralDidUpdateStateCallback"]
+- !private ["SQ", "current"]
+- !private ["SQ", "default"]
+- !private ["SQ", "getState"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyWindow"]
+- !private ["SQ", "main"]
+- ["SQ", "poweredOff"]
+- !private ["SQ", "poweredOn"]
+- !private ["SQ", "present"]
+- !private ["SQ", "presentedViewController"]
+- ["SQ", "resetting"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "systemVersion"]
+- !private ["SQ", "turnOff"]
+- !private ["SQ", "turnOn"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unknown"]
+- ["SQ", "unsupported"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "centralDidUpdateStateCallback"]
+- !private ["s23ExpressibleByNilLiteralP", "getState"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["s23ExpressibleByNilLiteralP", "poweredOff"]
+- ["s23ExpressibleByNilLiteralP", "resetting"]
+- !private ["s23ExpressibleByNilLiteralP", "turnOff"]
+- !private ["s23ExpressibleByNilLiteralP", "turnOn"]
+- ["s23ExpressibleByNilLiteralP", "unauthorized"]
+- ["s23ExpressibleByNilLiteralP", "unknown"]
+- ["s23ExpressibleByNilLiteralP", "unsupported"]
+- !private ["SF", ""]
+- !private ["SH", "=="]
+- !private ["SH", "RawValue"]
+- !private ["SH", ""]
+- !private ["SH", "addAction"]
+- !private ["SH", "alert"]
+- !private ["SH", "allowedAlways"]
+- !private ["SH", "async"]
+- !private ["SH", "authorization"]
+- !private ["SH", "authorizationStatus"]
+- !private ["SH", "authorized"]
+- !private ["SH", "centralDidUpdateStateCallback"]
+- !private ["SH", "current"]
+- !private ["SH", "default"]
+- !private ["SH", "getState"]
+- !private ["SH", "init"]
+- !private ["SH", "keyWindow"]
+- !private ["SH", "main"]
+- ["SH", "poweredOff"]
+- !private ["SH", "poweredOn"]
+- !private ["SH", "present"]
+- !private ["SH", "presentedViewController"]
+- ["SH", "resetting"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "shared"]
+- !private ["SH", "systemVersion"]
+- !private ["SH", "turnOff"]
+- !private ["SH", "turnOn"]
+- ["SH", "unauthorized"]
+- ["SH", "unknown"]
+- ["SH", "unsupported"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "alertControllerWithTitle"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "presentedViewController"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "addAction"]
+- !private ["So26NSExtensionRequestHandlingP", "alertControllerWithTitle"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "presentedViewController"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "actionWithTitle"]
+- !private ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "alertControllerWithTitle"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "authorization"]
+- !private ["So8NSObjectC", "authorizationStatus"]
+- !private ["So8NSObjectC", "centralDidUpdateStateCallback"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "getState"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentViewController"]
+- !private ["So8NSObjectC", "presentedViewController"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "systemVersion"]
+- !private ["So8NSObjectC", "turnOff"]
+- !private ["So8NSObjectC", "turnOn"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "actionWithTitle"]
+- !private ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "alertControllerWithTitle"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "authorization"]
+- !private ["So8NSObjectP", "authorizationStatus"]
+- !private ["So8NSObjectP", "centralDidUpdateStateCallback"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "getState"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentViewController"]
+- !private ["So8NSObjectP", "presentedViewController"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "systemVersion"]
+- !private ["So8NSObjectP", "turnOff"]
+- !private ["So8NSObjectP", "turnOn"]
+- !private ["Sj", ""]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "centralDidUpdateStateCallback"]
+- !private ["Sq", "getState"]
+- ["Sq", "poweredOff"]
+- ["Sq", "resetting"]
+- !private ["Sq", "turnOff"]
+- !private ["Sq", "turnOn"]
+- ["Sq", "unauthorized"]
+- ["Sq", "unknown"]
+- ["Sq", "unsupported"]
+- !private ["13SpaceTogether20PeripheralControllerC", "getState"]
+- !private ["13SpaceTogether20PeripheralControllerC", "init"]
+- !private ["13SpaceTogether20PeripheralControllerC", "turnOff"]
+- !private ["13SpaceTogether20PeripheralControllerC", "turnOn"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", "alert"]
+- !private ["SY", "allowedAlways"]
+- !private ["SY", "authorized"]
+- !private ["SY", "default"]
+- ["SY", "poweredOff"]
+- !private ["SY", "poweredOn"]
+- ["SY", "resetting"]
+- ["SY", "unauthorized"]
+- ["SY", "unknown"]
+- ["SY", "unsupported"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- !private ["So22UIAlertControllerStyleV", "alert"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So17UIAlertControllerC", "addAction"]
+- !private ["So17UIAlertControllerC", "init"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "alertControllerWithTitle"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "presentedViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "addAction"]
+- !private ["So18UIContentContainerP", "alertControllerWithTitle"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "presentedViewController"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "systemVersion"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "presentedViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "alertControllerWithTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentedViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "alertControllerWithTitle"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentViewController"]
+- !private ["So11UIResponderC", "presentedViewController"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "alertControllerWithTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "presentedViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So16UIStateRestoringP", "addAction"]
+- !private ["So16UIStateRestoringP", "alertControllerWithTitle"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "alertControllerWithTitle"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "alertControllerWithTitle"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "presentViewController"]
+- !private ["So23UIUserActivityRestoringP", "presentedViewController"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "rootViewController"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addAction"]
+- !private ["So16UIViewControllerC", "alertControllerWithTitle"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "presentedViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "centralDidUpdateStateCallback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "turnOff"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "turnOn"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authorizationStatus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centralDidUpdateStateCallback"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentedViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemVersion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "turnOff"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "turnOn"]
+- !private ["s21_ObjectiveCBridgeableP", "centralDidUpdateStateCallback"]
+- !private ["s21_ObjectiveCBridgeableP", "getState"]
+- ["s21_ObjectiveCBridgeableP", "poweredOff"]
+- ["s21_ObjectiveCBridgeableP", "resetting"]
+- !private ["s21_ObjectiveCBridgeableP", "turnOff"]
+- !private ["s21_ObjectiveCBridgeableP", "turnOn"]
+- ["s21_ObjectiveCBridgeableP", "unauthorized"]
+- ["s21_ObjectiveCBridgeableP", "unknown"]
+- ["s21_ObjectiveCBridgeableP", "unsupported"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "13SpaceTogether16BluetraceManagerC"
+- !private "13SpaceTogether14BluetraceUtilsC"
+- !private "So15CALayerDelegateP"
+- !private "So24CBCentralManagerDelegateP"
+- "So9CBManagerC"
+- !private "So22CBManagerAuthorizationV"
+- "So14CBManagerStateV"
+- !private "So20CBPeripheralDelegateP"
+- !private "So19CBPeripheralManagerC"
+- !private "So38CBPeripheralManagerAuthorizationStatusV"
+- !private "So27CBPeripheralManagerDelegateP"
+- !private "s7CVarArgP"
+- !private "13SpaceTogether17CentralControllerC"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "13SpaceTogether10DeviceInfoV"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- "So9OS_objectC"
+- "Sq"
+- !private "13SpaceTogether20PeripheralControllerC"
+- "SY"
+- !private "7Combine9SchedulerP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "So22UIAlertControllerStyleV"
+- !private "So18UIAlertActionStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So13UIAlertActionC"
+- !private "So17UIAlertControllerC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8d2be1d59b47fa3d700681140da261f5"

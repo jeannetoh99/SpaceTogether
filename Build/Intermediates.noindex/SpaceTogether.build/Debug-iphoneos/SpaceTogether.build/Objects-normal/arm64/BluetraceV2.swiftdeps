@@ -1,0 +1,384 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BluetraceV2"
+- "bluetraceV2"
+- "V2Peripheral"
+- "V2Central"
+provides-nominal:
+- "13SpaceTogether11BluetraceV2C"
+- "13SpaceTogether12V2PeripheralC"
+- "13SpaceTogether9V2CentralC"
+provides-member:
+- ["13SpaceTogether11BluetraceV2C", ""]
+- ["13SpaceTogether12V2PeripheralC", ""]
+- ["13SpaceTogether9V2CentralC", ""]
+provides-dynamic-lookup:
+- "advtPayload"
+- "advtPayloadExpiry"
+- "prepareReadRequestData"
+- "prepareWriteRequestData"
+- "processReadRequestDataReceived"
+- "processWriteRequestDataReceived"
+- "userDefaultsAdvtExpiryKey"
+- "userDefaultsAdvtKey"
+depends-top-level:
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BluetraceConfig"
+- "BluetraceProtocol"
+- "BluetraceV2"
+- "CastingPrecedence"
+- "CentralProtocol"
+- !private "CentralWriteDataV2"
+- "Data"
+- "Date"
+- !private "DeviceInfo"
+- "Double"
+- "EncounterMessageManager"
+- "EncounterRecord"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "Logger"
+- !private "PeripheralCharacteristicsDataV2"
+- "PeripheralProtocol"
+- "String"
+- "StringLiteralType"
+- !private "UserDefaults"
+- "V2Central"
+- "V2Peripheral"
+- "Void"
+- !private "advtPayload"
+- !private "advtPayloadExpiry"
+- "bluetraceV2"
+- !private "userDefaultsAdvtExpiryKey"
+- !private "userDefaultsAdvtKey"
+- !private "||"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["13SpaceTogether15BluetraceConfigV", "OrgID"]
+- !private ["13SpaceTogether15BluetraceConfigV", "ProtocolVersion"]
+- ["13SpaceTogether17BluetraceProtocolC", ""]
+- ["13SpaceTogether17BluetraceProtocolC", "init"]
+- ["13SpaceTogether11BluetraceV2C", "deinit"]
+- ["13SpaceTogether11BluetraceV2C", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["13SpaceTogether15CentralProtocolP", "BluetraceConfig"]
+- !private ["13SpaceTogether15CentralProtocolP", "CentralWriteDataV2"]
+- !private ["13SpaceTogether15CentralProtocolP", "DeviceInfo"]
+- !private ["13SpaceTogether15CentralProtocolP", "JSONDecoder"]
+- !private ["13SpaceTogether15CentralProtocolP", "JSONEncoder"]
+- !private ["13SpaceTogether15CentralProtocolP", "Logger"]
+- !private ["13SpaceTogether15CentralProtocolP", "PeripheralCharacteristicsDataV2"]
+- ["13SpaceTogether15CentralProtocolP", ""]
+- ["13SpaceTogether15CentralProtocolP", "init"]
+- ["13SpaceTogether15CentralProtocolP", "prepareWriteRequestData"]
+- ["13SpaceTogether15CentralProtocolP", "processReadRequestDataReceived"]
+- !private ["13SpaceTogether18CentralWriteDataV2V", "CodingKeys"]
+- !private ["13SpaceTogether18CentralWriteDataV2V", ""]
+- !private ["13SpaceTogether18CentralWriteDataV2V", "init"]
+- !private ["s9CodingKeyP", ""]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "id"]
+- !private ["Se", "init"]
+- !private ["Se", "mp"]
+- !private ["Se", "o"]
+- !private ["Se", "v"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["13SpaceTogether10DeviceInfoV", "getModel"]
+- !private ["SE", "id"]
+- !private ["SE", "init"]
+- !private ["SE", "mp"]
+- !private ["SE", "msg"]
+- !private ["SE", "o"]
+- !private ["SE", "org"]
+- !private ["SE", "update"]
+- !private ["SE", "v"]
+- !private ["13SpaceTogether23EncounterMessageManagerC", "fetchBatchTempIdsFromFirebase"]
+- !private ["13SpaceTogether23EncounterMessageManagerC", "setAdvtPayloadIntoUserDefaultsv2"]
+- !private ["13SpaceTogether23EncounterMessageManagerC", "setup"]
+- !private ["13SpaceTogether23EncounterMessageManagerC", "shared"]
+- !private ["13SpaceTogether15EncounterRecordV", "init"]
+- !private ["13SpaceTogether15EncounterRecordV", "msg"]
+- !private ["13SpaceTogether15EncounterRecordV", "org"]
+- !private ["13SpaceTogether15EncounterRecordV", "update"]
+- !private ["13SpaceTogether15EncounterRecordV", "v"]
+- !private ["SQ", "=="]
+- !private ["SQ", ""]
+- !private ["SQ", "data"]
+- !private ["SQ", "init"]
+- !private ["SQ", "object"]
+- !private ["SQ", "standard"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "data"]
+- !private ["SH", "hash"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "object"]
+- !private ["SH", "standard"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["13SpaceTogether6LoggerC", "DLog"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataForKey"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "objectForKey"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataForKey"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "objectForKey"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["13SpaceTogether31PeripheralCharacteristicsDataV2V", ""]
+- !private ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "id"]
+- !private ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "mp"]
+- !private ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "o"]
+- !private ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "v"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "CentralWriteDataV2"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "Date"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "EncounterMessageManager"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "EncounterRecord"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "JSONDecoder"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "Logger"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "String"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "UserDefaults"]
+- ["13SpaceTogether18PeripheralProtocolP", ""]
+- !private ["13SpaceTogether18PeripheralProtocolP", "advtPayload"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "advtPayloadExpiry"]
+- ["13SpaceTogether18PeripheralProtocolP", "init"]
+- ["13SpaceTogether18PeripheralProtocolP", "prepareReadRequestData"]
+- ["13SpaceTogether18PeripheralProtocolP", "processWriteRequestDataReceived"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "userDefaultsAdvtExpiryKey"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "userDefaultsAdvtKey"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["So14NSUserDefaultsC", "data"]
+- !private ["So14NSUserDefaultsC", "object"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["13SpaceTogether9V2CentralC", "BluetraceConfig"]
+- !private ["13SpaceTogether9V2CentralC", "CentralWriteDataV2"]
+- ["13SpaceTogether9V2CentralC", "Data"]
+- !private ["13SpaceTogether9V2CentralC", "DeviceInfo"]
+- ["13SpaceTogether9V2CentralC", "Double"]
+- ["13SpaceTogether9V2CentralC", "EncounterRecord"]
+- !private ["13SpaceTogether9V2CentralC", "JSONDecoder"]
+- !private ["13SpaceTogether9V2CentralC", "JSONEncoder"]
+- !private ["13SpaceTogether9V2CentralC", "Logger"]
+- !private ["13SpaceTogether9V2CentralC", "PeripheralCharacteristicsDataV2"]
+- ["13SpaceTogether9V2CentralC", "String"]
+- ["13SpaceTogether9V2CentralC", ""]
+- ["13SpaceTogether9V2CentralC", "deinit"]
+- ["13SpaceTogether9V2CentralC", "init"]
+- ["13SpaceTogether9V2CentralC", "prepareWriteRequestData"]
+- ["13SpaceTogether9V2CentralC", "processReadRequestDataReceived"]
+- !private ["13SpaceTogether12V2PeripheralC", "CentralWriteDataV2"]
+- ["13SpaceTogether12V2PeripheralC", "Data"]
+- ["13SpaceTogether12V2PeripheralC", "Date"]
+- !private ["13SpaceTogether12V2PeripheralC", "EncounterMessageManager"]
+- ["13SpaceTogether12V2PeripheralC", "EncounterRecord"]
+- !private ["13SpaceTogether12V2PeripheralC", "Error"]
+- !private ["13SpaceTogether12V2PeripheralC", "JSONDecoder"]
+- !private ["13SpaceTogether12V2PeripheralC", "Logger"]
+- !private ["13SpaceTogether12V2PeripheralC", "String"]
+- !private ["13SpaceTogether12V2PeripheralC", "UserDefaults"]
+- ["13SpaceTogether12V2PeripheralC", "Void"]
+- ["13SpaceTogether12V2PeripheralC", ""]
+- ["13SpaceTogether12V2PeripheralC", "advtPayload"]
+- ["13SpaceTogether12V2PeripheralC", "advtPayloadExpiry"]
+- ["13SpaceTogether12V2PeripheralC", "deinit"]
+- ["13SpaceTogether12V2PeripheralC", "init"]
+- ["13SpaceTogether12V2PeripheralC", "prepareReadRequestData"]
+- ["13SpaceTogether12V2PeripheralC", "processWriteRequestDataReceived"]
+- ["13SpaceTogether12V2PeripheralC", "userDefaultsAdvtExpiryKey"]
+- ["13SpaceTogether12V2PeripheralC", "userDefaultsAdvtKey"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "13SpaceTogether15BluetraceConfigV"
+- "13SpaceTogether17BluetraceProtocolC"
+- "13SpaceTogether11BluetraceV2C"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- "13SpaceTogether15CentralProtocolP"
+- !private "13SpaceTogether18CentralWriteDataV2V"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "13SpaceTogether10DeviceInfoV"
+- !private "SE"
+- !private "13SpaceTogether23EncounterMessageManagerC"
+- !private "13SpaceTogether15EncounterRecordV"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "13SpaceTogether6LoggerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "13SpaceTogether31PeripheralCharacteristicsDataV2V"
+- "13SpaceTogether18PeripheralProtocolP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "So14NSUserDefaultsC"
+- "13SpaceTogether9V2CentralC"
+- "13SpaceTogether12V2PeripheralC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a28f012a9e08c763c8bf1186fd147928"

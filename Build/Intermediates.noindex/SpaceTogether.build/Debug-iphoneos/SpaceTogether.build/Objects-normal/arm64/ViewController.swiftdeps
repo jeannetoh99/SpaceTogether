@@ -1,0 +1,728 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "13SpaceTogether14ViewControllerC"
+provides-member:
+- ["13SpaceTogether14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "keyWindow"
+- "registerForPushNotifications"
+- "setMyOwnAlarmButtonPressed"
+- "shieldMeNowButtonPressed"
+- "unwind"
+- "viewDidLoad"
+depends-top-level:
+- "&&"
+- "=="
+- !private "BlueTraceLocalNotifications"
+- !private "BluetraceManager"
+- "CastingPrecedence"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIButton"
+- "UIStoryboardSegue"
+- "UIViewController"
+- "UIWindowScene"
+- "ViewController"
+- "print"
+- !private "registerForPushNotifications"
+depends-member:
+- ["So22UISceneActivationStateV", "=="]
+- ["So22UISceneActivationStateV", "RawValue"]
+- ["So22UISceneActivationStateV", "foregroundActive"]
+- ["s18AdditiveArithmeticP", ""]
+- ["Sa", "compactMap"]
+- ["Sa", "filter"]
+- ["Sa", "first"]
+- ["Sa", "map"]
+- ["SK", ""]
+- ["SK", "compactMap"]
+- ["SK", "filter"]
+- ["SK", "first"]
+- ["SK", "map"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "checkAuthorization"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "shared"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothAuthorized"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothOn"]
+- !private ["13SpaceTogether16BluetraceManagerC", "shared"]
+- !private ["13SpaceTogether16BluetraceManagerC", "turnOn"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "isKeyWindow"]
+- ["8CloudKit21CKRecordValueProtocolP", "compactMap"]
+- ["8CloudKit21CKRecordValueProtocolP", "filter"]
+- ["8CloudKit21CKRecordValueProtocolP", "first"]
+- ["8CloudKit21CKRecordValueProtocolP", "map"]
+- !private ["s7CVarArgP", "BlueTraceLocalNotifications"]
+- !private ["s7CVarArgP", "BluetraceManager"]
+- ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "activationState"]
+- !private ["s7CVarArgP", "checkAuthorization"]
+- ["s7CVarArgP", "compactMap"]
+- ["s7CVarArgP", "connectedScenes"]
+- ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "isKeyWindow"]
+- ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "registerForPushNotifications"]
+- !private ["s7CVarArgP", "setMyOwnAlarmButtonPressed"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "shieldMeNowButtonPressed"]
+- !private ["s7CVarArgP", "unwind"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "windows"]
+- ["Sl", ""]
+- ["Sl", "compactMap"]
+- ["Sl", "filter"]
+- ["Sl", "first"]
+- ["Sl", "map"]
+- ["SL", ""]
+- ["10Foundation15ContiguousBytesP", "compactMap"]
+- ["10Foundation15ContiguousBytesP", "filter"]
+- ["10Foundation15ContiguousBytesP", "first"]
+- ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "BluetraceManager"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "activationState"]
+- !private ["s28CustomDebugStringConvertibleP", "checkAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "connectedScenes"]
+- ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "isKeyWindow"]
+- ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForPushNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "setMyOwnAlarmButtonPressed"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "shieldMeNowButtonPressed"]
+- !private ["s28CustomDebugStringConvertibleP", "unwind"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "windows"]
+- ["s17CustomReflectableP", "compactMap"]
+- ["s17CustomReflectableP", "filter"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s23CustomStringConvertibleP", "BluetraceManager"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "activationState"]
+- !private ["s23CustomStringConvertibleP", "checkAuthorization"]
+- ["s23CustomStringConvertibleP", "compactMap"]
+- ["s23CustomStringConvertibleP", "connectedScenes"]
+- ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "isKeyWindow"]
+- ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "registerForPushNotifications"]
+- !private ["s23CustomStringConvertibleP", "setMyOwnAlarmButtonPressed"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "shieldMeNowButtonPressed"]
+- !private ["s23CustomStringConvertibleP", "unwind"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "windows"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "compactMap"]
+- ["10Foundation12DataProtocolP", "filter"]
+- ["10Foundation12DataProtocolP", "first"]
+- ["10Foundation12DataProtocolP", "map"]
+- ["Se", "compactMap"]
+- ["Se", "filter"]
+- ["Se", "first"]
+- ["Se", "map"]
+- ["SE", "compactMap"]
+- ["SE", "filter"]
+- ["SE", "first"]
+- ["SE", "map"]
+- ["SQ", "=="]
+- !private ["SQ", "BlueTraceLocalNotifications"]
+- !private ["SQ", "BluetraceManager"]
+- ["SQ", "RawValue"]
+- ["SQ", "UIApplication"]
+- ["SQ", ""]
+- ["SQ", "activationState"]
+- !private ["SQ", "checkAuthorization"]
+- ["SQ", "compactMap"]
+- ["SQ", "connectedScenes"]
+- ["SQ", "filter"]
+- ["SQ", "first"]
+- ["SQ", "foregroundActive"]
+- ["SQ", "isKeyWindow"]
+- ["SQ", "map"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "print"]
+- !private ["SQ", "registerForPushNotifications"]
+- !private ["SQ", "setMyOwnAlarmButtonPressed"]
+- ["SQ", "shared"]
+- !private ["SQ", "shieldMeNowButtonPressed"]
+- !private ["SQ", "unwind"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "windows"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- ["s25ExpressibleByArrayLiteralP", "filter"]
+- ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["SF", ""]
+- ["SH", "=="]
+- !private ["SH", "BlueTraceLocalNotifications"]
+- !private ["SH", "BluetraceManager"]
+- ["SH", "RawValue"]
+- ["SH", "UIApplication"]
+- ["SH", ""]
+- ["SH", "activationState"]
+- !private ["SH", "checkAuthorization"]
+- ["SH", "compactMap"]
+- ["SH", "connectedScenes"]
+- ["SH", "filter"]
+- ["SH", "first"]
+- ["SH", "foregroundActive"]
+- ["SH", "isKeyWindow"]
+- ["SH", "map"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "print"]
+- !private ["SH", "registerForPushNotifications"]
+- !private ["SH", "setMyOwnAlarmButtonPressed"]
+- ["SH", "shared"]
+- !private ["SH", "shieldMeNowButtonPressed"]
+- !private ["SH", "unwind"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "windows"]
+- ["SM", ""]
+- ["SM", "compactMap"]
+- ["SM", "filter"]
+- ["SM", "first"]
+- ["SM", "map"]
+- ["10Foundation19MutableDataProtocolP", "compactMap"]
+- ["10Foundation19MutableDataProtocolP", "filter"]
+- ["10Foundation19MutableDataProtocolP", "first"]
+- ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "BlueTraceLocalNotifications"]
+- !private ["So8NSCodingP", "BluetraceManager"]
+- ["So8NSCodingP", "UIApplication"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIStoryboardSegue"]
+- ["So8NSCodingP", "UIWindowScene"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "isKeyWindow"]
+- ["So8NSCodingP", "keyWindow"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "registerForPushNotifications"]
+- ["So8NSCodingP", "setMyOwnAlarmButtonPressed"]
+- ["So8NSCodingP", "shieldMeNowButtonPressed"]
+- ["So8NSCodingP", "unwind"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "BlueTraceLocalNotifications"]
+- !private ["So26NSExtensionRequestHandlingP", "BluetraceManager"]
+- ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", "UIStoryboardSegue"]
+- ["So26NSExtensionRequestHandlingP", "UIWindowScene"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "keyWindow"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "registerForPushNotifications"]
+- ["So26NSExtensionRequestHandlingP", "setMyOwnAlarmButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "shieldMeNowButtonPressed"]
+- ["So26NSExtensionRequestHandlingP", "unwind"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectC", "BluetraceManager"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UIWindowScene"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activationState"]
+- !private ["So8NSObjectC", "checkAuthorization"]
+- ["So8NSObjectC", "connectedScenes"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isKeyWindow"]
+- ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "performSegue"]
+- !private ["So8NSObjectC", "performSegueWithIdentifier"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "registerForPushNotifications"]
+- ["So8NSObjectC", "setMyOwnAlarmButtonPressed"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "shieldMeNowButtonPressed"]
+- ["So8NSObjectC", "unwind"]
+- ["So8NSObjectC", "unwindForSegue"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "windows"]
+- !private ["So8NSObjectP", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectP", "BluetraceManager"]
+- ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIStoryboardSegue"]
+- ["So8NSObjectP", "UIWindowScene"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activationState"]
+- ["So8NSObjectP", "checkAuthorization"]
+- ["So8NSObjectP", "connectedScenes"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isKeyWindow"]
+- ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "performSegueWithIdentifier"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "registerForPushNotifications"]
+- ["So8NSObjectP", "setMyOwnAlarmButtonPressed"]
+- ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "shieldMeNowButtonPressed"]
+- ["So8NSObjectP", "unwind"]
+- ["So8NSObjectP", "unwindForSegue"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "windows"]
+- ["Sj", ""]
+- ["Sk", ""]
+- ["Sk", "compactMap"]
+- ["Sk", "filter"]
+- ["Sk", "first"]
+- ["Sk", "map"]
+- ["Sm", ""]
+- ["Sm", "compactMap"]
+- ["Sm", "filter"]
+- ["Sm", "first"]
+- ["Sm", "map"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", "foregroundActive"]
+- ["ST", ""]
+- ["ST", "compactMap"]
+- ["ST", "filter"]
+- ["ST", "first"]
+- ["ST", "map"]
+- ["Sh", "filter"]
+- ["Sh", "map"]
+- ["s10SetAlgebraP", "filter"]
+- ["s10SetAlgebraP", "map"]
+- ["s13SignedNumericP", ""]
+- ["Sx", ""]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "isKeyWindow"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "isKeyWindow"]
+- !private ["So21UIAppearanceContainerP", "BlueTraceLocalNotifications"]
+- !private ["So21UIAppearanceContainerP", "BluetraceManager"]
+- ["So21UIAppearanceContainerP", "UIApplication"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIStoryboardSegue"]
+- ["So21UIAppearanceContainerP", "UIWindowScene"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "isKeyWindow"]
+- ["So21UIAppearanceContainerP", "keyWindow"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "registerForPushNotifications"]
+- ["So21UIAppearanceContainerP", "setMyOwnAlarmButtonPressed"]
+- ["So21UIAppearanceContainerP", "shieldMeNowButtonPressed"]
+- ["So21UIAppearanceContainerP", "unwind"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So13UIApplicationC", "connectedScenes"]
+- ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "BlueTraceLocalNotifications"]
+- !private ["So18UIContentContainerP", "BluetraceManager"]
+- ["So18UIContentContainerP", "UIApplication"]
+- ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", "UIStoryboardSegue"]
+- ["So18UIContentContainerP", "UIWindowScene"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "keyWindow"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "registerForPushNotifications"]
+- ["So18UIContentContainerP", "setMyOwnAlarmButtonPressed"]
+- ["So18UIContentContainerP", "shieldMeNowButtonPressed"]
+- ["So18UIContentContainerP", "unwind"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "isKeyWindow"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "isKeyWindow"]
+- !private ["So18UIFocusEnvironmentP", "BlueTraceLocalNotifications"]
+- !private ["So18UIFocusEnvironmentP", "BluetraceManager"]
+- ["So18UIFocusEnvironmentP", "UIApplication"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIStoryboardSegue"]
+- ["So18UIFocusEnvironmentP", "UIWindowScene"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "isKeyWindow"]
+- ["So18UIFocusEnvironmentP", "keyWindow"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "registerForPushNotifications"]
+- ["So18UIFocusEnvironmentP", "setMyOwnAlarmButtonPressed"]
+- ["So18UIFocusEnvironmentP", "shieldMeNowButtonPressed"]
+- ["So18UIFocusEnvironmentP", "unwind"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "isKeyWindow"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "isKeyWindow"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "isKeyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "BlueTraceLocalNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "BluetraceManager"]
+- ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIStoryboardSegue"]
+- ["So30UIPasteConfigurationSupportingP", "UIWindowScene"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "activationState"]
+- ["So30UIPasteConfigurationSupportingP", "connectedScenes"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "isKeyWindow"]
+- ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegueWithIdentifier"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "registerForPushNotifications"]
+- ["So30UIPasteConfigurationSupportingP", "setMyOwnAlarmButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "shieldMeNowButtonPressed"]
+- ["So30UIPasteConfigurationSupportingP", "unwind"]
+- ["So30UIPasteConfigurationSupportingP", "unwindForSegue"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "windows"]
+- !private ["So11UIResponderC", "BlueTraceLocalNotifications"]
+- !private ["So11UIResponderC", "BluetraceManager"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UIWindowScene"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "activationState"]
+- ["So11UIResponderC", "connectedScenes"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isKeyWindow"]
+- ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "performSegue"]
+- !private ["So11UIResponderC", "performSegueWithIdentifier"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "registerForPushNotifications"]
+- ["So11UIResponderC", "setMyOwnAlarmButtonPressed"]
+- ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "shieldMeNowButtonPressed"]
+- ["So11UIResponderC", "unwind"]
+- ["So11UIResponderC", "unwindForSegue"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "windows"]
+- !private ["So30UIResponderStandardEditActionsP", "BlueTraceLocalNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "BluetraceManager"]
+- ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIStoryboardSegue"]
+- ["So30UIResponderStandardEditActionsP", "UIWindowScene"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "activationState"]
+- ["So30UIResponderStandardEditActionsP", "connectedScenes"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "isKeyWindow"]
+- ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegueWithIdentifier"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "registerForPushNotifications"]
+- ["So30UIResponderStandardEditActionsP", "setMyOwnAlarmButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "shieldMeNowButtonPressed"]
+- ["So30UIResponderStandardEditActionsP", "unwind"]
+- ["So30UIResponderStandardEditActionsP", "unwindForSegue"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "windows"]
+- ["So7UISceneC", ""]
+- ["So7UISceneC", "activationState"]
+- ["So7UISceneC", "windows"]
+- !private ["So16UIStateRestoringP", "BlueTraceLocalNotifications"]
+- !private ["So16UIStateRestoringP", "BluetraceManager"]
+- ["So16UIStateRestoringP", "UIApplication"]
+- ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", "UIStoryboardSegue"]
+- ["So16UIStateRestoringP", "UIWindowScene"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "keyWindow"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "registerForPushNotifications"]
+- ["So16UIStateRestoringP", "setMyOwnAlarmButtonPressed"]
+- ["So16UIStateRestoringP", "shieldMeNowButtonPressed"]
+- ["So16UIStateRestoringP", "unwind"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "BlueTraceLocalNotifications"]
+- !private ["So18UITraitEnvironmentP", "BluetraceManager"]
+- ["So18UITraitEnvironmentP", "UIApplication"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIStoryboardSegue"]
+- ["So18UITraitEnvironmentP", "UIWindowScene"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "isKeyWindow"]
+- ["So18UITraitEnvironmentP", "keyWindow"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "registerForPushNotifications"]
+- ["So18UITraitEnvironmentP", "setMyOwnAlarmButtonPressed"]
+- ["So18UITraitEnvironmentP", "shieldMeNowButtonPressed"]
+- ["So18UITraitEnvironmentP", "unwind"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "BlueTraceLocalNotifications"]
+- !private ["So23UIUserActivityRestoringP", "BluetraceManager"]
+- ["So23UIUserActivityRestoringP", "UIApplication"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIStoryboardSegue"]
+- ["So23UIUserActivityRestoringP", "UIWindowScene"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "activationState"]
+- ["So23UIUserActivityRestoringP", "connectedScenes"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "isKeyWindow"]
+- ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "performSegueWithIdentifier"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "registerForPushNotifications"]
+- ["So23UIUserActivityRestoringP", "setMyOwnAlarmButtonPressed"]
+- ["So23UIUserActivityRestoringP", "shared"]
+- ["So23UIUserActivityRestoringP", "shieldMeNowButtonPressed"]
+- ["So23UIUserActivityRestoringP", "unwind"]
+- ["So23UIUserActivityRestoringP", "unwindForSegue"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "windows"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "isKeyWindow"]
+- !private ["So16UIViewControllerC", "BlueTraceLocalNotifications"]
+- !private ["So16UIViewControllerC", "BluetraceManager"]
+- ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UIWindowScene"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "keyWindow"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "registerForPushNotifications"]
+- ["So16UIViewControllerC", "setMyOwnAlarmButtonPressed"]
+- ["So16UIViewControllerC", "shieldMeNowButtonPressed"]
+- ["So16UIViewControllerC", "unwind"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So8UIWindowC", "isKeyWindow"]
+- ["So13UIWindowSceneC", "windows"]
+- ["So32UNUserNotificationCenterDelegateP", "checkAuthorization"]
+- !private ["So32UNUserNotificationCenterDelegateP", "shared"]
+- !private ["13SpaceTogether14ViewControllerC", "BlueTraceLocalNotifications"]
+- !private ["13SpaceTogether14ViewControllerC", "BluetraceManager"]
+- ["13SpaceTogether14ViewControllerC", "UIApplication"]
+- ["13SpaceTogether14ViewControllerC", "UIButton"]
+- ["13SpaceTogether14ViewControllerC", "UIStoryboardSegue"]
+- ["13SpaceTogether14ViewControllerC", "UIWindowScene"]
+- ["13SpaceTogether14ViewControllerC", ""]
+- ["13SpaceTogether14ViewControllerC", "deinit"]
+- ["13SpaceTogether14ViewControllerC", "init"]
+- ["13SpaceTogether14ViewControllerC", "keyWindow"]
+- !private ["13SpaceTogether14ViewControllerC", "performSegue"]
+- !private ["13SpaceTogether14ViewControllerC", "print"]
+- ["13SpaceTogether14ViewControllerC", "registerForPushNotifications"]
+- ["13SpaceTogether14ViewControllerC", "setMyOwnAlarmButtonPressed"]
+- ["13SpaceTogether14ViewControllerC", "shieldMeNowButtonPressed"]
+- ["13SpaceTogether14ViewControllerC", "unwind"]
+- ["13SpaceTogether14ViewControllerC", "viewDidLoad"]
+- ["s14_ArrayProtocolP", "compactMap"]
+- ["s14_ArrayProtocolP", "filter"]
+- ["s14_ArrayProtocolP", "first"]
+- ["s14_ArrayProtocolP", "map"]
+- ["s24_DestructorSafeContainerP", "compactMap"]
+- ["s24_DestructorSafeContainerP", "filter"]
+- ["s24_DestructorSafeContainerP", "first"]
+- ["s24_DestructorSafeContainerP", "map"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "compactMap"]
+- ["s19_HasContiguousBytesP", "filter"]
+- ["s19_HasContiguousBytesP", "first"]
+- ["s19_HasContiguousBytesP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BluetraceManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "activationState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "connectedScenes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isKeyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForPushNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setMyOwnAlarmButtonPressed"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shieldMeNowButtonPressed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unwind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "windows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetraceManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activationState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkAuthorization"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectedScenes"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isKeyWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performSegue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerForPushNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setMyOwnAlarmButtonPressed"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shieldMeNowButtonPressed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unwind"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windows"]
+- ["s21_ObjectiveCBridgeableP", "compactMap"]
+- ["s21_ObjectiveCBridgeableP", "filter"]
+- ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "map"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "isKeyWindow"]
+depends-nominal:
+- "So22UISceneActivationStateV"
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "13SpaceTogether27BlueTraceLocalNotificationsC"
+- !private "13SpaceTogether16BluetraceManagerC"
+- "So15CALayerDelegateP"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "SF"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sj"
+- "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- "s13SignedNumericP"
+- "Sx"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So7UISceneC"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "So8UIWindowC"
+- "So13UIWindowSceneC"
+- "So32UNUserNotificationCenterDelegateP"
+- "13SpaceTogether14ViewControllerC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "359d3d7a37aa2152e698dff3be80ee61"

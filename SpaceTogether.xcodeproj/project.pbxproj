@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D80592C25A89C0A00BA43FF /* BluetoothDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */; };
 		64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */; };
 		64B1DABB25A83FC2002CBD4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */; };
 		64B1DABD25A83FC2002CBD4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DABC25A83FC2002CBD4C /* ViewController.swift */; };
@@ -23,8 +22,28 @@
 		64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */; };
 		64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */; };
 		64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B1DB0C25A89552002CBD4C /* SwiftGif.swift */; };
-		64B1DB6525A90CE8002CBD4C /* defaultAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64B1DB6425A90CE8002CBD4C /* defaultAudio.mp3 */; };
-		64B1DB6D25A90CF3002CBD4C /* goaway.gif in Resources */ = {isa = PBXBuildFile; fileRef = 64B1DB6C25A90CF3002CBD4C /* goaway.gif */; };
+		D157840625A8AD89003513E8 /* BluetraceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F025A8AD89003513E8 /* BluetraceUtils.swift */; };
+		D157840725A8AD89003513E8 /* BluetraceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F125A8AD89003513E8 /* BluetraceConfig.swift */; };
+		D157840825A8AD89003513E8 /* PeripheralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F225A8AD89003513E8 /* PeripheralController.swift */; };
+		D157840925A8AD89003513E8 /* Encounter+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F425A8AD89003513E8 /* Encounter+Event.swift */; };
+		D157840A25A8AD89003513E8 /* Encounter+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F525A8AD89003513E8 /* Encounter+CoreDataProperties.swift */; };
+		D157840B25A8AD89003513E8 /* Encounter+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783F625A8AD89003513E8 /* Encounter+CoreDataClass.swift */; };
+		D157840C25A8AD89003513E8 /* tracer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D15783F725A8AD89003513E8 /* tracer.xcdatamodeld */; };
+		D157840D25A8AD89003513E8 /* Bluetrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783FA25A8AD89003513E8 /* Bluetrace.swift */; };
+		D157840E25A8AD89003513E8 /* BluetraceV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783FC25A8AD89003513E8 /* BluetraceV2.swift */; };
+		D157840F25A8AD89003513E8 /* BluetraceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783FD25A8AD89003513E8 /* BluetraceProtocol.swift */; };
+		D157841025A8AD89003513E8 /* EncounterMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783FE25A8AD89003513E8 /* EncounterMessageManager.swift */; };
+		D157841125A8AD89003513E8 /* BluetraceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15783FF25A8AD89003513E8 /* BluetraceManager.swift */; };
+		D157841225A8AD89003513E8 /* Encounter+EncounterRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157840125A8AD89003513E8 /* Encounter+EncounterRecord.swift */; };
+		D157841325A8AD89003513E8 /* EncounterRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157840225A8AD89003513E8 /* EncounterRecord.swift */; };
+		D157841425A8AD89003513E8 /* CentralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157840325A8AD89003513E8 /* CentralController.swift */; };
+		D157841525A8AD89003513E8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157840425A8AD89003513E8 /* DeviceInfo.swift */; };
+		D157841625A8AD89003513E8 /* BlueTraceLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157840525A8AD89003513E8 /* BlueTraceLocalNotifications.swift */; };
+		D157841E25A8B005003513E8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157841D25A8B005003513E8 /* Logger.swift */; };
+		D157842325A8B070003513E8 /* PlistHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157842225A8B070003513E8 /* PlistHelper.swift */; };
+		D157842825A8B16B003513E8 /* PushNotificationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D157842725A8B16B003513E8 /* PushNotificationConstants.swift */; };
+		D1C65B8D25A913FD008E200F /* goaway.gif in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B8B25A913FC008E200F /* goaway.gif */; };
+		D1C65B8E25A913FD008E200F /* defaultAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDetector.swift; sourceTree = "<group>"; };
 		64B1DAB525A83FC2002CBD4C /* SpaceTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,8 +85,28 @@
 		64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedViewController.swift; sourceTree = "<group>"; };
 		64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlarmViewController.swift; sourceTree = "<group>"; };
 		64B1DB0C25A89552002CBD4C /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
-		64B1DB6425A90CE8002CBD4C /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defaultAudio.mp3; path = ../../../Downloads/defaultAudio.mp3; sourceTree = "<group>"; };
-		64B1DB6C25A90CF3002CBD4C /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goaway.gif; path = ../../goaway.gif; sourceTree = "<group>"; };
+		D15783F025A8AD89003513E8 /* BluetraceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceUtils.swift; sourceTree = "<group>"; };
+		D15783F125A8AD89003513E8 /* BluetraceConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceConfig.swift; sourceTree = "<group>"; };
+		D15783F225A8AD89003513E8 /* PeripheralController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralController.swift; sourceTree = "<group>"; };
+		D15783F425A8AD89003513E8 /* Encounter+Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encounter+Event.swift"; sourceTree = "<group>"; };
+		D15783F525A8AD89003513E8 /* Encounter+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encounter+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D15783F625A8AD89003513E8 /* Encounter+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encounter+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D15783F825A8AD89003513E8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D15783FA25A8AD89003513E8 /* Bluetrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetrace.swift; sourceTree = "<group>"; };
+		D15783FC25A8AD89003513E8 /* BluetraceV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceV2.swift; sourceTree = "<group>"; };
+		D15783FD25A8AD89003513E8 /* BluetraceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceProtocol.swift; sourceTree = "<group>"; };
+		D15783FE25A8AD89003513E8 /* EncounterMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncounterMessageManager.swift; sourceTree = "<group>"; };
+		D15783FF25A8AD89003513E8 /* BluetraceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetraceManager.swift; sourceTree = "<group>"; };
+		D157840125A8AD89003513E8 /* Encounter+EncounterRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encounter+EncounterRecord.swift"; sourceTree = "<group>"; };
+		D157840225A8AD89003513E8 /* EncounterRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncounterRecord.swift; sourceTree = "<group>"; };
+		D157840325A8AD89003513E8 /* CentralController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralController.swift; sourceTree = "<group>"; };
+		D157840425A8AD89003513E8 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		D157840525A8AD89003513E8 /* BlueTraceLocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTraceLocalNotifications.swift; sourceTree = "<group>"; };
+		D157841D25A8B005003513E8 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D157842225A8B070003513E8 /* PlistHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistHelper.swift; sourceTree = "<group>"; };
+		D157842725A8B16B003513E8 /* PushNotificationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationConstants.swift; sourceTree = "<group>"; };
+		D1C65B8B25A913FC008E200F /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goaway.gif; path = ../../Downloads/goaway.gif; sourceTree = "<group>"; };
+		D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defaultAudio.mp3; path = ../../Downloads/defaultAudio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,17 +157,20 @@
 		64B1DAB725A83FC2002CBD4C /* SpaceTogether */ = {
 			isa = PBXGroup;
 			children = (
-				2D80592B25A89C0A00BA43FF /* BluetoothDetector.swift */,
+				D15783EF25A8AD89003513E8 /* Bluetrace */,
 				64B1DAB825A83FC2002CBD4C /* AppDelegate.swift */,
+				D157842725A8B16B003513E8 /* PushNotificationConstants.swift */,
 				64B1DABA25A83FC2002CBD4C /* SceneDelegate.swift */,
 				64B1DABC25A83FC2002CBD4C /* ViewController.swift */,
+				D157841D25A8B005003513E8 /* Logger.swift */,
 				64B1DAF325A86F16002CBD4C /* SafeViewController.swift */,
+				D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */,
+				D1C65B8B25A913FC008E200F /* goaway.gif */,
 				64B1DB0C25A89552002CBD4C /* SwiftGif.swift */,
 				64B1DB0725A88377002CBD4C /* SelectAlarmViewController.swift */,
 				64B1DB0225A87CC2002CBD4C /* RecordedViewController.swift */,
-				64B1DB6C25A90CF3002CBD4C /* goaway.gif */,
+				D157842225A8B070003513E8 /* PlistHelper.swift */,
 				64B1DAF825A86F35002CBD4C /* AlarmViewController.swift */,
-				64B1DB6425A90CE8002CBD4C /* defaultAudio.mp3 */,
 				64B1DAEE25A86D46002CBD4C /* RecordViewController.swift */,
 				64B1DAFD25A87C88002CBD4C /* RecordingViewController.swift */,
 				64B1DABE25A83FC2002CBD4C /* Main.storyboard */,
@@ -156,6 +197,62 @@
 				64B1DADC25A83FC9002CBD4C /* Info.plist */,
 			);
 			path = SpaceTogetherUITests;
+			sourceTree = "<group>";
+		};
+		D15783EF25A8AD89003513E8 /* Bluetrace */ = {
+			isa = PBXGroup;
+			children = (
+				D15783F025A8AD89003513E8 /* BluetraceUtils.swift */,
+				D15783F125A8AD89003513E8 /* BluetraceConfig.swift */,
+				D15783F225A8AD89003513E8 /* PeripheralController.swift */,
+				D15783F325A8AD89003513E8 /* Models */,
+				D15783F925A8AD89003513E8 /* Protocol */,
+				D15783FE25A8AD89003513E8 /* EncounterMessageManager.swift */,
+				D15783FF25A8AD89003513E8 /* BluetraceManager.swift */,
+				D157840025A8AD89003513E8 /* Structs */,
+				D157840325A8AD89003513E8 /* CentralController.swift */,
+				D157840425A8AD89003513E8 /* DeviceInfo.swift */,
+				D157840525A8AD89003513E8 /* BlueTraceLocalNotifications.swift */,
+			);
+			path = Bluetrace;
+			sourceTree = "<group>";
+		};
+		D15783F325A8AD89003513E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D15783F425A8AD89003513E8 /* Encounter+Event.swift */,
+				D15783F525A8AD89003513E8 /* Encounter+CoreDataProperties.swift */,
+				D15783F625A8AD89003513E8 /* Encounter+CoreDataClass.swift */,
+				D15783F725A8AD89003513E8 /* tracer.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D15783F925A8AD89003513E8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D15783FA25A8AD89003513E8 /* Bluetrace.swift */,
+				D15783FB25A8AD89003513E8 /* v2 */,
+				D15783FD25A8AD89003513E8 /* BluetraceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D15783FB25A8AD89003513E8 /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				D15783FC25A8AD89003513E8 /* BluetraceV2.swift */,
+			);
+			path = v2;
+			sourceTree = "<group>";
+		};
+		D157840025A8AD89003513E8 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				D157840125A8AD89003513E8 /* Encounter+EncounterRecord.swift */,
+				D157840225A8AD89003513E8 /* EncounterRecord.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,11 +358,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B1DB6525A90CE8002CBD4C /* defaultAudio.mp3 in Resources */,
+				D1C65B8E25A913FD008E200F /* defaultAudio.mp3 in Resources */,
 				64B1DAC525A83FC8002CBD4C /* LaunchScreen.storyboard in Resources */,
 				64B1DAC225A83FC8002CBD4C /* Assets.xcassets in Resources */,
+				D1C65B8D25A913FD008E200F /* goaway.gif in Resources */,
 				64B1DAC025A83FC2002CBD4C /* Main.storyboard in Resources */,
-				64B1DB6D25A90CF3002CBD4C /* goaway.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +387,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D157840625A8AD89003513E8 /* BluetraceUtils.swift in Sources */,
+				D157840E25A8AD89003513E8 /* BluetraceV2.swift in Sources */,
+				D157842825A8B16B003513E8 /* PushNotificationConstants.swift in Sources */,
+				D157841325A8AD89003513E8 /* EncounterRecord.swift in Sources */,
 				64B1DABD25A83FC2002CBD4C /* ViewController.swift in Sources */,
+				D157840A25A8AD89003513E8 /* Encounter+CoreDataProperties.swift in Sources */,
 				64B1DB0825A88377002CBD4C /* SelectAlarmViewController.swift in Sources */,
+				D157840825A8AD89003513E8 /* PeripheralController.swift in Sources */,
 				64B1DAF425A86F16002CBD4C /* SafeViewController.swift in Sources */,
 				64B1DAF925A86F35002CBD4C /* AlarmViewController.swift in Sources */,
+				D157840725A8AD89003513E8 /* BluetraceConfig.swift in Sources */,
 				64B1DB0D25A89552002CBD4C /* SwiftGif.swift in Sources */,
+				D157841E25A8B005003513E8 /* Logger.swift in Sources */,
+				D157842325A8B070003513E8 /* PlistHelper.swift in Sources */,
+				D157840925A8AD89003513E8 /* Encounter+Event.swift in Sources */,
+				D157841225A8AD89003513E8 /* Encounter+EncounterRecord.swift in Sources */,
+				D157840F25A8AD89003513E8 /* BluetraceProtocol.swift in Sources */,
+				D157841025A8AD89003513E8 /* EncounterMessageManager.swift in Sources */,
+				D157841525A8AD89003513E8 /* DeviceInfo.swift in Sources */,
 				64B1DAFE25A87C88002CBD4C /* RecordingViewController.swift in Sources */,
+				D157840C25A8AD89003513E8 /* tracer.xcdatamodeld in Sources */,
+				D157841625A8AD89003513E8 /* BlueTraceLocalNotifications.swift in Sources */,
 				64B1DAB925A83FC2002CBD4C /* AppDelegate.swift in Sources */,
-				2D80592C25A89C0A00BA43FF /* BluetoothDetector.swift in Sources */,
+				D157840D25A8AD89003513E8 /* Bluetrace.swift in Sources */,
 				64B1DABB25A83FC2002CBD4C /* SceneDelegate.swift in Sources */,
 				64B1DB0325A87CC2002CBD4C /* RecordedViewController.swift in Sources */,
+				D157841425A8AD89003513E8 /* CentralController.swift in Sources */,
+				D157841125A8AD89003513E8 /* BluetraceManager.swift in Sources */,
 				64B1DAEF25A86D46002CBD4C /* RecordViewController.swift in Sources */,
+				D157840B25A8AD89003513E8 /* Encounter+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,13 +522,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -461,12 +578,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -477,13 +595,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44RWVBRMLR;
+				DEVELOPMENT_TEAM = PUSYV4QUBW;
 				INFOPLIST_FILE = SpaceTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appa.SpaceTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appa.SpaceTogetherKerwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,13 +614,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44RWVBRMLR;
+				DEVELOPMENT_TEAM = PUSYV4QUBW;
 				INFOPLIST_FILE = SpaceTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appa.SpaceTogether;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appa.SpaceTogetherKerwin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,6 +747,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D15783F725A8AD89003513E8 /* tracer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D15783F825A8AD89003513E8 /* Model.xcdatamodel */,
+			);
+			currentVersion = D15783F825A8AD89003513E8 /* Model.xcdatamodel */;
+			path = tracer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 64B1DAAD25A83FC2002CBD4C /* Project object */;
 }

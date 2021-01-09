@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
+options: "22a7eb517a80d52143aebcd36a25787f"
+build_time: [1610125947, 376784000]
+inputs:
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/ViewController.swift": [1610125911, 399822532]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/SelectAlarmViewController.swift": [1610125911, 399239652]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/SafeViewController.swift": [1610120230, 654136469]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/AlarmViewController.swift": [1610125911, 395531432]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/RecordingViewController.swift": [1610125911, 398902256]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/AppDelegate.swift": [1610125911, 395901132]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/BluetoothDetector.swift": [1610125911, 397532596]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/SceneDelegate.swift": [1610114806, 986239000]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/RecordedViewController.swift": [1610125911, 398432698]
+  "/Users/kerwinlim/SpaceTogether/SpaceTogether/RecordViewController.swift": [1610114806, 985513958]

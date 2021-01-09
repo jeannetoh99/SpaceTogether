@@ -1,0 +1,983 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PeripheralCharacteristicsDataV2"
+- "PeripheralController"
+provides-nominal:
+- "13SpaceTogether31PeripheralCharacteristicsDataV2V"
+- "13SpaceTogether20PeripheralControllerC"
+- "13SpaceTogether20PeripheralControllerC0C5ErrorO"
+provides-member:
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", ""]
+- ["13SpaceTogether20PeripheralControllerC", ""]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_readableCharacteristicV2"
+- "characteristicDataV2"
+- "didUpdateState"
+- "getState"
+- "peripheral"
+- "peripheralManager"
+- "peripheralManagerDidUpdateState"
+- "peripheralName"
+- "queue"
+- "readableCharacteristicV2"
+- "restoreIdentifierKey"
+- "turnOff"
+- "turnOn"
+depends-top-level:
+- !private "!="
+- "=="
+- "??"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bluetrace"
+- "BluetraceConfig"
+- !private "BluetraceUtils"
+- !private "BooleanLiteralType"
+- "CBATTRequest"
+- !private "CBAdvertisementDataLocalNameKey"
+- !private "CBAdvertisementDataServiceUUIDsKey"
+- "CBManagerState"
+- "CBMutableCharacteristic"
+- !private "CBMutableService"
+- "CBPeripheralManager"
+- "CBPeripheralManagerDelegate"
+- !private "CBPeripheralManagerOptionRestoreIdentifierKey"
+- "CastingPrecedence"
+- "Codable"
+- !private "DeviceInfo"
+- !private "Dictionary"
+- "DispatchQueue"
+- "Error"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Logger"
+- "NSObject"
+- "PeripheralCharacteristicsDataV2"
+- "PeripheralController"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "didUpdateState"
+- !private "peripheral"
+- !private "peripheralName"
+- !private "readableCharacteristicV2"
+- !private "restoreIdentifierKey"
+- !private "~="
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["13SpaceTogether9BluetraceV", "getImplementation"]
+- !private ["13SpaceTogether15BluetraceConfigV", "BluetoothServiceID"]
+- ["13SpaceTogether15BluetraceConfigV", "CharacteristicServiceIDv2"]
+- !private ["13SpaceTogether15BluetraceConfigV", "OrgID"]
+- !private ["13SpaceTogether15BluetraceConfigV", "ProtocolVersion"]
+- !private ["13SpaceTogether17BluetraceProtocolC", "peripheral"]
+- !private ["13SpaceTogether14BluetraceUtilsC", "managerStateToString"]
+- !private ["So12CBATTRequestC", "characteristic"]
+- !private ["So12CBATTRequestC", "value"]
+- ["So11CBAttributeC", ""]
+- !private ["So11CBAttributeC", "characteristics"]
+- ["So11CBAttributeC", "init"]
+- !private ["So11CBAttributeC", "uuid"]
+- ["So22CBAttributePermissionsV", "ArrayLiteralElement"]
+- ["So22CBAttributePermissionsV", "Element"]
+- ["So22CBAttributePermissionsV", "init"]
+- ["So22CBAttributePermissionsV", "readable"]
+- ["So22CBAttributePermissionsV", "writeable"]
+- ["So16CBCharacteristicC", ""]
+- ["So16CBCharacteristicC", "init"]
+- !private ["So16CBCharacteristicC", "uuid"]
+- ["So26CBCharacteristicPropertiesV", "ArrayLiteralElement"]
+- ["So26CBCharacteristicPropertiesV", "Element"]
+- ["So26CBCharacteristicPropertiesV", "init"]
+- ["So26CBCharacteristicPropertiesV", "read"]
+- ["So26CBCharacteristicPropertiesV", "write"]
+- ["So26CBCharacteristicPropertiesV", "writeWithoutResponse"]
+- ["So9CBManagerC", ""]
+- !private ["So9CBManagerC", "add"]
+- !private ["So9CBManagerC", "addService"]
+- !private ["So9CBManagerC", "init"]
+- !private ["So9CBManagerC", "removeAllServices"]
+- !private ["So9CBManagerC", "respond"]
+- !private ["So9CBManagerC", "respondToRequest"]
+- !private ["So9CBManagerC", "startAdvertising"]
+- !private ["So9CBManagerC", "state"]
+- !private ["So9CBManagerC", "stopAdvertising"]
+- !private ["So14CBManagerStateV", "=="]
+- !private ["So14CBManagerStateV", "RawValue"]
+- !private ["So14CBManagerStateV", "poweredOn"]
+- ["So23CBMutableCharacteristicC", "init"]
+- !private ["So16CBMutableServiceC", "characteristics"]
+- !private ["So16CBMutableServiceC", "init"]
+- !private ["So19CBPeripheralManagerC", "add"]
+- !private ["So19CBPeripheralManagerC", "init"]
+- !private ["So19CBPeripheralManagerC", "removeAllServices"]
+- !private ["So19CBPeripheralManagerC", "respond"]
+- !private ["So19CBPeripheralManagerC", "startAdvertising"]
+- !private ["So19CBPeripheralManagerC", "state"]
+- !private ["So19CBPeripheralManagerC", "stopAdvertising"]
+- ["So27CBPeripheralManagerDelegateP", "$__lazy_storage_$_readableCharacteristicV2"]
+- !private ["So27CBPeripheralManagerDelegateP", "Bluetrace"]
+- ["So27CBPeripheralManagerDelegateP", "BluetraceConfig"]
+- !private ["So27CBPeripheralManagerDelegateP", "BluetraceUtils"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBAdvertisementDataLocalNameKey"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["So27CBPeripheralManagerDelegateP", "CBMutableCharacteristic"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBMutableService"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBPeripheralManager"]
+- !private ["So27CBPeripheralManagerDelegateP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["So27CBPeripheralManagerDelegateP", "DeviceInfo"]
+- !private ["So27CBPeripheralManagerDelegateP", "Logger"]
+- !private ["So27CBPeripheralManagerDelegateP", "PeripheralCharacteristicsDataV2"]
+- !private ["So27CBPeripheralManagerDelegateP", "String"]
+- ["So27CBPeripheralManagerDelegateP", ""]
+- ["So27CBPeripheralManagerDelegateP", "characteristicDataV2"]
+- ["So27CBPeripheralManagerDelegateP", "didUpdateState"]
+- ["So27CBPeripheralManagerDelegateP", "getState"]
+- ["So27CBPeripheralManagerDelegateP", "init"]
+- ["So27CBPeripheralManagerDelegateP", "peripheral"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManager"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerDidStartAdvertising"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerDidUpdateState"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerIsReady"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- ["So27CBPeripheralManagerDelegateP", "peripheralName"]
+- ["So27CBPeripheralManagerDelegateP", "queue"]
+- ["So27CBPeripheralManagerDelegateP", "readableCharacteristicV2"]
+- ["So27CBPeripheralManagerDelegateP", "restoreIdentifierKey"]
+- ["So27CBPeripheralManagerDelegateP", "turnOff"]
+- ["So27CBPeripheralManagerDelegateP", "turnOn"]
+- ["So9CBServiceC", ""]
+- !private ["So9CBServiceC", "characteristics"]
+- !private ["So9CBServiceC", "init"]
+- !private ["So6CBUUIDC", "uuidString"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "Bluetrace"]
+- ["s7CVarArgP", "BluetraceConfig"]
+- !private ["s7CVarArgP", "BluetraceUtils"]
+- !private ["s7CVarArgP", "CBAdvertisementDataLocalNameKey"]
+- !private ["s7CVarArgP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["s7CVarArgP", "CBMutableCharacteristic"]
+- !private ["s7CVarArgP", "CBMutableService"]
+- !private ["s7CVarArgP", "CBPeripheralManager"]
+- !private ["s7CVarArgP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["s7CVarArgP", "DeviceInfo"]
+- !private ["s7CVarArgP", "Logger"]
+- !private ["s7CVarArgP", "PeripheralCharacteristicsDataV2"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "characteristic"]
+- !private ["s7CVarArgP", "characteristicDataV2"]
+- !private ["s7CVarArgP", "characteristics"]
+- !private ["s7CVarArgP", "didUpdateState"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "peripheral"]
+- ["s7CVarArgP", "peripheralManager"]
+- ["s7CVarArgP", "peripheralManagerDidStartAdvertising"]
+- ["s7CVarArgP", "peripheralManagerDidUpdateState"]
+- ["s7CVarArgP", "peripheralManagerIsReady"]
+- ["s7CVarArgP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s7CVarArgP", "peripheralName"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "readableCharacteristicV2"]
+- !private ["s7CVarArgP", "removeAllServices"]
+- !private ["s7CVarArgP", "respond"]
+- !private ["s7CVarArgP", "restoreIdentifierKey"]
+- !private ["s7CVarArgP", "startAdvertising"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stopAdvertising"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uuid"]
+- !private ["s7CVarArgP", "uuidString"]
+- !private ["s7CVarArgP", "value"]
+- !private ["So10CBATTErrorV", "success"]
+- !private ["So10CBATTErrorV", "unlikelyError"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "Bluetrace"]
+- ["s28CustomDebugStringConvertibleP", "BluetraceConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "BluetraceUtils"]
+- !private ["s28CustomDebugStringConvertibleP", "CBAdvertisementDataLocalNameKey"]
+- !private ["s28CustomDebugStringConvertibleP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["s28CustomDebugStringConvertibleP", "CBMutableCharacteristic"]
+- !private ["s28CustomDebugStringConvertibleP", "CBMutableService"]
+- !private ["s28CustomDebugStringConvertibleP", "CBPeripheralManager"]
+- !private ["s28CustomDebugStringConvertibleP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "Logger"]
+- !private ["s28CustomDebugStringConvertibleP", "PeripheralCharacteristicsDataV2"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristic"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristicDataV2"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristics"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "didUpdateState"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheral"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManager"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerDidStartAdvertising"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerDidUpdateState"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerIsReady"]
+- ["s28CustomDebugStringConvertibleP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s28CustomDebugStringConvertibleP", "peripheralName"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "readableCharacteristicV2"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllServices"]
+- !private ["s28CustomDebugStringConvertibleP", "respond"]
+- !private ["s28CustomDebugStringConvertibleP", "restoreIdentifierKey"]
+- !private ["s28CustomDebugStringConvertibleP", "startAdvertising"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAdvertising"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "state"]
+- !private ["s17CustomReflectableP", "stopAdvertising"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Bluetrace"]
+- ["s23CustomStringConvertibleP", "BluetraceConfig"]
+- !private ["s23CustomStringConvertibleP", "BluetraceUtils"]
+- !private ["s23CustomStringConvertibleP", "CBAdvertisementDataLocalNameKey"]
+- !private ["s23CustomStringConvertibleP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["s23CustomStringConvertibleP", "CBMutableCharacteristic"]
+- !private ["s23CustomStringConvertibleP", "CBMutableService"]
+- !private ["s23CustomStringConvertibleP", "CBPeripheralManager"]
+- !private ["s23CustomStringConvertibleP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["s23CustomStringConvertibleP", "DeviceInfo"]
+- !private ["s23CustomStringConvertibleP", "Logger"]
+- !private ["s23CustomStringConvertibleP", "PeripheralCharacteristicsDataV2"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "characteristic"]
+- !private ["s23CustomStringConvertibleP", "characteristicDataV2"]
+- !private ["s23CustomStringConvertibleP", "characteristics"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "didUpdateState"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "peripheral"]
+- ["s23CustomStringConvertibleP", "peripheralManager"]
+- ["s23CustomStringConvertibleP", "peripheralManagerDidStartAdvertising"]
+- ["s23CustomStringConvertibleP", "peripheralManagerDidUpdateState"]
+- ["s23CustomStringConvertibleP", "peripheralManagerIsReady"]
+- ["s23CustomStringConvertibleP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["s23CustomStringConvertibleP", "peripheralName"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "readableCharacteristicV2"]
+- !private ["s23CustomStringConvertibleP", "removeAllServices"]
+- !private ["s23CustomStringConvertibleP", "respond"]
+- !private ["s23CustomStringConvertibleP", "restoreIdentifierKey"]
+- !private ["s23CustomStringConvertibleP", "startAdvertising"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stopAdvertising"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", ""]
+- ["Se", "encode"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "mp"]
+- !private ["Se", "o"]
+- !private ["Se", "state"]
+- !private ["Se", "stopAdvertising"]
+- !private ["Se", "subscript"]
+- !private ["Se", "v"]
+- !private ["s7DecoderP", "container"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["13SpaceTogether10DeviceInfoV", "getModel"]
+- ["SE", ""]
+- ["SE", "encode"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "mp"]
+- !private ["SE", "o"]
+- !private ["SE", "saveToReadData"]
+- !private ["SE", "state"]
+- !private ["SE", "stopAdvertising"]
+- !private ["SE", "subscript"]
+- !private ["SE", "v"]
+- !private ["s7EncoderP", "container"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["13SpaceTogether15EncounterRecordV", "saveToReadData"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Bluetrace"]
+- ["SQ", "BluetraceConfig"]
+- !private ["SQ", "BluetraceUtils"]
+- !private ["SQ", "CBAdvertisementDataLocalNameKey"]
+- !private ["SQ", "CBAdvertisementDataServiceUUIDsKey"]
+- ["SQ", "CBMutableCharacteristic"]
+- !private ["SQ", "CBMutableService"]
+- !private ["SQ", "CBPeripheralManager"]
+- !private ["SQ", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["SQ", "DeviceInfo"]
+- ["SQ", "Element"]
+- !private ["SQ", "Logger"]
+- !private ["SQ", "PeripheralCharacteristicsDataV2"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "add"]
+- !private ["SQ", "characteristic"]
+- !private ["SQ", "characteristicDataV2"]
+- !private ["SQ", "characteristics"]
+- ["SQ", "code"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "didUpdateState"]
+- ["SQ", "domain"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "peripheral"]
+- ["SQ", "peripheralManager"]
+- ["SQ", "peripheralManagerDidStartAdvertising"]
+- ["SQ", "peripheralManagerDidUpdateState"]
+- ["SQ", "peripheralManagerIsReady"]
+- ["SQ", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["SQ", "peripheralName"]
+- !private ["SQ", "poweredOn"]
+- !private ["SQ", "queue"]
+- ["SQ", "read"]
+- ["SQ", "readable"]
+- !private ["SQ", "readableCharacteristicV2"]
+- !private ["SQ", "removeAllServices"]
+- !private ["SQ", "respond"]
+- !private ["SQ", "restoreIdentifierKey"]
+- !private ["SQ", "startAdvertising"]
+- !private ["SQ", "state"]
+- !private ["SQ", "stopAdvertising"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "unlikelyError"]
+- ["SQ", "userInfo"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "value"]
+- ["SQ", "write"]
+- ["SQ", "writeWithoutResponse"]
+- ["SQ", "writeable"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "userInfo"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "read"]
+- ["s25ExpressibleByArrayLiteralP", "readable"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "write"]
+- ["s25ExpressibleByArrayLiteralP", "writeWithoutResponse"]
+- ["s25ExpressibleByArrayLiteralP", "writeable"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "state"]
+- !private ["s23ExpressibleByNilLiteralP", "stopAdvertising"]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "=="]
+- !private ["SH", "Bluetrace"]
+- ["SH", "BluetraceConfig"]
+- !private ["SH", "BluetraceUtils"]
+- !private ["SH", "CBAdvertisementDataLocalNameKey"]
+- !private ["SH", "CBAdvertisementDataServiceUUIDsKey"]
+- ["SH", "CBMutableCharacteristic"]
+- !private ["SH", "CBMutableService"]
+- !private ["SH", "CBPeripheralManager"]
+- !private ["SH", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["SH", "DeviceInfo"]
+- !private ["SH", "Logger"]
+- !private ["SH", "PeripheralCharacteristicsDataV2"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "add"]
+- !private ["SH", "characteristic"]
+- !private ["SH", "characteristicDataV2"]
+- !private ["SH", "characteristics"]
+- ["SH", "code"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "didUpdateState"]
+- ["SH", "domain"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "peripheral"]
+- ["SH", "peripheralManager"]
+- ["SH", "peripheralManagerDidStartAdvertising"]
+- ["SH", "peripheralManagerDidUpdateState"]
+- ["SH", "peripheralManagerIsReady"]
+- ["SH", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["SH", "peripheralName"]
+- !private ["SH", "poweredOn"]
+- !private ["SH", "queue"]
+- !private ["SH", "readableCharacteristicV2"]
+- !private ["SH", "removeAllServices"]
+- !private ["SH", "respond"]
+- !private ["SH", "restoreIdentifierKey"]
+- !private ["SH", "startAdvertising"]
+- !private ["SH", "state"]
+- !private ["SH", "stopAdvertising"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "unlikelyError"]
+- ["SH", "userInfo"]
+- !private ["SH", "utf8"]
+- !private ["SH", "uuid"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "value"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["13SpaceTogether6LoggerC", "DLog"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So9NSCopyingP", "uuidString"]
+- ["So8NSObjectC", "$__lazy_storage_$_readableCharacteristicV2"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Bluetrace"]
+- ["So8NSObjectC", "BluetraceConfig"]
+- !private ["So8NSObjectC", "BluetraceUtils"]
+- ["So8NSObjectC", "CBATTRequest"]
+- !private ["So8NSObjectC", "CBAdvertisementDataLocalNameKey"]
+- !private ["So8NSObjectC", "CBAdvertisementDataServiceUUIDsKey"]
+- ["So8NSObjectC", "CBManagerState"]
+- ["So8NSObjectC", "CBMutableCharacteristic"]
+- !private ["So8NSObjectC", "CBMutableService"]
+- ["So8NSObjectC", "CBPeripheralManager"]
+- !private ["So8NSObjectC", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["So8NSObjectC", "DeviceInfo"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "Logger"]
+- ["So8NSObjectC", "PeripheralCharacteristicsDataV2"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "__lazy_storage_$_readableCharacteristicV2"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addService"]
+- !private ["So8NSObjectC", "characteristic"]
+- ["So8NSObjectC", "characteristicDataV2"]
+- !private ["So8NSObjectC", "characteristics"]
+- ["So8NSObjectC", "didUpdateState"]
+- ["So8NSObjectC", "getState"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "peripheral"]
+- ["So8NSObjectC", "peripheralManager"]
+- ["So8NSObjectC", "peripheralManagerDidStartAdvertising"]
+- ["So8NSObjectC", "peripheralManagerDidUpdateState"]
+- ["So8NSObjectC", "peripheralManagerIsReady"]
+- ["So8NSObjectC", "peripheralManagerIsReadyToUpdateSubscribers"]
+- ["So8NSObjectC", "peripheralName"]
+- ["So8NSObjectC", "queue"]
+- ["So8NSObjectC", "readableCharacteristicV2"]
+- !private ["So8NSObjectC", "removeAllServices"]
+- !private ["So8NSObjectC", "respond"]
+- !private ["So8NSObjectC", "respondToRequest"]
+- ["So8NSObjectC", "restoreIdentifierKey"]
+- !private ["So8NSObjectC", "startAdvertising"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "stopAdvertising"]
+- ["So8NSObjectC", "turnOff"]
+- ["So8NSObjectC", "turnOn"]
+- !private ["So8NSObjectC", "uuid"]
+- !private ["So8NSObjectC", "uuidString"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectP", "$__lazy_storage_$_readableCharacteristicV2"]
+- !private ["So8NSObjectP", "AnyObject"]
+- !private ["So8NSObjectP", "Bluetrace"]
+- ["So8NSObjectP", "BluetraceConfig"]
+- !private ["So8NSObjectP", "BluetraceUtils"]
+- ["So8NSObjectP", "CBATTRequest"]
+- !private ["So8NSObjectP", "CBAdvertisementDataLocalNameKey"]
+- !private ["So8NSObjectP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["So8NSObjectP", "CBManagerState"]
+- ["So8NSObjectP", "CBMutableCharacteristic"]
+- !private ["So8NSObjectP", "CBMutableService"]
+- ["So8NSObjectP", "CBPeripheralManager"]
+- !private ["So8NSObjectP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["So8NSObjectP", "DeviceInfo"]
+- ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "Error"]
+- !private ["So8NSObjectP", "Logger"]
+- ["So8NSObjectP", "PeripheralCharacteristicsDataV2"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "__lazy_storage_$_readableCharacteristicV2"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addService"]
+- !private ["So8NSObjectP", "characteristic"]
+- ["So8NSObjectP", "characteristicDataV2"]
+- !private ["So8NSObjectP", "characteristics"]
+- ["So8NSObjectP", "didUpdateState"]
+- ["So8NSObjectP", "getState"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "peripheral"]
+- ["So8NSObjectP", "peripheralManager"]
+- ["So8NSObjectP", "peripheralManagerDidStartAdvertising"]
+- ["So8NSObjectP", "peripheralManagerDidUpdateState"]
+- ["So8NSObjectP", "peripheralManagerIsReady"]
+- ["So8NSObjectP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- ["So8NSObjectP", "peripheralName"]
+- ["So8NSObjectP", "queue"]
+- ["So8NSObjectP", "readableCharacteristicV2"]
+- !private ["So8NSObjectP", "removeAllServices"]
+- !private ["So8NSObjectP", "respond"]
+- !private ["So8NSObjectP", "respondToRequest"]
+- ["So8NSObjectP", "restoreIdentifierKey"]
+- !private ["So8NSObjectP", "startAdvertising"]
+- !private ["So8NSObjectP", "state"]
+- !private ["So8NSObjectP", "stopAdvertising"]
+- ["So8NSObjectP", "turnOff"]
+- ["So8NSObjectP", "turnOn"]
+- !private ["So8NSObjectP", "uuid"]
+- !private ["So8NSObjectP", "uuidString"]
+- !private ["So8NSObjectP", "value"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "read"]
+- ["s9OptionSetP", "readable"]
+- ["s9OptionSetP", "write"]
+- ["s9OptionSetP", "writeWithoutResponse"]
+- ["s9OptionSetP", "writeable"]
+- !private ["Sq", "state"]
+- !private ["Sq", "stopAdvertising"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "CodingKeys"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "Int"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "String"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", ""]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "encode"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "id"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "init"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "mp"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "o"]
+- ["13SpaceTogether31PeripheralCharacteristicsDataV2V", "v"]
+- !private ["13SpaceTogether20PeripheralControllerC", "$__lazy_storage_$_readableCharacteristicV2"]
+- !private ["13SpaceTogether20PeripheralControllerC", "AnyObject"]
+- !private ["13SpaceTogether20PeripheralControllerC", "Bluetrace"]
+- ["13SpaceTogether20PeripheralControllerC", "BluetraceConfig"]
+- !private ["13SpaceTogether20PeripheralControllerC", "BluetraceUtils"]
+- ["13SpaceTogether20PeripheralControllerC", "CBATTRequest"]
+- !private ["13SpaceTogether20PeripheralControllerC", "CBAdvertisementDataLocalNameKey"]
+- !private ["13SpaceTogether20PeripheralControllerC", "CBAdvertisementDataServiceUUIDsKey"]
+- ["13SpaceTogether20PeripheralControllerC", "CBManagerState"]
+- ["13SpaceTogether20PeripheralControllerC", "CBMutableCharacteristic"]
+- !private ["13SpaceTogether20PeripheralControllerC", "CBMutableService"]
+- ["13SpaceTogether20PeripheralControllerC", "CBPeripheralManager"]
+- !private ["13SpaceTogether20PeripheralControllerC", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["13SpaceTogether20PeripheralControllerC", "DeviceInfo"]
+- ["13SpaceTogether20PeripheralControllerC", "DispatchQueue"]
+- ["13SpaceTogether20PeripheralControllerC", "Error"]
+- !private ["13SpaceTogether20PeripheralControllerC", "Logger"]
+- ["13SpaceTogether20PeripheralControllerC", "PeripheralCharacteristicsDataV2"]
+- ["13SpaceTogether20PeripheralControllerC", "PeripheralError"]
+- ["13SpaceTogether20PeripheralControllerC", "String"]
+- ["13SpaceTogether20PeripheralControllerC", "Void"]
+- ["13SpaceTogether20PeripheralControllerC", ""]
+- !private ["13SpaceTogether20PeripheralControllerC", "characteristicDataV2"]
+- ["13SpaceTogether20PeripheralControllerC", "deinit"]
+- ["13SpaceTogether20PeripheralControllerC", "didUpdateState"]
+- ["13SpaceTogether20PeripheralControllerC", "getState"]
+- ["13SpaceTogether20PeripheralControllerC", "init"]
+- !private ["13SpaceTogether20PeripheralControllerC", "peripheral"]
+- ["13SpaceTogether20PeripheralControllerC", "peripheralManager"]
+- ["13SpaceTogether20PeripheralControllerC", "peripheralManagerDidStartAdvertising"]
+- ["13SpaceTogether20PeripheralControllerC", "peripheralManagerDidUpdateState"]
+- ["13SpaceTogether20PeripheralControllerC", "peripheralManagerIsReady"]
+- ["13SpaceTogether20PeripheralControllerC", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["13SpaceTogether20PeripheralControllerC", "peripheralName"]
+- !private ["13SpaceTogether20PeripheralControllerC", "queue"]
+- !private ["13SpaceTogether20PeripheralControllerC", "readableCharacteristicV2"]
+- !private ["13SpaceTogether20PeripheralControllerC", "restoreIdentifierKey"]
+- ["13SpaceTogether20PeripheralControllerC", "turnOff"]
+- ["13SpaceTogether20PeripheralControllerC", "turnOn"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "=="]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", ""]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "__derived_enum_equals"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "_code"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "_domain"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "_getEmbeddedNSError"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "_rawHashValue"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "_userInfo"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "code"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "domain"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "hash"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "hashValue"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "peripheralAlreadyOff"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "peripheralAlreadyOn"]
+- ["13SpaceTogether20PeripheralControllerC0C5ErrorO", "userInfo"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "prepareReadRequestData"]
+- !private ["13SpaceTogether18PeripheralProtocolP", "processWriteRequestDataReceived"]
+- !private ["Sk", ""]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "=="]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- !private ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "init"]
+- !private ["SY", "poweredOn"]
+- ["SY", "read"]
+- ["SY", "readable"]
+- !private ["SY", "success"]
+- !private ["SY", "unlikelyError"]
+- !private ["SY", "utf8"]
+- ["SY", "write"]
+- ["SY", "writeWithoutResponse"]
+- ["SY", "writeable"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "read"]
+- ["s10SetAlgebraP", "readable"]
+- ["s10SetAlgebraP", "write"]
+- ["s10SetAlgebraP", "writeWithoutResponse"]
+- ["s10SetAlgebraP", "writeable"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "success"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "unlikelyError"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bluetrace"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BluetraceConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BluetraceUtils"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBAdvertisementDataLocalNameKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CBMutableCharacteristic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBMutableService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBPeripheralManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Logger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PeripheralCharacteristicsDataV2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristicDataV2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didUpdateState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheral"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerDidStartAdvertising"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerDidUpdateState"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerIsReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peripheralName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readableCharacteristicV2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllServices"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "respond"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "restoreIdentifierKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAdvertising"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAdvertising"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uuidString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bluetrace"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetraceConfig"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetraceUtils"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBAdvertisementDataLocalNameKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBAdvertisementDataServiceUUIDsKey"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBMutableCharacteristic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBMutableService"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBPeripheralManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CBPeripheralManagerOptionRestoreIdentifierKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DeviceInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Logger"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PeripheralCharacteristicsDataV2"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "characteristic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "characteristicDataV2"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "characteristics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didUpdateState"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheral"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralManager"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralManagerDidStartAdvertising"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralManagerDidUpdateState"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralManagerIsReady"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralManagerIsReadyToUpdateSubscribers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "peripheralName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readableCharacteristicV2"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllServices"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "respond"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "restoreIdentifierKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAdvertising"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAdvertising"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uuid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uuidString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "state"]
+- !private ["s21_ObjectiveCBridgeableP", "stopAdvertising"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "13SpaceTogether9BluetraceV"
+- "13SpaceTogether15BluetraceConfigV"
+- !private "13SpaceTogether17BluetraceProtocolC"
+- !private "13SpaceTogether14BluetraceUtilsC"
+- !private "So12CBATTRequestC"
+- "So11CBAttributeC"
+- "So22CBAttributePermissionsV"
+- "So16CBCharacteristicC"
+- "So26CBCharacteristicPropertiesV"
+- "So9CBManagerC"
+- !private "So14CBManagerStateV"
+- "So23CBMutableCharacteristicC"
+- !private "So16CBMutableServiceC"
+- !private "So19CBPeripheralManagerC"
+- "So27CBPeripheralManagerDelegateP"
+- "So9CBServiceC"
+- !private "So6CBUUIDC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "So10CBATTErrorV"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s26DefaultStringInterpolationV"
+- !private "13SpaceTogether10DeviceInfoV"
+- "SE"
+- !private "s7EncoderP"
+- !private "SS10FoundationE8EncodingV"
+- !private "13SpaceTogether15EncounterRecordV"
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "13SpaceTogether6LoggerC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "s9OptionSetP"
+- !private "Sq"
+- "13SpaceTogether31PeripheralCharacteristicsDataV2V"
+- "13SpaceTogether20PeripheralControllerC"
+- "13SpaceTogether20PeripheralControllerC0C5ErrorO"
+- !private "13SpaceTogether18PeripheralProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "s10SetAlgebraP"
+- !private "SS"
+- "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "81dcd63a45b9e616e2b2c46ff8b86bd6"

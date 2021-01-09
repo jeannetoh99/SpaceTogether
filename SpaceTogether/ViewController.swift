@@ -10,7 +10,7 @@ import CoreData
 import CoreBluetooth
 
 class ViewController: UIViewController {
-    var bluetoothDetector : BluetoothDetector!
+    //var bluetoothDetector : BluetoothDetector!
     
     let keyWindow = UIApplication.shared.connectedScenes
             .filter({$0.activationState == .foregroundActive})
@@ -21,12 +21,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        bluetoothDetector = BluetoothDetector()
+        //bluetoothDetector = BluetoothDetector()
 
         // Do any additional setup after loading the view.
         print("View has loaded :)")
-        
-        //TODO: off bluetooth detector
+        BluetraceManager.shared.turnOn()
+        registerForPushNotifications()
+        let blePoweredOn = BluetraceManager.shared.isBluetoothOn()
+        let bleAuthorized = BluetraceManager.shared.isBluetoothAuthorized()
+        BlueTraceLocalNotifications.shared.checkAuthorization { (granted) in
+            if granted && blePoweredOn && bleAuthorized {
+                print("Bluetooth On!")
+            }
+        }
     }
     
     @IBAction func shieldMeNowButtonPressed(_ sender: UIButton) {
@@ -42,5 +49,10 @@ class ViewController: UIViewController {
     @IBAction func unwind( _ seg: UIStoryboardSegue) {
         print("unwind to home page")
     }
-
+    
+    func registerForPushNotifications() {
+        BlueTraceLocalNotifications.shared.checkAuthorization { (_) in
+            //Make updates to VCs if any here.
+        }
+    }
 }

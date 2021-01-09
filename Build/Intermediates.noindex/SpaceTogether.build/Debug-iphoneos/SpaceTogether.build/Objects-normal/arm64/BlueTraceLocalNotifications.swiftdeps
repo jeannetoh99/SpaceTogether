@@ -1,0 +1,916 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlueTraceLocalNotifications"
+provides-nominal:
+- "13SpaceTogether27BlueTraceLocalNotificationsC"
+provides-member:
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", ""]
+provides-dynamic-lookup:
+- "checkAuthorization"
+- "initialConfiguration"
+- "removePendingNotificationRequests"
+- "setupBluetoothPNStatusCallback"
+- "shared"
+- "triggerCalendarLocalPushNotifications"
+- "triggerIntervalLocalPushNotifications"
+- "userNotificationCenter"
+depends-top-level:
+- "!"
+- "&&"
+- !private "-"
+- !private "..."
+- !private "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BlueTraceLocalNotifications"
+- "BluetraceManager"
+- "Bool"
+- "BooleanLiteralType"
+- !private "DateComponents"
+- !private "Dictionary"
+- "DispatchQueue"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "NSObject"
+- "PushNotificationConstants"
+- "String"
+- "StringLiteralType"
+- !private "UIApplication"
+- !private "UNCalendarNotificationTrigger"
+- !private "UNMutableNotificationContent"
+- "UNNotification"
+- "UNNotificationPresentationOptions"
+- !private "UNNotificationRequest"
+- "UNNotificationResponse"
+- !private "UNTimeIntervalNotificationTrigger"
+- "UNUserNotificationCenter"
+- "UNUserNotificationCenterDelegate"
+- !private "URL"
+- "UserDefaults"
+- "Void"
+- "print"
+- !private "setupBluetoothPNStatusCallback"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "random"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["Sz", ""]
+- !private ["Sz", "random"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "BlueTraceLocalNotifications"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "BluetraceManager"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "Bool"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "DateComponents"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "DispatchQueue"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "Int"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "PushNotificationConstants"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "String"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UIApplication"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNCalendarNotificationTrigger"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNMutableNotificationContent"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNNotification"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNNotificationPresentationOptions"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNNotificationRequest"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNNotificationResponse"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNTimeIntervalNotificationTrigger"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "UNUserNotificationCenter"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "URL"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "UserDefaults"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "Void"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", ""]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "checkAuthorization"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "deinit"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "init"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "initialConfiguration"]
+- !private ["13SpaceTogether27BlueTraceLocalNotificationsC", "print"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "removePendingNotificationRequests"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "setupBluetoothPNStatusCallback"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "shared"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "triggerCalendarLocalPushNotifications"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "triggerIntervalLocalPushNotifications"]
+- ["13SpaceTogether27BlueTraceLocalNotificationsC", "userNotificationCenter"]
+- !private ["13SpaceTogether16BluetraceManagerC", "bluetoothDidUpdateStateCallback"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothAuthorized"]
+- !private ["13SpaceTogether16BluetraceManagerC", "isBluetoothOn"]
+- !private ["13SpaceTogether16BluetraceManagerC", "shared"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "random"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- ["s7CVarArgP", "BlueTraceLocalNotifications"]
+- !private ["s7CVarArgP", "BluetraceManager"]
+- !private ["s7CVarArgP", "DateComponents"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "PushNotificationConstants"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UNCalendarNotificationTrigger"]
+- !private ["s7CVarArgP", "UNMutableNotificationContent"]
+- !private ["s7CVarArgP", "UNNotificationRequest"]
+- !private ["s7CVarArgP", "UNTimeIntervalNotificationTrigger"]
+- !private ["s7CVarArgP", "UNUserNotificationCenter"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "body"]
+- !private ["s7CVarArgP", "bool"]
+- !private ["s7CVarArgP", "checkAuthorization"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialConfiguration"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notification"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "openSettingsURLString"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "random"]
+- !private ["s7CVarArgP", "removeAllPendingNotificationRequests"]
+- !private ["s7CVarArgP", "removePendingNotificationRequests"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "setupBluetoothPNStatusCallback"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "triggerCalendarLocalPushNotifications"]
+- !private ["s7CVarArgP", "triggerIntervalLocalPushNotifications"]
+- ["s7CVarArgP", "userNotificationCenter"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "random"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "BluetraceManager"]
+- !private ["s28CustomDebugStringConvertibleP", "DateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "PushNotificationConstants"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UNCalendarNotificationTrigger"]
+- !private ["s28CustomDebugStringConvertibleP", "UNMutableNotificationContent"]
+- !private ["s28CustomDebugStringConvertibleP", "UNNotificationRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "UNTimeIntervalNotificationTrigger"]
+- !private ["s28CustomDebugStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "body"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "checkAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "hour"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notification"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "openSettingsURLString"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAllPendingNotificationRequests"]
+- !private ["s28CustomDebugStringConvertibleP", "removePendingNotificationRequests"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "setupBluetoothPNStatusCallback"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "triggerCalendarLocalPushNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "triggerIntervalLocalPushNotifications"]
+- ["s28CustomDebugStringConvertibleP", "userNotificationCenter"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "hour"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "BlueTraceLocalNotifications"]
+- !private ["s23CustomStringConvertibleP", "BluetraceManager"]
+- !private ["s23CustomStringConvertibleP", "DateComponents"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "PushNotificationConstants"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UNCalendarNotificationTrigger"]
+- !private ["s23CustomStringConvertibleP", "UNMutableNotificationContent"]
+- !private ["s23CustomStringConvertibleP", "UNNotificationRequest"]
+- !private ["s23CustomStringConvertibleP", "UNTimeIntervalNotificationTrigger"]
+- !private ["s23CustomStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "checkAuthorization"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "hour"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialConfiguration"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notification"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "openSettingsURLString"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "removeAllPendingNotificationRequests"]
+- !private ["s23CustomStringConvertibleP", "removePendingNotificationRequests"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "setupBluetoothPNStatusCallback"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "triggerCalendarLocalPushNotifications"]
+- !private ["s23CustomStringConvertibleP", "triggerIntervalLocalPushNotifications"]
+- ["s23CustomStringConvertibleP", "userNotificationCenter"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation14DateComponentsV", "hour"]
+- !private ["10Foundation14DateComponentsV", "init"]
+- !private ["Se", "count"]
+- !private ["Se", "hour"]
+- !private ["Se", "init"]
+- !private ["Se", "random"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "count"]
+- !private ["SE", "hour"]
+- !private ["SE", "init"]
+- !private ["SE", "random"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "ArrayLiteralElement"]
+- ["SQ", "BlueTraceLocalNotifications"]
+- !private ["SQ", "BluetraceManager"]
+- !private ["SQ", "DateComponents"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "Element"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "PushNotificationConstants"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UNCalendarNotificationTrigger"]
+- !private ["SQ", "UNMutableNotificationContent"]
+- !private ["SQ", "UNNotificationRequest"]
+- !private ["SQ", "UNTimeIntervalNotificationTrigger"]
+- !private ["SQ", "UNUserNotificationCenter"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "alert"]
+- !private ["SQ", "async"]
+- !private ["SQ", "badge"]
+- !private ["SQ", "body"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "checkAuthorization"]
+- !private ["SQ", "count"]
+- !private ["SQ", "current"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "hour"]
+- !private ["SQ", "identifier"]
+- ["SQ", "init"]
+- !private ["SQ", "initialConfiguration"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notification"]
+- !private ["SQ", "open"]
+- !private ["SQ", "openSettingsURLString"]
+- !private ["SQ", "print"]
+- !private ["SQ", "random"]
+- !private ["SQ", "removeAllPendingNotificationRequests"]
+- !private ["SQ", "removePendingNotificationRequests"]
+- !private ["SQ", "request"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "set"]
+- !private ["SQ", "setupBluetoothPNStatusCallback"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sound"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "title"]
+- !private ["SQ", "triggerCalendarLocalPushNotifications"]
+- !private ["SQ", "triggerIntervalLocalPushNotifications"]
+- ["SQ", "userNotificationCenter"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "alert"]
+- !private ["s25ExpressibleByArrayLiteralP", "badge"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "sound"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- ["SH", "BlueTraceLocalNotifications"]
+- !private ["SH", "BluetraceManager"]
+- !private ["SH", "DateComponents"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "Int"]
+- !private ["SH", "PushNotificationConstants"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UNCalendarNotificationTrigger"]
+- !private ["SH", "UNMutableNotificationContent"]
+- !private ["SH", "UNNotificationRequest"]
+- !private ["SH", "UNTimeIntervalNotificationTrigger"]
+- !private ["SH", "UNUserNotificationCenter"]
+- !private ["SH", "URL"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "async"]
+- !private ["SH", "body"]
+- !private ["SH", "bool"]
+- !private ["SH", "checkAuthorization"]
+- !private ["SH", "count"]
+- !private ["SH", "current"]
+- !private ["SH", "delegate"]
+- !private ["SH", "hour"]
+- !private ["SH", "identifier"]
+- ["SH", "init"]
+- !private ["SH", "initialConfiguration"]
+- !private ["SH", "main"]
+- !private ["SH", "notification"]
+- !private ["SH", "open"]
+- !private ["SH", "openSettingsURLString"]
+- !private ["SH", "print"]
+- !private ["SH", "random"]
+- !private ["SH", "removeAllPendingNotificationRequests"]
+- !private ["SH", "removePendingNotificationRequests"]
+- !private ["SH", "request"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "set"]
+- !private ["SH", "setupBluetoothPNStatusCallback"]
+- !private ["SH", "shared"]
+- !private ["SH", "standard"]
+- !private ["SH", "subscript"]
+- !private ["SH", "title"]
+- !private ["SH", "triggerCalendarLocalPushNotifications"]
+- !private ["SH", "triggerIntervalLocalPushNotifications"]
+- ["SH", "userNotificationCenter"]
+- !private ["Si", "random"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "body"]
+- !private ["So8NSCodingP", "identifier"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "notification"]
+- !private ["So8NSCodingP", "request"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "triggerWithDateMatchingComponents"]
+- !private ["So8NSCodingP", "triggerWithTimeInterval"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "body"]
+- !private ["So9NSCopyingP", "identifier"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "notification"]
+- !private ["So9NSCopyingP", "request"]
+- !private ["So9NSCopyingP", "title"]
+- !private ["So9NSCopyingP", "triggerWithDateMatchingComponents"]
+- !private ["So9NSCopyingP", "triggerWithTimeInterval"]
+- !private ["So16NSMutableCopyingP", ""]
+- !private ["So16NSMutableCopyingP", "body"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "title"]
+- ["So8NSObjectC", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectC", "BluetraceManager"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "DateComponents"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "PushNotificationConstants"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UNCalendarNotificationTrigger"]
+- !private ["So8NSObjectC", "UNMutableNotificationContent"]
+- ["So8NSObjectC", "UNNotification"]
+- ["So8NSObjectC", "UNNotificationPresentationOptions"]
+- !private ["So8NSObjectC", "UNNotificationRequest"]
+- ["So8NSObjectC", "UNNotificationResponse"]
+- !private ["So8NSObjectC", "UNTimeIntervalNotificationTrigger"]
+- ["So8NSObjectC", "UNUserNotificationCenter"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addNotificationRequest"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "body"]
+- !private ["So8NSObjectC", "bool"]
+- !private ["So8NSObjectC", "boolForKey"]
+- ["So8NSObjectC", "checkAuthorization"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "currentNotificationCenter"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialConfiguration"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notification"]
+- !private ["So8NSObjectC", "open"]
+- !private ["So8NSObjectC", "openSettingsURLString"]
+- !private ["So8NSObjectC", "openURL"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "removeAllPendingNotificationRequests"]
+- ["So8NSObjectC", "removePendingNotificationRequests"]
+- !private ["So8NSObjectC", "request"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "requestAuthorizationWithOptions"]
+- !private ["So8NSObjectC", "requestWithIdentifier"]
+- !private ["So8NSObjectC", "set"]
+- ["So8NSObjectC", "setupBluetoothPNStatusCallback"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "triggerCalendarLocalPushNotifications"]
+- ["So8NSObjectC", "triggerIntervalLocalPushNotifications"]
+- !private ["So8NSObjectC", "triggerWithDateMatchingComponents"]
+- !private ["So8NSObjectC", "triggerWithTimeInterval"]
+- ["So8NSObjectC", "userNotificationCenter"]
+- ["So8NSObjectP", "BlueTraceLocalNotifications"]
+- !private ["So8NSObjectP", "BluetraceManager"]
+- ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "DateComponents"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "PushNotificationConstants"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UNCalendarNotificationTrigger"]
+- !private ["So8NSObjectP", "UNMutableNotificationContent"]
+- ["So8NSObjectP", "UNNotification"]
+- ["So8NSObjectP", "UNNotificationPresentationOptions"]
+- !private ["So8NSObjectP", "UNNotificationRequest"]
+- ["So8NSObjectP", "UNNotificationResponse"]
+- !private ["So8NSObjectP", "UNTimeIntervalNotificationTrigger"]
+- ["So8NSObjectP", "UNUserNotificationCenter"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addNotificationRequest"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "body"]
+- !private ["So8NSObjectP", "bool"]
+- !private ["So8NSObjectP", "boolForKey"]
+- ["So8NSObjectP", "checkAuthorization"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "currentNotificationCenter"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "identifier"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "initialConfiguration"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "notification"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "openSettingsURLString"]
+- !private ["So8NSObjectP", "openURL"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeAllPendingNotificationRequests"]
+- ["So8NSObjectP", "removePendingNotificationRequests"]
+- !private ["So8NSObjectP", "request"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "requestAuthorizationWithOptions"]
+- !private ["So8NSObjectP", "requestWithIdentifier"]
+- !private ["So8NSObjectP", "set"]
+- ["So8NSObjectP", "setupBluetoothPNStatusCallback"]
+- ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "triggerCalendarLocalPushNotifications"]
+- ["So8NSObjectP", "triggerIntervalLocalPushNotifications"]
+- !private ["So8NSObjectP", "triggerWithDateMatchingComponents"]
+- !private ["So8NSObjectP", "triggerWithTimeInterval"]
+- ["So8NSObjectP", "userNotificationCenter"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "body"]
+- !private ["So14NSSecureCodingP", "identifier"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "notification"]
+- !private ["So14NSSecureCodingP", "request"]
+- !private ["So14NSSecureCodingP", "title"]
+- !private ["So14NSSecureCodingP", "triggerWithDateMatchingComponents"]
+- !private ["So14NSSecureCodingP", "triggerWithTimeInterval"]
+- !private ["Sj", ""]
+- !private ["Sj", "random"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "alert"]
+- !private ["s9OptionSetP", "badge"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "sound"]
+- !private ["13SpaceTogether25PushNotificationConstantsV", "btStatusPushNotifContents"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "alert"]
+- !private ["SY", "badge"]
+- !private ["SY", "init"]
+- !private ["SY", "sound"]
+- !private ["10Foundation20ReferenceConvertibleP", "hour"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "alert"]
+- !private ["s10SetAlgebraP", "badge"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "sound"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "random"]
+- !private ["Sx", ""]
+- !private ["Sx", "random"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "openSettingsURLString"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "openSettingsURLString"]
+- !private ["So30UIPasteConfigurationSupportingP", "openURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "open"]
+- !private ["So11UIResponderC", "openSettingsURLString"]
+- !private ["So11UIResponderC", "openURL"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "openSettingsURLString"]
+- !private ["So30UIResponderStandardEditActionsP", "openURL"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "openSettingsURLString"]
+- !private ["So23UIUserActivityRestoringP", "openURL"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So22UNAuthorizationOptionsV", "ArrayLiteralElement"]
+- !private ["So22UNAuthorizationOptionsV", "Element"]
+- !private ["So22UNAuthorizationOptionsV", "alert"]
+- !private ["So22UNAuthorizationOptionsV", "badge"]
+- !private ["So22UNAuthorizationOptionsV", "init"]
+- !private ["So22UNAuthorizationOptionsV", "sound"]
+- !private ["So29UNCalendarNotificationTriggerC", "init"]
+- !private ["So28UNMutableNotificationContentC", "body"]
+- !private ["So28UNMutableNotificationContentC", "init"]
+- !private ["So28UNMutableNotificationContentC", "title"]
+- !private ["So14UNNotificationC", "request"]
+- ["So21UNNotificationContentC", ""]
+- !private ["So21UNNotificationContentC", "body"]
+- !private ["So21UNNotificationContentC", "init"]
+- !private ["So21UNNotificationContentC", "title"]
+- !private ["So33UNNotificationPresentationOptionsV", "ArrayLiteralElement"]
+- !private ["So33UNNotificationPresentationOptionsV", "Element"]
+- !private ["So33UNNotificationPresentationOptionsV", "alert"]
+- !private ["So33UNNotificationPresentationOptionsV", "badge"]
+- !private ["So33UNNotificationPresentationOptionsV", "init"]
+- !private ["So33UNNotificationPresentationOptionsV", "sound"]
+- !private ["So21UNNotificationRequestC", "identifier"]
+- !private ["So21UNNotificationRequestC", "init"]
+- !private ["So22UNNotificationResponseC", "notification"]
+- ["So21UNNotificationTriggerC", ""]
+- !private ["So21UNNotificationTriggerC", "init"]
+- !private ["So21UNNotificationTriggerC", "triggerWithDateMatchingComponents"]
+- !private ["So21UNNotificationTriggerC", "triggerWithTimeInterval"]
+- !private ["So33UNTimeIntervalNotificationTriggerC", "init"]
+- !private ["So24UNUserNotificationCenterC", "add"]
+- !private ["So24UNUserNotificationCenterC", "current"]
+- !private ["So24UNUserNotificationCenterC", "delegate"]
+- !private ["So24UNUserNotificationCenterC", "removeAllPendingNotificationRequests"]
+- !private ["So24UNUserNotificationCenterC", "requestAuthorization"]
+- ["So32UNUserNotificationCenterDelegateP", "BlueTraceLocalNotifications"]
+- !private ["So32UNUserNotificationCenterDelegateP", "BluetraceManager"]
+- !private ["So32UNUserNotificationCenterDelegateP", "DateComponents"]
+- !private ["So32UNUserNotificationCenterDelegateP", "DispatchQueue"]
+- !private ["So32UNUserNotificationCenterDelegateP", "Int"]
+- !private ["So32UNUserNotificationCenterDelegateP", "PushNotificationConstants"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UIApplication"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UNCalendarNotificationTrigger"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UNMutableNotificationContent"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UNNotificationRequest"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UNTimeIntervalNotificationTrigger"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UNUserNotificationCenter"]
+- !private ["So32UNUserNotificationCenterDelegateP", "URL"]
+- !private ["So32UNUserNotificationCenterDelegateP", "UserDefaults"]
+- ["So32UNUserNotificationCenterDelegateP", ""]
+- ["So32UNUserNotificationCenterDelegateP", "checkAuthorization"]
+- ["So32UNUserNotificationCenterDelegateP", "init"]
+- ["So32UNUserNotificationCenterDelegateP", "initialConfiguration"]
+- !private ["So32UNUserNotificationCenterDelegateP", "print"]
+- ["So32UNUserNotificationCenterDelegateP", "removePendingNotificationRequests"]
+- ["So32UNUserNotificationCenterDelegateP", "setupBluetoothPNStatusCallback"]
+- ["So32UNUserNotificationCenterDelegateP", "shared"]
+- ["So32UNUserNotificationCenterDelegateP", "triggerCalendarLocalPushNotifications"]
+- ["So32UNUserNotificationCenterDelegateP", "triggerIntervalLocalPushNotifications"]
+- ["So32UNUserNotificationCenterDelegateP", "userNotificationCenter"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So14NSUserDefaultsC", "bool"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BluetraceManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DateComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PushNotificationConstants"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNCalendarNotificationTrigger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNMutableNotificationContent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNNotificationRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNTimeIntervalNotificationTrigger"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNUserNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "body"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openSettingsURLString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAllPendingNotificationRequests"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removePendingNotificationRequests"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupBluetoothPNStatusCallback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "triggerCalendarLocalPushNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "triggerIntervalLocalPushNotifications"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "userNotificationCenter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlueTraceLocalNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BluetraceManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateComponents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PushNotificationConstants"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNCalendarNotificationTrigger"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNMutableNotificationContent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNNotificationRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNTimeIntervalNotificationTrigger"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UNUserNotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "body"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bool"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "checkAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "identifier"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initialConfiguration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "open"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openSettingsURLString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAllPendingNotificationRequests"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removePendingNotificationRequests"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "request"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupBluetoothPNStatusCallback"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "triggerCalendarLocalPushNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "triggerIntervalLocalPushNotifications"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userNotificationCenter"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "hour"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "random"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "13SpaceTogether27BlueTraceLocalNotificationsC"
+- !private "13SpaceTogether16BluetraceManagerC"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation14DateComponentsV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "13SpaceTogether25PushNotificationConstantsV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So22UNAuthorizationOptionsV"
+- !private "So29UNCalendarNotificationTriggerC"
+- !private "So28UNMutableNotificationContentC"
+- !private "So14UNNotificationC"
+- "So21UNNotificationContentC"
+- !private "So33UNNotificationPresentationOptionsV"
+- !private "So21UNNotificationRequestC"
+- !private "So22UNNotificationResponseC"
+- "So21UNNotificationTriggerC"
+- !private "So33UNTimeIntervalNotificationTriggerC"
+- !private "So24UNUserNotificationCenterC"
+- "So32UNUserNotificationCenterDelegateP"
+- !private "10Foundation3URLV"
+- !private "So14NSUserDefaultsC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b61d7b20e6d61c41b187666ee3a05343"
