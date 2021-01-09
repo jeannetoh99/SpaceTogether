@@ -56,6 +56,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return container
     }()
 
-
+    func resolvePort () -> Int {
+        let defaultPort = 8080
+        if let requestedPort = ProcessInfo.processInfo.environment["PORT"] {
+            return Int(requestedPort) ?? defaultPort
+        }
+        return defaultPort
+    }
 }
 
