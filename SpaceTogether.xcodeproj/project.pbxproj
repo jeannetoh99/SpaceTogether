@@ -105,8 +105,8 @@
 		D157841D25A8B005003513E8 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D157842225A8B070003513E8 /* PlistHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistHelper.swift; sourceTree = "<group>"; };
 		D157842725A8B16B003513E8 /* PushNotificationConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationConstants.swift; sourceTree = "<group>"; };
-		D1C65B8B25A913FC008E200F /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goaway.gif; path = ../../Downloads/goaway.gif; sourceTree = "<group>"; };
-		D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defaultAudio.mp3; path = ../../Downloads/defaultAudio.mp3; sourceTree = "<group>"; };
+		D1C65B8B25A913FC008E200F /* goaway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = goaway.gif; path = /Users/elsa/dev/SpaceTogether/SpaceTogether/../../Downloads/goaway.gif; sourceTree = "<absolute>"; };
+		D1C65B8C25A913FC008E200F /* defaultAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = defaultAudio.mp3; path = /Users/elsa/dev/SpaceTogether/SpaceTogether/../../Downloads/defaultAudio.mp3; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -160,23 +160,14 @@
                                     <constraint firstAttribute="height" constant="230" id="sWv-jg-x3f"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dL-Km-olz">
-                                <rect key="frame" x="119" y="623" width="176" height="30"/>
-                                <state key="normal" title="temp button to alert page"/>
-                                <connections>
-                                    <action selector="tempButtonPressed:" destination="SGU-P3-rNc" eventType="touchUpInside" id="uOr-AO-Ju8"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tai-Gg-q9O"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6dL-Km-olz" firstAttribute="centerY" secondItem="ZyP-NW-eYG" secondAttribute="centerY" constant="280" id="7qw-Kw-HC0"/>
                             <constraint firstItem="yc8-Hx-gp3" firstAttribute="centerX" secondItem="ZyP-NW-eYG" secondAttribute="centerX" id="BX3-0B-chX"/>
                             <constraint firstItem="yc8-Hx-gp3" firstAttribute="centerY" secondItem="ZyP-NW-eYG" secondAttribute="centerY" id="C8t-sY-8Jl"/>
                             <constraint firstItem="Pyu-tv-DAB" firstAttribute="centerX" secondItem="ZyP-NW-eYG" secondAttribute="centerX" id="F6S-iP-25w"/>
                             <constraint firstItem="M9h-tn-dUz" firstAttribute="centerX" secondItem="ZyP-NW-eYG" secondAttribute="centerX" id="LZu-Qy-Ija"/>
-                            <constraint firstItem="6dL-Km-olz" firstAttribute="centerX" secondItem="ZyP-NW-eYG" secondAttribute="centerX" id="f2N-op-fG6"/>
                             <constraint firstItem="Pyu-tv-DAB" firstAttribute="centerY" secondItem="ZyP-NW-eYG" secondAttribute="centerY" constant="210" id="giN-NG-0BL"/>
                             <constraint firstItem="M9h-tn-dUz" firstAttribute="centerY" secondItem="ZyP-NW-eYG" secondAttribute="centerY" constant="-200" id="wcp-VZ-E7c"/>
                         </constraints>
@@ -261,6 +252,9 @@
             <point key="canvasLocation" x="1163.768115942029" y="63.586956521739133"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="10N-5b-H5V"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="alarmicon" width="821" height="1788"/>
         <image name="getawayfromme" width="1845" height="244"/>
